@@ -1,11 +1,7 @@
 import React from 'react';
-import { Wrapper, RightSection, LeftSection, MustafaPic, AboutMe, AboutMeDetails, AboutMeHeading, ActionWrapper, Button, ButtonWrapper, MustafaDetails, SocialMediaWrapper, EmailButton, Name, Profession, InstagramLogo, FacebookLogo, LinkedinLogo } from './Homepage.styled';
-import facebook from '../icons/facebook.png';
-
+import { Wrapper, RightSection, LeftSection, MustafaPic, AboutMe, AboutMeDetails, AboutMeHeading, ActionWrapper, Button, ButtonWrapper, MustafaDetails, SocialMediaWrapper, EmailButton, Name, Profession, InstagramLogo, FacebookLogo, LinkedinLogo, ResumeAnchor } from './Homepage.styled';
 
 export const HomePage = () => {
-
-    const heading = 'About Me'
 
     return <Wrapper>
         <LeftSection>
@@ -19,37 +15,35 @@ export const HomePage = () => {
                     </Profession>
                 </MustafaDetails>
                 <ButtonWrapper>
-                    <EmailButton>
+                    <EmailButton onClick={() => window.location = 'mailto:mustafa.asif15@gmail.com'}>
                         Email Me
                     </EmailButton>
                 </ButtonWrapper>
                 <SocialMediaWrapper>
-                    <InstagramLogo />
-                    <FacebookLogo />
-                    <LinkedinLogo />
+                    <a href="https://www.instagram.com/mushti98/" target="_blank" rel="noopener noreferrer"><InstagramLogo/></a>
+                    <a href="https://www.facebook.com/mustafaasif98" target="_blank" rel="noopener noreferrer"><FacebookLogo/></a>
+                    <a href="https://www.linkedin.com/in/mustafaasif1/" target="_blank" rel="noopener noreferrer"><LinkedinLogo/></a>
                 </SocialMediaWrapper>
             </MustafaPic>
         </LeftSection>
         <RightSection>
             <AboutMe>
                 <AboutMeHeading>
-                    {heading}
+                    About Me
                 </AboutMeHeading>
                 <AboutMeDetails>
-                    I am a diligent senior software engineer with 10 years of experience in business applications. I am eager to join a tech company that builds out-of-the-box solutions for regional clients. I am skilled in developing plans, managing projects, and user documentation.
+                    I am currently pursuing M.Sc. Informatics at Technical University of Munich (TUM). With over 1.5 years of experience as a frontend developer, 
+                    I am proficient in numerous langauges, libraries and frameworks including but not limited to React, React Native, Angular, Javascript and Python. I am eager to join a tech company that build out-of-the-box solutions and makes a positive impact. 
                 </AboutMeDetails>
             </AboutMe>
             <ActionWrapper>
                 <ButtonWrapper>
                     <Button>
-                        Resume
+                        <ResumeAnchor href="MustafaAsifCV.pdf" download="MustafaAsifCV.pdf">
+                            Resume
+                        </ResumeAnchor>
                     </Button>
                 </ButtonWrapper>
-                {/* <ButtonWrapper>
-                    <Button>
-                        Portfolio
-                    </Button>
-                </ButtonWrapper> */}
             </ActionWrapper>
         </RightSection>
     </Wrapper>;

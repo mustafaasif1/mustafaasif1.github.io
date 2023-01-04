@@ -77,7 +77,7 @@ export const ActionWrapper = styled.div`
     @media (max-width: 541px) {
         flex-direction: column;
       }
-      padding-bottom: 30px;
+    padding-bottom: 30px;
 `;
 
 export const ButtonWrapper = styled.div`
@@ -96,6 +96,7 @@ export const Button = styled.div`
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 12px;
+    cursor: pointer !important;
 `;
 
 export const EmailButton = styled.div`
@@ -108,19 +109,22 @@ export const EmailButton = styled.div`
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 12px;
+    cursor: pointer !important;
 `;
 
 export const MustafaDetails = styled.div`
-      padding-top: 250px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `;
 
 
 export const SocialMediaWrapper = styled.div`
     display: flex;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const Name = styled.div`
@@ -140,22 +144,34 @@ export const Image = styled.img`
 `;
 
 export const InstagramLogo = styled.div`
-  background-image: url(${instagram});
-  width: 15px;
-  height: 15px;
-  margin: 20px;
+    background-image: url(${instagram});
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    background-size: 100% 100%;
+    cursor: pointer !important;
 `;
 
 export const FacebookLogo = styled.div`
-  background-image: url(${facebook});
-  width: 15px;
-  height: 15px;
-  margin: 20px;
+    background-image: url(${facebook});
+    width: 26px;
+    height: 26px;
+    margin: 20px;
+    background-size: 100% 100%;
+    cursor: pointer !important;
 `;
 
 export const LinkedinLogo = styled.div`
-  background-image: url(${linkedin});
-  width: 15px;
-  height: 15px;
-  margin: 20px;
+    background-image: url(${linkedin});
+    width: 22px;
+    height: 22px;
+    margin: 20px;
+    background-size: 100% 100%;
+    cursor: pointer !important;
 `;
+
+export const ResumeAnchor = styled.a`
+    text-decoration: none;
+    color: black;
+`;
+
