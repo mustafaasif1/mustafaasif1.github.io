@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrapper, RightSection, LeftSection, MustafaPic, AboutMe, AboutMeDetails, AboutMeHeading, ActionWrapper, Button, ButtonWrapper, MustafaDetails, SocialMediaWrapper, EmailButton, Name, Profession, InstagramLogo, FacebookLogo, LinkedinLogo, ResumeAnchor } from './Homepage.styled';
+import { Wrapper, RightSection, LeftSection, MustafaPic, AboutMe, AboutMeDetails, AboutMeHeading, ActionWrapper, Button, ButtonWrapper, MustafaDetails, SocialMediaWrapper, EmailButton, Name, Profession, InstagramLogo, FacebookLogo, LinkedinLogo, ResumeAnchor, GithubLogo } from './Homepage.styled';
 
 export const HomePage = () => {
 
@@ -23,6 +23,7 @@ export const HomePage = () => {
                     <a href="https://www.instagram.com/mushti98/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
                     <a href="https://www.facebook.com/mustafaasif98" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
                     <a href="https://www.linkedin.com/in/mustafaasif1/" target="_blank" rel="noopener noreferrer"><LinkedinLogo /></a>
+                    <a href="https://github.com/mustafaasif1" target="_blank" rel="noopener noreferrer"><GithubLogo /></a>
                 </SocialMediaWrapper>
             </MustafaPic>
         </LeftSection>

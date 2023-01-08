@@ -3,6 +3,7 @@ import mustafa from '../images/mustafa-picture.jpg';
 import facebook from '../icons/facebook.png';
 import linkedin from '../icons/linkedin.png';
 import instagram from '../icons/instagram.png';
+import github from '../icons/github.png';
 
 
 export const Wrapper = styled.div`
@@ -157,6 +158,15 @@ export const FacebookLogo = styled.div`
     background-image: url(${facebook});
     width: 26px;
     height: 26px;
+    margin: 20px;
+    background-size: 100% 100%;
+    cursor: pointer !important;
+`;
+
+export const GithubLogo = styled.div`
+    background-image: url(${github});
+    width: 32px;
+    height: 32px;
     margin: 20px;
     background-size: 100% 100%;
     cursor: pointer !important;
