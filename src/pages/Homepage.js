@@ -20,9 +20,9 @@ export const HomePage = () => {
                     </EmailButton>
                 </ButtonWrapper>
                 <SocialMediaWrapper>
-                    <a href="https://www.instagram.com/mushti98/" target="_blank" rel="noopener noreferrer"><InstagramLogo/></a>
-                    <a href="https://www.facebook.com/mustafaasif98" target="_blank" rel="noopener noreferrer"><FacebookLogo/></a>
-                    <a href="https://www.linkedin.com/in/mustafaasif1/" target="_blank" rel="noopener noreferrer"><LinkedinLogo/></a>
+                    <a href="https://www.instagram.com/mushti98/" target="_blank" rel="noopener noreferrer"><InstagramLogo /></a>
+                    <a href="https://www.facebook.com/mustafaasif98" target="_blank" rel="noopener noreferrer"><FacebookLogo /></a>
+                    <a href="https://www.linkedin.com/in/mustafaasif1/" target="_blank" rel="noopener noreferrer"><LinkedinLogo /></a>
                 </SocialMediaWrapper>
             </MustafaPic>
         </LeftSection>
@@ -32,8 +32,8 @@ export const HomePage = () => {
                     About Me
                 </AboutMeHeading>
                 <AboutMeDetails>
-                    I am currently pursuing M.Sc. Informatics at Technical University of Munich (TUM). With over 1.5 years of experience as a frontend developer, 
-                    I am proficient in numerous langauges, libraries and frameworks including but not limited to React, React Native, Angular, Javascript and Python. I am eager to join a tech company that build out-of-the-box solutions and makes a positive impact. 
+                    I am currently pursuing M.Sc. Informatics at Technical University of Munich (TUM). With over 1.5 years of experience as a front-end developer, I am proficient in numerous languages, libraries, and frameworks, including but not limited to React, React Native, Angular, Javascript, and Python. 
+                    I am eager to join a tech company that builds out-of-the-box solutions and makes a positive impact.
                 </AboutMeDetails>
             </AboutMe>
             <ActionWrapper>
