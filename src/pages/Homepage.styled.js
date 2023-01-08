@@ -31,6 +31,7 @@ export const RightSection = styled.div`
     justify-content: center;
     align-items: center;
     width: 50vw;
+    min-height: 100vh;
     @media (max-width: 1146px) {
         width: 100vw;
       }
