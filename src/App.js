@@ -1,9 +1,9 @@
-import { HomePage } from "./pages/Homepage";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
-    <div className="App">
-      <HomePage/>
+    <div className="font-poppins">
+      <LandingPage/>
     </div>
   );
 }
