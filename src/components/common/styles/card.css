@@ -3,7 +3,7 @@
 .card {
 	mix-blend-mode: normal;
 	border-radius: 20px;
-	outline: 1px solid #e2e2e2;
+	outline: 1px solid #ededed;
 }
 
 .card-container {
