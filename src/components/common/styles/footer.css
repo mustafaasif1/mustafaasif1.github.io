@@ -2,19 +2,14 @@
 
 .footer {
 	display: flex;
-	padding-top: 25px;
 	margin-top: 50px;
-	padding-bottom: 25px;
+	margin-bottom: 50px;
 	align-items: center;
 }
 
 .footer-links,
 .footer-credits {
 	flex-basis: 50%;
-}
-
-.footer-links {
-	margin-left: -40px;
 }
 
 .footer-nav-link-list {
