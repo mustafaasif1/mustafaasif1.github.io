@@ -21,9 +21,9 @@ import SEO from "../data/seo";
 import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+import Education from "../components/homepage/education";
 
 const Homepage = () => {
-
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -146,8 +146,13 @@ const Homepage = () => {
 								))}
 							</div>
 
-							<div className="homepage-works">
-								<Works />
+							<div class="flex flex-col w-full lg:flex-row xl:flex-col xl:w-2/3 bg-red">
+								<div class="w-full">
+									<Works />
+								</div>
+								<div class="w-full">
+									<Education />
+								</div>
 							</div>
 						</div>
 
