@@ -1,76 +1,62 @@
 import React from "react";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { faSchool } from "@fortawesome/free-solid-svg-icons";
 import Card from "../common/card";
 
 const Education = () => {
 	const educationData = [
 		{
 			image: "./tum.png",
-			alt: "Full Stack Software Engineer (Student Assistant)",
-			title: "Full Stack Software Engineer (Student Assistant) at TUM",
-			subtitle: "Technical University of Munich · Part-time",
-			duration: "Apr 2023 - Present",
+			alt: "Technical University of Munich",
+			title: "Technical University of Munich",
+			subtitle: "Master of Science (M.Sc.), Informatik",
+			duration: "Oct 2022 - Present",
 		},
 		{
-			image: "./ease.png",
-			alt: "Front-end Software Engineer",
-			title: "Front-end Software Engineer at Ease",
-			subtitle: "ease · Contract",
-			duration: "Oct 2023 - Mar 2024",
+			image: "./LUMS.png",
+			alt: "Lahore University of Management Sciences",
+			title: "Lahore University of Management Sciences",
+			subtitle: "Bachelor of Science (B.Sc.), Computer Science",
+			duration: "2017 - 2021",
 		},
 		{
-			image: "./lafamiglia.jpeg",
-			alt: "Front-end Software Engineer at La Famiglia",
-			title: "Front-end Software Engineer",
-			subtitle: "La Famiglia · Contract",
-			duration: "Oct 2023 - Jan 2024",
+			image: "./nixor.png",
+			alt: "Nixor College",
+			title: "Nixor College",
+			subtitle: "A-levels, Sciences",
+			duration: "2015 - 2017",
 		},
 		{
-			image: "./motive1.jpeg",
-			alt: "Software Engineer at Motive",
-			title: "Software Engineer",
-			subtitle: "Motive · Full-time",
-			duration: "Jun 2022 - Sep 2022",
-		},
-    {
-			image: "./arbisoft.png",
-			alt: "Software Engineer at Arbisoft",
-			title: "Arbisoft · Full-time",
-			subtitle: "Motive · Full-time",
-			duration: "Jun 2021 - Jun 2022",
-		},
-    {
-			image: "./laam.png",
-			alt: "Software Engineer Intern at Laam",
-			title: "Software Engineer Intern",
-			subtitle: "LAAM · Internship",
-			duration: "Feb 2021 - May 2021",
+			image: "./beaconhouse.png",
+			alt: "Beaconhouse School System",
+			title: "Beaconhouse",
+			subtitle: "O-levels, Sciences",
+			duration: "2012 - 2017",
 		},
 	];
 
 	return (
 		<div className="p-2">
 			<Card
-				icon={faBriefcase}
+				icon={faSchool}
 				title="Education"
 				body={
 					<div>
 						{educationData.map((education, index) => (
-							<div className="flex pb-4" key={index}>
+							<div className="flex pb-6" key={index}>
               <img
                 src={education.image}
                 alt={education.alt}
-                className="h-10 w-10 rounded-full border-2 border-quaternary shadow-md object-contain"
+                className="h-10 w-10 rounded-full border border-quaternary shadow-md object-contain"
               />
               <div className="flex-grow pl-5">
-                <div className="text-md font-bold text-secondary pb-0.5">
+                <div className="text-md font-medium text-secondary pb-1">
                   {education.title}
                 </div>
                 <div className="flex justify-between text-xs text-secondary">
                   <div className="mr-4">
                     {education.subtitle}
                   </div>
-                  <div className="text-slate-500">{education.duration}</div>
+                  <div>{education.duration}</div>
                 </div>
               </div>
             </div>
