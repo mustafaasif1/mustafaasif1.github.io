@@ -9,7 +9,6 @@
 }
 
 .all-projects-project {
-	width: calc(100% / 3);
 	box-sizing: border-box;
 	padding: 10px;
 	overflow: hidden;

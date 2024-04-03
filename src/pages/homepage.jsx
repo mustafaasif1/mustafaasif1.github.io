@@ -128,7 +128,15 @@ const Homepage = () => {
 							<AllProjects />
 						</div>
 
-						<div className="homepage-after-title">
+						<div>
+							<div class="flex flex-col w-full lg:flex-row">
+								<div class="w-full">
+									<Works />
+								</div>
+								<div class="w-full">
+									<Education />
+								</div>
+							</div>
 							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
@@ -144,15 +152,6 @@ const Homepage = () => {
 										/>
 									</div>
 								))}
-							</div>
-
-							<div class="flex flex-col w-full lg:flex-row xl:flex-col xl:w-2/3 bg-red">
-								<div class="w-full">
-									<Works />
-								</div>
-								<div class="w-full">
-									<Education />
-								</div>
 							</div>
 						</div>
 
