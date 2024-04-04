@@ -28,8 +28,8 @@ const Project = (props) => {
 										className="w-8 h-8 object-contain rounded-full border border-quaternary shadow-sm"
 									/>
 									{hoveredIndex === index && (
-										<div className="absolute -top-8 -left-2 rounded-md p-2 w-40">
-											<p className="text-[10px]">
+										<div className="absolute -top-8 -left-2 rounded-md p-2 bg-slate-100 pb-1">
+											<p className="text-[10px] w-full whitespace-nowrap">
 												{tech.link}
 											</p>
 										</div>

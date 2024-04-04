@@ -61,9 +61,9 @@ const Homepage = () => {
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description1}
 								</div>
-								<div className="subtitle homepage-subtitle">
+								{/* <div className="subtitle homepage-subtitle">
 									{INFO.homepage.description2}
-								</div>
+								</div> */}
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description3}
 								</div>

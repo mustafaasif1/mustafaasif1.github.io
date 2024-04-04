@@ -47,8 +47,8 @@ export function Slider({ testimonials }) {
 				<SplideSlide key={index}>
 					<section className="px-2 sm:py-26">
 						<div className="mx-auto max-w-2xl lg:max-w-4xl">
-							<figure className="bg-gray-900 rounded-md">
-								<blockquote className="px-6 pt-8 text-white text-center text-sm md:text-md leading-6 text-primary sm:leading-7">
+							<figure className="rounded-md">
+								<blockquote className="px-6 pt-8 text-center text-sm md:text-md leading-6 text-primary sm:leading-7">
 									<p>
 										<span>
 											<FontAwesomeIcon

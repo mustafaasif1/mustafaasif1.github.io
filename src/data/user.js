@@ -105,7 +105,7 @@ const INFO = {
 		title: "Full-stack web and mobile app developer, and squash enthusiast.",
 		description1: `Hey there! I'm Mustafa, currently studying M.Sc. Informatics at the Technical University of Munich, all about software-intensive systems. I got my Bachelor's in Computer Science from Lahore University of Management Sciences.`,
 		description2: `Along my coding journey, I've played with JavaScript, HTML, CSS, Python, Angular, ReactJS, React Native, and even fluttered around Flutter. Always eager to learn more!`,
-		description3: `And hey, if you're a fellow coder in the area, let's connect! I'm all about expanding the network and sharing the coding vibes. See you around! 🚀`
+		description3: `And if you're a fellow coder or recruiter in the area, let's connect! I'm all about expanding the network. See you around! 🚀`
 	},
 
 	about: {
