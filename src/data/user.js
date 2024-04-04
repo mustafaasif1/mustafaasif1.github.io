@@ -1,3 +1,91 @@
+const LOGOS = {
+  "BALSAMIQ": {
+    image: "../balsamiq.png",
+    link: "Balsamiq"
+  },
+  "C-SHARP": {
+    image: "../c-sharp.jpg",
+    link: "C-sharp"
+  },
+  "CSS": {
+    image: "../css.png",
+    link: "CSS"
+  },
+  "DOCKER": {
+    image: "../docker.png",
+    link: "Docker"
+  },
+  "FIGMA": {
+    image: "../figma.jpg",
+    link: "Figma"
+  },
+  "FIREBASE-AUTH": {
+    image: "../firebase-auth.png",
+    link: "Firebase auth"
+  },
+  "FIREBASE": {
+    image: "../firebase.png",
+    link: "Firebase"
+  },
+  "FLUTTER": {
+    image: "../flutter.png",
+    link: "Flutter"
+  },
+  "GITLAB": {
+    image: "../gitlab.png",
+    link: "Balsamiq"
+  },
+  "GOOGLE-ARCORE": {
+    image: "../google-arcore.png",
+    link: "Google ARCore"
+  },
+  "GOOGLE-MAPS": {
+    image: "../google-maps.png",
+    link: "Google Maps"
+  },
+  "HEROKU": {
+    image: "../heroku.png",
+    link: "Heroku"
+  },
+  "HTML": {
+    image: "../html.png",
+    link: "HTML"
+  },
+  "JAVASCRIPT": {
+    image: "../javascript.png",
+    link: "Javascript"
+  },
+  "MONGODB": {
+    image: "../mongodb.png",
+    link: "MongoDB"
+  },
+  "MURAL": {
+    image: "../mural.png",
+    link: "Mural"
+  },
+  "REACT": {
+    image: "../react.png",
+    link: "React"
+  },
+  "SHADCN": {
+    image: "../shadcn.png",
+    link: "Shadcn"
+  },
+  "SPRING-BOOT": {
+    image: "../spring-boot.png",
+    link: "Springboot"
+  },
+  "TAILWIND": {
+    image: "../tailwind.png",
+    link: "Tailwind"
+  },
+  "UNITY": {
+    image: "../unity.png",
+    link: "Unity"
+  },
+};
+
+
 const INFO = {
 	main: {
 		title: "Mustafa's Portfolio",
@@ -21,7 +109,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Mustafa Asif. I live in Munich, where I design the future.",
+		title: "I'm Mustafa Asif. I live in Munich, where I design the future.",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
@@ -34,50 +122,59 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "asmbyte",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"ASMByte's Landing website, showcasing their expertise in web and mobile app development, and data science projects.",
+			linkText: "View Website",
+			link: "https://asmbyte.com/",
+			technologies: [LOGOS.FLUTTER, LOGOS.FIREBASE, LOGOS["FIREBASE-AUTH"], LOGOS["GOOGLE-MAPS"]]
 		},
 
 		{
-			title: "Project 2",
+			title: "Lahu - Blood Donation Application",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"A complete blood donation mobile application with Flutter as the front end and Cloud Firestore as the backend. ",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/mustafaasif1/Lahu",
+			technologies: [LOGOS.REACT, LOGOS.TAILWIND, LOGOS.FIREBASE]
 		},
 
 		{
-			title: "Project 3",
+			title: "Kapra Eid - Clothing Donation Application",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"Designed and prototyped a complete application in Figma aimed to bridge the gap between clothing donors and charitable organisations. ",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/mustafaasif1/Kapra-Eid",
+			technologies: [LOGOS.FIGMA, LOGOS.MURAL, LOGOS.BALSAMIQ]
 		},
 
 		{
-			title: "Project 4",
+			title: "AR Simulations For Fire Emergencies",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Researched and developed Augmented Reality simulations with a purpose to train people about the effective ways they could safely handle fire protection devices during fire emergencies. ",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/mustafaasif1/AR-Simulations-For-Emergencies",
+			technologies: [LOGOS.UNITY, LOGOS["C-SHARP"], LOGOS["GOOGLE-ARCORE"]]
 		},
-
 		{
-			title: "Project 5",
+			title: "Asli (Real) Doctor",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Summer 2019 project: Created a JavaScript web app addressing the rise of fake doctors by providing a platform to verify their credentials and report suspicious activity.",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/mustafaasif1/Asli-Doctor",
+			technologies: [LOGOS.JAVASCRIPT, LOGOS.REACT, LOGOS.TAILWIND, LOGOS.HEROKU, LOGOS.MONGODB]
+		},
+		{
+			title: "Web-Based Integrated Development Environment (IDE)",
+			description:
+				"Designed and deployed a web-based IDE enabling code compilation and management in a team of 5 students, powered by a scalable microservices architecture.",
+			linkText: "View Project",
+			link: "",
+			technologies: [LOGOS.JAVASCRIPT, LOGOS.REACT, LOGOS.SHADCN, LOGOS["SPRING-BOOT"], LOGOS.DOCKER, LOGOS.GITLAB]
 		},
 	],
 };
+
+
 
 export default INFO;

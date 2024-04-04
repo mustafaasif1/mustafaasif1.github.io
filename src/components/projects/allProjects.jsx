@@ -8,11 +8,11 @@ const AllProjects = () => {
 			{INFO.projects.map((project, index) => (
 				<div key={index}>
 					<Project
-						logo={project.logo}
 						title={project.title}
 						description={project.description}
 						linkText={project.linkText}
 						link={project.link}
+						technologies={project.technologies}
 					/>
 				</div>
 			))}

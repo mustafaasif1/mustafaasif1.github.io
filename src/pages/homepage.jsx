@@ -137,31 +137,25 @@ const Homepage = () => {
 								<Education />
 							</div>
 						</div>
-						<Testimonials />
-						<div className="flex relative">
-							<div>
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-										/>
-									</div>
-								))}
-							</div>
-							<div>
-								<img
-									src="./mustafaSalute.gif"
-									className="absolute w-16 md:w-28 -top-4 right-0"
-								/>
-							</div>
+						<div className="py-6">
+							<Testimonials />
 						</div>
+						{/* <div>
+							{myArticles.map((article, index) => (
+								<div
+									className="homepage-article"
+									key={(index + 1).toString()}
+								>
+									<Article
+										key={(index + 1).toString()}
+										date={article().date}
+										title={article().title}
+										description={article().description}
+										link={"/article/" + (index + 1)}
+									/>
+								</div>
+							))}
+						</div> */}
 						<div className="page-footer">
 							<Footer />
 						</div>
