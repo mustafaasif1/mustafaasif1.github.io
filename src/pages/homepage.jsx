@@ -22,11 +22,12 @@ import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 import Education from "../components/homepage/education";
+import Testimonials from "../components/homepage/testimonials/testimonials";
 
 const Homepage = () => {
-	useEffect(() => {
-		window.scrollTo(0, 0);
-	}, []);
+	// useEffect(() => {
+	// 	window.scrollTo(0, 0);
+	// }, []);
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
@@ -128,16 +129,17 @@ const Homepage = () => {
 							<AllProjects />
 						</div>
 
-						<div>
-							<div class="flex flex-col w-full lg:flex-row">
-								<div class="w-full">
-									<Works />
-								</div>
-								<div class="w-full">
-									<Education />
-								</div>
+						<div class="flex flex-col w-full lg:flex-row">
+							<div class="w-full">
+								<Works />
 							</div>
-							<div className="homepage-articles">
+							<div class="w-full">
+								<Education />
+							</div>
+						</div>
+						<Testimonials />
+						<div className="flex relative">
+							<div>
 								{myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
@@ -153,8 +155,13 @@ const Homepage = () => {
 									</div>
 								))}
 							</div>
+							<div>
+								<img
+									src="./mustafaSalute.gif"
+									className="absolute w-16 md:w-28 -top-4 right-0"
+								/>
+							</div>
 						</div>
-
 						<div className="page-footer">
 							<Footer />
 						</div>
