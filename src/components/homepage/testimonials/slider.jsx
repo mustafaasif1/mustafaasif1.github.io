@@ -38,14 +38,14 @@ export function Slider({ testimonials }) {
 				autoScroll: {
 					pauseOnHover: true,
 					pauseOnFocus: false,
-					speed: 0.7,
+					speed: 0.6,
 				},
 			}}
 			extensions={{ AutoScroll }}
 		>
 			{testimonials.map((testimonial, index) => (
 				<SplideSlide key={index}>
-					<section className="px-2 sm:py-26">
+					<section className="px-2 sm:py-26 flex h-full items-center">
 						<div className="mx-auto max-w-2xl lg:max-w-4xl">
 							<figure className="rounded-md">
 								<blockquote className="px-6 pt-8 text-center text-sm md:text-md leading-6 text-primary sm:leading-7">
