@@ -79,7 +79,7 @@ const Works = () => {
 										{work.title} at{" "}
 										<a
 											href={work.link}
-											className="text-link font-semibold"
+											className="text-link"
 											target="_blank"
 											rel="noopener noreferrer"
 										>

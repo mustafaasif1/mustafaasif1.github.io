@@ -33,7 +33,7 @@ const LOGOS = {
   },
   "GITLAB": {
     image: "../gitlab.png",
-    link: "Balsamiq"
+    link: "Gitlab"
   },
   "GOOGLE-ARCORE": {
     image: "../google-arcore.png",

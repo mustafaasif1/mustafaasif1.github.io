@@ -25,9 +25,9 @@ import Education from "../components/homepage/education";
 import Testimonials from "../components/homepage/testimonials/testimonials";
 
 const Homepage = () => {
-	// useEffect(() => {
-	// 	window.scrollTo(0, 0);
-	// }, []);
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
