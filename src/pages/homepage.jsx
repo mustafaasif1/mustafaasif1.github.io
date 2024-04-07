@@ -140,7 +140,8 @@ const Homepage = () => {
 						<div className="py-6">
 							<Testimonials />
 						</div>
-						{/* <div>
+						<div className="pb-4">
+							<p className="articles-title">I also write sometimes.</p>
 							{myArticles.map((article, index) => (
 								<div
 									className="homepage-article"
@@ -155,7 +156,7 @@ const Homepage = () => {
 									/>
 								</div>
 							))}
-						</div> */}
+						</div>
 						<div className="page-footer">
 							<Footer />
 						</div>

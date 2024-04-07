@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./src/**/*.{js,jsx,ts,tsx}"],
+	content: ["./src/**/*.{js,jsx,ts,tsx,md,mdx}"],
 	theme: {
 		extend: {
 			colors: {
@@ -10,7 +10,14 @@ module.exports = {
 				quaternary: "#e4e4e7",
 				link: "#1287A8",
 			},
+			typography: {
+        DEFAULT: {
+          css: {
+            maxWidth: '100ch', // add required value here
+          }
+        }
+      }
 		},
 	},
-	plugins: [],
+	plugins: [require("@tailwindcss/typography")],
 };
