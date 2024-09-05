@@ -5,6 +5,15 @@ import Card from "../common/card";
 const Works = () => {
 	const workData = [
 		{
+			image: "./commercetools.jpeg",
+			alt: "Full Stack Software Engineer at commercetools",
+			title: "Full Stack Software Engineer",
+			subtitle: "commercetools",
+			type: "Working Student",
+			duration: "June 2024 - Present",
+			link: "https://commercetools.com/",
+		},
+		{
 			image: "./tum.png",
 			alt: "Full Stack Software Engineer (Student Assistant) at TUM",
 			title: "Full Stack Software Engineer (Student Assistant)",
