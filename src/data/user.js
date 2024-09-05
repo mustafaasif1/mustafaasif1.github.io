@@ -126,7 +126,7 @@ const INFO = {
 			description:
 				"ASMByte's Landing website, showcasing their expertise in web and mobile app development, and data science projects.",
 			linkText: "View Website",
-			link: "https://asmbyte.com/",
+			link: "https://asmbyte-5c49f.web.app/",
 			technologies: [LOGOS.FLUTTER, LOGOS.FIREBASE, LOGOS["FIREBASE-AUTH"], LOGOS["GOOGLE-MAPS"]]
 		},
 
