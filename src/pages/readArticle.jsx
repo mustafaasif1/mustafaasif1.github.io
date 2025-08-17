@@ -1,12 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Markdown from "react-markdown";
 import { useNavigate, useParams } from "react-router-dom";
 import rehypeRaw from "rehype-raw";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import NavBar from "../components/common/navBar";
+import OptimizedMarkdownImage from "../components/articles/optimizedMarkdownImage";
 import { faArrowLeft } from "../utils/icons";
 import INFO from "../data/user";
 import myArticles from "../data/articles";
@@ -23,16 +24,15 @@ const ReadArticle = () => {
 
 	if (!article) {
 		navigate("/404");
-
 		return null;
 	}
 
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`${article().title} | ${INFO.main.title}`}</title>
-				<meta name="description" content={article().description} />
-				<meta name="keywords" content={article().keywords.join(", ")} />
+				<title>{`${article.title} | ${INFO.main.title}`}</title>
+				<meta name="description" content={article.description} />
+				<meta name="keywords" content={article.keywords.join(", ")} />
 			</Helmet>
 
 			<div className="page-content">
@@ -57,20 +57,28 @@ const ReadArticle = () => {
 						<div className="read-article-wrapper">
 							<div className="read-article-date-container">
 								<div className="read-article-date">
-									{article().date}
+									{article.date}
 								</div>
 							</div>
 
 							<div className="title read-article-title">
-								{article().title}
+								{article.title}
 							</div>
 
 							<div className="read-article-body">
 								<Markdown
 									className="prose prose-md"
 									rehypePlugins={[rehypeRaw]}
+									components={{
+										img: ({ src, alt }) => (
+											<OptimizedMarkdownImage
+												src={src}
+												alt={alt}
+											/>
+										),
+									}}
 								>
-									{article().body}
+									{article.body}
 								</Markdown>
 							</div>
 						</div>

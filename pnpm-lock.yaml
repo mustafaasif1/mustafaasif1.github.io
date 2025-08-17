@@ -32,6 +32,9 @@ importers:
       '@splidejs/splide-extension-auto-scroll':
         specifier: ^0.5.3
         version: 0.5.3
+      prop-types:
+        specifier: ^15.8.1
+        version: 15.8.1
       react:
         specifier: ^19.1.1
         version: 19.1.1
@@ -41,9 +44,9 @@ importers:
       react-ga4:
         specifier: ^2.1.0
         version: 2.1.0
-      react-helmet:
-        specifier: ^6.1.0
-        version: 6.1.0(react@19.1.1)
+      react-helmet-async:
+        specifier: ^2.0.5
+        version: 2.0.5(react@19.1.1)
       react-markdown:
         specifier: ^9.0.1
         version: 9.1.0(@types/react@18.3.23)(react@19.1.1)
@@ -3417,6 +3420,9 @@ packages:
     resolution: {integrity: sha512-4gd7VpWNQNB4UKKCFFVcp1AVv+FMOgs9NKzjHKusc8jTMhd5eL1NqQqOpE0KzMds804/yHlglp3uxgluOqAPLw==}
     engines: {node: '>= 0.4'}
 
+  invariant@2.2.4:
+    resolution: {integrity: sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==}
+
   ipaddr.js@1.9.1:
     resolution: {integrity: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==}
     engines: {node: '>= 0.10'}
@@ -5033,10 +5039,10 @@ packages:
   react-ga4@2.1.0:
     resolution: {integrity: sha512-ZKS7PGNFqqMd3PJ6+C2Jtz/o1iU9ggiy8Y8nUeksgVuvNISbmrQtJiZNvC/TjDsqD0QlU5Wkgs7i+w9+OjHhhQ==}
 
-  react-helmet@6.1.0:
-    resolution: {integrity: sha512-4uMzEY9nlDlgxr61NL3XbKRy1hEkXmKNXhjbAIOVw5vcFrsdYbH2FEwcNyWvWinl103nXgzYNlns9ca+8kFiWw==}
+  react-helmet-async@2.0.5:
+    resolution: {integrity: sha512-rYUYHeus+i27MvFE+Jaa4WsyBKGkL6qVgbJvSBoX8mbsWoABJXdEO0bZyi0F6i+4f0NuIb8AvqPMj3iXFHkMwg==}
     peerDependencies:
-      react: '>=16.3.0'
+      react: ^16.6.0 || ^17.0.0 || ^18.0.0
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -5081,11 +5087,6 @@ packages:
     peerDependenciesMeta:
       typescript:
         optional: true
-
-  react-side-effect@2.1.2:
-    resolution: {integrity: sha512-PVjOcvVOyIILrYoyGEpDN3vmYNLdy1CajSFNt4TDsVQC5KpTijDvWVoR+/7Rz2xT978D8/ZtFceXxzsPwZEDvw==}
-    peerDependencies:
-      react: ^16.3.0 || ^17.0.0 || ^18.0.0
 
   react-spinners@0.17.0:
     resolution: {integrity: sha512-L/8HTylaBmIWwQzIjMq+0vyaRXuoAevzWoD35wKpNTxxtYXWZp+xtgkfD7Y4WItuX0YvdxMPU79+7VhhmbmuTQ==}
@@ -10238,6 +10239,10 @@ snapshots:
       hasown: 2.0.2
       side-channel: 1.1.0
 
+  invariant@2.2.4:
+    dependencies:
+      loose-envify: 1.4.0
+
   ipaddr.js@1.9.1: {}
 
   ipaddr.js@2.2.0: {}
@@ -12221,13 +12226,12 @@ snapshots:
 
   react-ga4@2.1.0: {}
 
-  react-helmet@6.1.0(react@19.1.1):
+  react-helmet-async@2.0.5(react@19.1.1):
     dependencies:
-      object-assign: 4.1.1
-      prop-types: 15.8.1
+      invariant: 2.2.4
       react: 19.1.1
       react-fast-compare: 3.2.2
-      react-side-effect: 2.1.2(react@19.1.1)
+      shallowequal: 1.1.0
 
   react-is@16.13.1: {}
 
@@ -12353,10 +12357,6 @@ snapshots:
       - webpack-cli
       - webpack-hot-middleware
       - webpack-plugin-serve
-
-  react-side-effect@2.1.2(react@19.1.1):
-    dependencies:
-      react: 19.1.1
 
   react-spinners@0.17.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
     dependencies:

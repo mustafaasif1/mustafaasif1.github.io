@@ -4,6 +4,7 @@ import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import "@splidejs/splide/dist/css/splide.min.css";
 import React, { useState, useEffect } from "react";
 import { faQuoteLeft } from "../../../utils/icons";
+import OptimizedImage from "../../common/optimizedImage";
 
 export function Slider({ testimonials }) {
 	const [perPage, setPerPage] = useState(calculatePerPage());
@@ -65,13 +66,13 @@ export function Slider({ testimonials }) {
 								</blockquote>
 								<figcaption className="mt-6 pb-6">
 									<div className="relative">
-										<img
+										<OptimizedImage
 											className="mx-auto h-16 w-16 rounded-full"
 											src={testimonial.authorImage}
 											alt={testimonial.author}
 											loading="lazy"
 										/>
-										<img
+										<OptimizedImage
 											className="mx-auto h-10 w-10 rounded-full absolute left-1/2 top-1/2 border border-quaternary shadow-md object-contain"
 											src={testimonial.companyImage}
 											alt={`${testimonial.author}'s company`}

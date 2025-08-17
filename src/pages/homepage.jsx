@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
+import OptimizedImage from "../components/common/optimizedImage";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import NavBar from "../components/common/navBar";
@@ -65,10 +66,11 @@ const Homepage = () => {
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
-										<img
+										<OptimizedImage
 											src="/assets/images/photos/profile/homepage.jpg"
 											alt="homepage"
 											className="homepage-image"
+											loading="eager"
 										/>
 									</div>
 								</div>
@@ -144,9 +146,9 @@ const Homepage = () => {
 								>
 									<Article
 										key={(index + 1).toString()}
-										date={article().date}
-										title={article().title}
-										description={article().description}
+										date={article.date}
+										title={article.title}
+										description={article.description}
 										link={`/article/${index + 1}`}
 									/>
 								</div>

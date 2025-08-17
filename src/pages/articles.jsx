@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Article from "../components/articles/article";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -38,11 +38,9 @@ const Articles = () => {
 					</div>
 
 					<div className="articles-main-container">
-						<div className="title articles-title">
-							{INFO.articles.title}
-						</div>
+						<div className="title">{INFO.articles.title}</div>
 
-						<div className="subtitle articles-subtitle">
+						<div className="subtitle">
 							{INFO.articles.description}
 						</div>
 
@@ -55,9 +53,9 @@ const Articles = () => {
 									>
 										<Article
 											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
+											date={article.date}
+											title={article.title}
+											description={article.description}
 											link={`/article/${index + 1}`}
 										/>
 									</div>

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
+import OptimizedImage from "../components/common/optimizedImage";
 import Socials from "../components/about/socials";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -51,10 +52,11 @@ const About = () => {
 							<div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
-										<img
+										<OptimizedImage
 											src="/assets/images/photos/profile/about.jpg"
 											alt="about"
 											className="about-image"
+											loading="eager"
 										/>
 									</div>
 								</div>

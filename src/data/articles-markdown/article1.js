@@ -1,9 +1,9 @@
 export const article1markdown = `
 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-  <img src="/kapraEid/DonorHomepage.png" alt="Donor Homepage" />
-  <img src="/kapraEid/OrganizationHomepage.png" alt="Organization Homepage" />
-  <img src="/kapraEid/DonationDrive.png" alt="Donation Drive" />
-  <img src="/kapraEid/DonorHistory.png" alt="Donor History" />
+  <img src="/assets/images/articles/kapraEid/DonorHomepage.png" alt="Donor Homepage" />
+  <img src="/assets/images/articles/kapraEid/OrganizationHomepage.png" alt="Organization Homepage" />
+  <img src="/assets/images/articles/kapraEid/DonationDrive.png" alt="Donation Drive" />
+  <img src="/assets/images/articles/kapraEid/DonorHistory.png" alt="Donor History" />
 </div>
 
 More than 60 million kilograms of fabric are wasted in Pakistan every year, and this is expected to rise over the next few years. This situation is exacerbated by the fact that Pakistan is also a dumping ground for post-consumer textiles discarded from the EU. Being aware of textile wastage, my team conducted extensive user research into how people dispose of their used clothes in Pakistan. After a series of surveys and interviews, we found that individuals choose between throwing them away, handing them directly to someone they are acquainted with or donating them to organizations that collect these clothes and distribute them on their own. Only 9.2% of the 50 people we gathered feedback from told us that they donated their clothes to charitable organizations. This lack of awareness among people about organizations means people have limited knowledge or access to such organizations. As a result, they prefer the other methods of giving away or disposing of the same clothes they would have otherwise given to organizations. 

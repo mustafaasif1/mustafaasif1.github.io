@@ -1,6 +1,7 @@
 import React from "react";
 import { faSchool } from "../../utils/icons";
 import Card from "../common/card";
+import OptimizedImage from "../common/optimizedImage";
 
 const Education = () => {
 	const educationData = [
@@ -43,10 +44,11 @@ const Education = () => {
 					<div>
 						{educationData.map((education, index) => (
 							<div className="flex pb-6" key={index}>
-								<img
+								<OptimizedImage
 									src={education.image}
 									alt={education.alt}
 									className="h-10 w-10 rounded-full border border-quaternary shadow-md object-contain"
+									loading="lazy"
 								/>
 								<div className="flex-grow pl-5">
 									<div className="text-md font-medium text-secondary pb-1">

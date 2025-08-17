@@ -1,6 +1,7 @@
 import React from "react";
 import { faBriefcase } from "../../utils/icons";
 import Card from "../common/card";
+import OptimizedImage from "../common/optimizedImage";
 
 const Works = () => {
 	const workData = [
@@ -78,10 +79,11 @@ const Works = () => {
 					<div>
 						{workData.map((work, index) => (
 							<div className="flex pb-6" key={index}>
-								<img
+								<OptimizedImage
 									src={work.image}
 									alt={work.alt}
 									className="h-10 w-10 rounded-full border border-quaternary shadow-md object-contain"
+									loading="lazy"
 								/>
 								<div className="flex-grow pl-5">
 									<div className="text-md font-medium text-secondary pb-1">
