@@ -1,44 +1,54 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
+import Header from "../components/common/header";
 import Logo from "../components/common/logo";
-import NavBar from "../components/common/navBar";
 import INFO from "../data/user";
-import { faFaceSadTear } from "../utils/icons";
 
 import "./styles/404.css";
 
 const Notfound = () => {
 	useEffect(() => {
-		document.title = `404 | ${INFO.main.title}`;
+		window.scrollTo(0, 0);
 	}, []);
 
 	return (
-		<div className="not-found page-content">
-			<NavBar />
-			<div className="content-wrapper">
-				<div className="notfound-logo-container">
-					<div className="projects-logo">
-						<Logo width={46} />
+		<React.Fragment>
+			<Helmet>
+				<title>{`404 | ${INFO.main.title}`}</title>
+			</Helmet>
+
+			<div className="page-content">
+				<Header />
+				<div className="content-wrapper">
+					<div className="notfound-logo-container">
+						<div className="notfound-logo">
+							<Logo width={46} />
+						</div>
 					</div>
-				</div>
-				<div className="notfound-container">
-					<div className="notfound-message">
-						<div className="notfound-title">
-							Oops! <FontAwesomeIcon icon={faFaceSadTear} />
+
+					<div className="notfound-container">
+						<div className="notfound-message">
+							<div className="notfound-title">
+								Oops! Page not found
+							</div>
+							<div className="notfound-subtitle">
+								The page you're looking for doesn't exist.
+							</div>
+							<div className="notfound-description">
+								The page might have been removed or the link
+								might be broken.
+							</div>
+							<div className="notfound-link-container">
+								<Link to="/" className="notfound-link">
+									Go back to homepage
+								</Link>
+							</div>
 						</div>
-						<div className="not-found-message">
-							We can't seem to find the page you're looking for.
-							<br />
-							The requested URL "{window.location.href}" was not
-							found on this server.
-						</div>
-						<a href="/" className="not-found-link">
-							Go back to the home page
-						</a>
 					</div>
 				</div>
 			</div>
-		</div>
+		</React.Fragment>
 	);
 };
 

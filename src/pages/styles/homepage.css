@@ -41,11 +41,13 @@
 	width: 100% !important;
 	font-size: 50px;
 	margin-bottom: 1rem;
+	text-align: left;
 }
 
 .homepage-subtitle {
 	width: 100% !important;
 	margin-bottom: 1rem;
+	text-align: left;
 }
 
 .homepage-first-area-right-side {
@@ -123,8 +125,6 @@
 
 	.homepage-first-area {
 		flex-direction: column;
-		align-items: center;
-		text-align: center;
 		padding: 1.5rem 0;
 		gap: 1.5rem;
 	}
@@ -133,7 +133,7 @@
 		max-width: 100%;
 		width: 100%;
 		order: 2;
-		align-items: center;
+		align-items: flex-start;
 	}
 
 	.homepage-first-area-right-side {
@@ -141,6 +141,7 @@
 		transform: none;
 		order: 1;
 		width: min(300px, 80vw);
+		align-self: center;
 		margin: 0 auto;
 	}
 

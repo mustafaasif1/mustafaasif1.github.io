@@ -21,9 +21,18 @@
 	height: 40px;
 	padding-left: 0%;
 	padding-right: 0%;
-	background: #fff;
-	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+	background: var(--background-color);
 	border-radius: 40px;
+}
+
+/* Light theme shadow (default) */
+:root .nav-background {
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark theme shadow */
+[data-theme="dark"] .nav-background {
+	box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.1);
 }
 
 .nav-list {
@@ -66,6 +75,7 @@
 	.nav-background {
 		width: 80%;
 		height: 40px;
+		padding-left: 0;
 	}
 
 	.nav-item {

@@ -3,7 +3,7 @@
 .card {
 	mix-blend-mode: normal;
 	border-radius: 20px;
-	outline: 1px solid #ededed;
+	outline: 1px solid var(--quaternary-color);
 }
 
 .card-container {

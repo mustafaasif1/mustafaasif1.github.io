@@ -82,7 +82,10 @@ const Works = () => {
 								<OptimizedImage
 									src={work.image}
 									alt={work.alt}
-									className="h-10 w-10 rounded-full border border-quaternary shadow-md object-contain"
+									className="h-10 w-10 rounded-full border shadow-md object-contain"
+									style={{
+										borderColor: "var(--quaternary-color)",
+									}}
 									loading="lazy"
 								/>
 								<div className="flex-grow pl-5">

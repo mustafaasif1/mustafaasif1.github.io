@@ -1,36 +1,36 @@
 @import "../../../data/styles.css";
-.social,
-.email-wrapper {
+
+.socials {
 	display: flex;
-	padding-bottom: 20px;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
 }
 
-.social a,
-.email-wrapper a {
-	text-decoration: none;
+.socials-list {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	align-items: center;
+}
+
+.social-item {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: transform 0.2s ease-in-out;
+	color: var(--primary-color);
+}
+
+.social-item:hover {
+	transform: scale(1.1);
+	color: var(--link-color);
 }
 
 .social-icon {
-	font-size: 15px;
-	color: var(--secondary-color);
-}
-
-.social-text {
-	color: var(--secondary-color);
-	padding-left: 30px;
-	margin-top: -20px;
-	font-weight: 600;
-	font-size: 14px;
-}
-
-.email::before {
-	content: "";
-	display: block;
-	padding-top: 20px;
-	border-top: 3px solid #f4f4f5;
-	margin-top: 20px;
-}
-
-.email-wrapper {
-	padding-top: 20px;
+	width: 24px;
+	height: 24px;
 }

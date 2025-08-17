@@ -4,7 +4,7 @@ import OptimizedImage from "../components/common/optimizedImage";
 import Socials from "../components/about/socials";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import NavBar from "../components/common/navBar";
+import Header from "../components/common/header";
 import SEO from "../data/seo";
 import INFO from "../data/user";
 
@@ -29,7 +29,7 @@ const About = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="about" />
+				<Header active="about" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">

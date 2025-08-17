@@ -12,53 +12,42 @@ import "./styles/socials.css";
 
 const Socials = () => (
 	<div className="socials">
-		<div className="social">
-			<a href={INFO.socials.github} target="_blank" rel="noreferrer">
-				<div className="social-icon">
-					<FontAwesomeIcon icon={faGithub} className="social-icon" />
-				</div>
-				<div className="social-text">Follow on GitHub</div>
+		<div className="socials-list">
+			<a
+				href={INFO.socials.github}
+				target="_blank"
+				rel="noreferrer"
+				className="social-item"
+			>
+				<FontAwesomeIcon icon={faGithub} className="social-icon" />
 			</a>
-		</div>
 
-		<div className="social">
-			<a href={INFO.socials.linkedin} target="_blank" rel="noreferrer">
-				<div className="social-icon">
-					<FontAwesomeIcon
-						icon={faLinkedin}
-						className="social-icon"
-					/>
-				</div>
-				<div className="social-text">Follow on LinkedIn</div>
+			<a
+				href={INFO.socials.linkedin}
+				target="_blank"
+				rel="noreferrer"
+				className="social-item"
+			>
+				<FontAwesomeIcon icon={faLinkedin} className="social-icon" />
 			</a>
-		</div>
 
-		<div className="social">
-			<a href={INFO.socials.instagram} target="_blank" rel="noreferrer">
-				<div className="social-icon">
-					<FontAwesomeIcon
-						icon={faInstagram}
-						className="social-icon"
-					/>
-				</div>
-				<div className="social-text">Follow on Instagram</div>
+			<a
+				href={INFO.socials.instagram}
+				target="_blank"
+				rel="noreferrer"
+				className="social-item"
+			>
+				<FontAwesomeIcon icon={faInstagram} className="social-icon" />
 			</a>
-		</div>
 
-		<div className="email">
-			<div className="email-wrapper">
-				<a
-					href={`mailto:${INFO.main.email}`}
-					target="_blank"
-					rel="noreferrer"
-				>
-					<div className="social-icon">
-						<FontAwesomeIcon icon={faEnvelope} />
-					</div>
-
-					<div className="social-text">{INFO.main.email}</div>
-				</a>
-			</div>
+			<a
+				href={`mailto:${INFO.main.email}`}
+				target="_blank"
+				rel="noreferrer"
+				className="social-item"
+			>
+				<FontAwesomeIcon icon={faEnvelope} className="social-icon" />
+			</a>
 		</div>
 	</div>
 );

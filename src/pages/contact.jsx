@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
-import Socials from "../components/about/socials";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import NavBar from "../components/common/navBar";
+import Header from "../components/common/header";
+import Socials from "../components/about/socials";
 import SEO from "../data/seo";
 import INFO from "../data/user";
 
@@ -28,7 +28,7 @@ const Contact = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="contact" />
+				<Header active="contact" />
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
 						<div className="contact-logo">
@@ -46,10 +46,7 @@ const Contact = () => {
 							me. I welcome your feedback, questions, and
 							suggestions. If you have a specific question or
 							comment, please feel free to email me directly at{" "}
-							<a
-								href={`mailto:${INFO.main.email}`}
-								className="text-link"
-							>
+							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
 							. I make an effort to respond to all messages within
@@ -60,9 +57,8 @@ const Contact = () => {
 								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
-								className="text-link"
 							>
-								{INFO.socials.linkedin}
+								LinkedIn
 							</a>
 							. Thanks again for your interest, and I look forward
 							to hearing from you!

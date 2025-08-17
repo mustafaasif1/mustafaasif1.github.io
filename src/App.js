@@ -1,9 +1,10 @@
 import { useEffect, Suspense, lazy } from "react";
 import ReactGA from "react-ga4";
 import { Routes, Route } from "react-router-dom";
+import { ThemeProvider } from "./context/ThemeContext";
 import Loader from "./components/common/loader";
 import { TRACKING_ID } from "./data/tracking";
-import "./utils/icons"; // Import icons library
+import "./utils/icons";
 import "./app.css";
 
 const Homepage = lazy(() => import("./pages/homepage"));
@@ -22,19 +23,24 @@ const App = () => {
 	}, []);
 
 	return (
-		<div className="App">
-			<Suspense fallback={<Loader />}>
-				<Routes>
-					<Route path="/" element={<Homepage />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/projects" element={<Projects />} />
-					<Route path="/articles" element={<Articles />} />
-					<Route path="/article/:slug" element={<ReadArticle />} />
-					<Route path="/contact" element={<Contact />} />
-					<Route path="*" element={<Notfound />} />
-				</Routes>
-			</Suspense>
-		</div>
+		<ThemeProvider>
+			<div className="App">
+				<Suspense fallback={<Loader />}>
+					<Routes>
+						<Route path="/" element={<Homepage />} />
+						<Route path="/about" element={<About />} />
+						<Route path="/projects" element={<Projects />} />
+						<Route path="/articles" element={<Articles />} />
+						<Route
+							path="/article/:slug"
+							element={<ReadArticle />}
+						/>
+						<Route path="/contact" element={<Contact />} />
+						<Route path="*" element={<Notfound />} />
+					</Routes>
+				</Suspense>
+			</div>
+		</ThemeProvider>
 	);
 };
 

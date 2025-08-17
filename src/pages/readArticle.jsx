@@ -6,7 +6,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import rehypeRaw from "rehype-raw";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import NavBar from "../components/common/navBar";
+import Header from "../components/common/header";
 import OptimizedMarkdownImage from "../components/articles/optimizedMarkdownImage";
 import { faArrowLeft } from "../utils/icons";
 import INFO from "../data/user";
@@ -36,8 +36,7 @@ const ReadArticle = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar />
-
+				<Header />
 				<div className="content-wrapper">
 					<div className="read-article-logo-container">
 						<div className="read-article-logo">

@@ -51,12 +51,17 @@ export function Slider({ testimonials }) {
 					<section className="px-2 sm:py-26 flex h-full items-center">
 						<div className="mx-auto max-w-2xl lg:max-w-4xl">
 							<figure className="rounded-md">
-								<blockquote className="px-6 pt-8 text-center text-sm md:text-md leading-6 text-primary sm:leading-7">
+								<blockquote
+									className="px-6 pt-8 text-center text-sm md:text-md leading-6 sm:leading-7"
+									style={{ color: "var(--primary-color)" }}
+								>
 									<p>
 										<span>
 											<FontAwesomeIcon
 												icon={faQuoteLeft}
-												color="#1287A8"
+												style={{
+													color: "var(--link-color)",
+												}}
 												size="2x"
 												className="px-4"
 											/>
@@ -73,7 +78,11 @@ export function Slider({ testimonials }) {
 											loading="lazy"
 										/>
 										<OptimizedImage
-											className="mx-auto h-10 w-10 rounded-full absolute left-1/2 top-1/2 border border-quaternary shadow-md object-contain"
+											className="mx-auto h-10 w-10 rounded-full absolute left-1/2 top-1/2 border shadow-md object-contain"
+											style={{
+												borderColor:
+													"var(--quaternary-color)",
+											}}
 											src={testimonial.companyImage}
 											alt={`${testimonial.author}'s company`}
 											loading="lazy"
@@ -81,10 +90,20 @@ export function Slider({ testimonials }) {
 									</div>
 
 									<div className="mt-4 text-center">
-										<div className="font-semibold text-sm text-primary">
+										<div
+											className="font-semibold text-sm"
+											style={{
+												color: "var(--primary-color)",
+											}}
+										>
 											{testimonial.author}
 										</div>
-										<div className="text-secondary text-sm">
+										<div
+											className="text-sm"
+											style={{
+												color: "var(--secondary-color)",
+											}}
+										>
 											{testimonial.position}
 										</div>
 									</div>

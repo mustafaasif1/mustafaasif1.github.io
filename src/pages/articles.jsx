@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 import Article from "../components/articles/article";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import NavBar from "../components/common/navBar";
+import Header from "../components/common/header";
 import myArticles from "../data/articles";
 import SEO from "../data/seo";
 import INFO from "../data/user";
@@ -29,7 +29,7 @@ const Articles = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="articles" />
+				<Header active="articles" />
 				<div className="content-wrapper">
 					<div className="articles-logo-container">
 						<div className="articles-logo">

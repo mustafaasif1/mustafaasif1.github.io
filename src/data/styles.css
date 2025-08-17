@@ -3,12 +3,74 @@
 	--primary-color: #27272a;
 	--secondary-color: #65656d;
 	--tertiary-color: #acacb4;
-	--quaternary-color: #e4e4e7;
+	--quaternary-color: #f4f4f5;
 	--link-color: #5085a5;
+	--background-color: #ffffff;
 	/* ---------------------- */
 
 	/* ------- fonts ------- */
 	--primary-font: "Heebo", sans-serif;
 	--secondary-font: "Roboto", sans-serif;
 	/* --------------------- */
+}
+
+[data-theme="dark"] {
+	/* ------- colors ------- */
+	--primary-color: #e4e4e7;
+	--secondary-color: #a1a1aa;
+	--tertiary-color: #71717a;
+	--quaternary-color: #27272a;
+	--link-color: #60a5fa;
+	--background-color: #18181b;
+	/* ---------------------- */
+}
+
+/* Common logo container styles */
+.homepage-logo,
+.about-logo,
+.projects-logo,
+.articles-logo,
+.read-article-logo,
+.contact-logo {
+	display: flex;
+	position: fixed;
+	border-radius: 50%;
+	top: 3vh;
+	z-index: 998;
+	padding: 0;
+}
+
+/* Apply background color to root elements */
+html {
+	background-color: var(--background-color);
+}
+
+body {
+	background-color: var(--background-color);
+	color: var(--primary-color);
+	margin: 0;
+	padding: 0;
+}
+
+#root {
+	background-color: var(--background-color);
+	min-height: 100vh;
+}
+
+.App {
+	background-color: var(--background-color);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Add transitions for theme changes */
+*,
+*::before,
+*::after {
+	transition:
+		background-color 0.3s ease-in-out,
+		color 0.3s ease-in-out,
+		border-color 0.3s ease-in-out,
+		box-shadow 0.3s ease-in-out;
 }

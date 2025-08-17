@@ -1,3 +1,5 @@
+@import "../../data/styles.css";
+
 .about-logo-container {
 	display: flex;
 	justify-content: left;
@@ -17,15 +19,17 @@
 	flex-direction: column;
 	height: 100%;
 	margin: 0;
-	padding-top: 120px;
+	margin-top: 120px;
 }
 
 .about-main {
 	display: flex;
+	gap: 2rem;
 }
 
 .about-right-side {
-	flex-basis: 900px;
+	flex: 1;
+	max-width: 900px;
 }
 
 .about-title {
@@ -33,17 +37,18 @@
 }
 
 .about-subtitle {
-	width: 80% !important;
+	width: 100% !important;
 }
 
 .about-left-side {
 	display: flex;
 	flex-direction: column;
-	flex-basis: 300px;
+	flex-shrink: 0;
+	width: 370px;
 }
 
 .about-image-container {
-	width: 370px;
+	width: 100%;
 }
 
 .about-image-wrapper {
@@ -73,8 +78,14 @@
 		z-index: 100;
 	}
 
+	.about-container {
+		margin-top: 80px;
+	}
+
 	.about-main {
 		flex-direction: column;
+		gap: 1.5rem;
+		padding: 1.5rem 0;
 	}
 
 	.about-subtitle {
@@ -82,17 +93,14 @@
 	}
 
 	.about-left-side {
-		flex-basis: 100%;
+		width: min(300px, 80vw);
+		margin: 0 auto;
 		order: 1;
 	}
 
 	.about-right-side {
-		flex-basis: 100%;
+		width: 100%;
 		order: 2;
-	}
-
-	.about-image-container {
-		padding-bottom: 40px;
 	}
 
 	.about-socials {
@@ -105,8 +113,17 @@
 	}
 }
 
-@media (max-width: 600px) {
-	.about-image-container {
-		width: 80%;
+@media (max-width: 480px) {
+	.about-container {
+		margin-top: 70px;
+	}
+
+	.about-main {
+		padding: 1rem 0;
+		gap: 1rem;
+	}
+
+	.about-left-side {
+		width: min(250px, 70vw);
 	}
 }

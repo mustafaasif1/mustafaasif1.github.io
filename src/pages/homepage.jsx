@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 import OptimizedImage from "../components/common/optimizedImage";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import NavBar from "../components/common/navBar";
+import Header from "../components/common/header";
 import Article from "../components/homepage/article";
 import Education from "../components/homepage/education";
 import Works from "../components/homepage/works";
@@ -40,7 +40,7 @@ const Homepage = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="home" />
+				<Header active="home" />
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
 						<div className="homepage-logo">
