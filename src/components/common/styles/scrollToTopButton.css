@@ -1,0 +1,108 @@
+.scroll-top-button {
+	position: fixed;
+	bottom: 2rem;
+	right: calc((100% - 1000px) / 2 + 2rem);
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	border: none;
+	z-index: 1000;
+	opacity: 0.9;
+	background-color: var(--background);
+	color: var(--text-primary);
+	border: 2px solid var(--text-primary);
+}
+
+[data-theme="dark"] .scroll-top-button {
+	background-color: var(--dark-background);
+	color: var(--dark-text-primary);
+	border-color: var(--dark-text-primary);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="light"] .scroll-top-button {
+	background-color: var(--background);
+	color: var(--text-primary);
+	border-color: var(--text-primary);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-top-button:hover {
+	opacity: 1;
+	transform: translateY(-2px);
+	background-color: var(--text-primary);
+	color: var(--background);
+}
+
+[data-theme="dark"] .scroll-top-button:hover {
+	background-color: var(--dark-text-primary);
+	color: var(--dark-background);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="light"] .scroll-top-button:hover {
+	background-color: var(--text-primary);
+	color: var(--background);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.scroll-top-button .arrow-icon {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+/* Animation for appearance */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	to {
+		opacity: 0.9;
+		transform: translateY(0);
+	}
+}
+
+.scroll-top-button {
+	animation: fadeIn 0.3s ease-out;
+}
+
+/* Responsive styles */
+@media (max-width: 1270px) {
+	.scroll-top-button {
+		right: calc(5% + 2rem); /* Align with 90% content width */
+	}
+}
+
+@media (max-width: 800px) {
+	.scroll-top-button {
+		right: 1.5rem; /* Switch to edge positioning on mobile */
+		bottom: 1.5rem;
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+
+	.scroll-top-button .arrow-icon {
+		width: 1.2rem;
+		height: 1.2rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.scroll-top-button {
+		bottom: 1rem;
+		right: 1rem;
+		width: 2.2rem;
+		height: 2.2rem;
+	}
+
+	.scroll-top-button .arrow-icon {
+		width: 1rem;
+		height: 1rem;
+	}
+}

@@ -4,7 +4,7 @@
 	--secondary-color: #65656d;
 	--tertiary-color: #acacb4;
 	--quaternary-color: #f4f4f5;
-	--link-color: #5085a5;
+	--link-color: #3f9d9a; /* Bright blue that's easy to identify as a link */
 	--background-color: #ffffff;
 	/* ---------------------- */
 
@@ -20,7 +20,7 @@
 	--secondary-color: #a1a1aa;
 	--tertiary-color: #71717a;
 	--quaternary-color: #27272a;
-	--link-color: #60a5fa;
+	--link-color: #248f8b; /* Light blue that's visible but not harsh in dark mode */
 	--background-color: #18181b;
 	/* ---------------------- */
 }
