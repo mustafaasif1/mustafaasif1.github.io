@@ -1,11 +1,16 @@
+/* ===============================
+   THEME VARIABLES
+   =============================== */
 :root {
 	/* ------- colors ------- */
 	--primary-color: #27272a;
 	--secondary-color: #65656d;
 	--tertiary-color: #acacb4;
 	--quaternary-color: #f4f4f5;
-	--link-color: #3f9d9a; /* Bright blue that's easy to identify as a link */
+	--link-color: #3f9d9a; /* Bright teal */
 	--background-color: #ffffff;
+	--tooltip-bg: #f9f9f9;
+	--tooltip-text: #27272a;
 	/* ---------------------- */
 
 	/* ------- fonts ------- */
@@ -20,8 +25,10 @@
 	--secondary-color: #a1a1aa;
 	--tertiary-color: #71717a;
 	--quaternary-color: #27272a;
-	--link-color: #248f8b; /* Light blue that's visible but not harsh in dark mode */
+	--link-color: #248f8b;
 	--background-color: #18181b;
+	--tooltip-bg: #222222;
+	--tooltip-text: #e4e4e7;
 	/* ---------------------- */
 }
 

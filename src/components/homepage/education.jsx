@@ -50,9 +50,6 @@ const Education = () => {
 				body={
 					<div>
 						{educationData.map((education, index) => {
-							const institution = t(
-								`education.institutions.${education.id}`,
-							);
 							return (
 								<div className="flex pb-6" key={index}>
 									<OptimizedImage

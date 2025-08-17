@@ -8,7 +8,7 @@ import { faLink } from "../../utils/icons";
 import "./styles/project.css";
 
 const Project = (props) => {
-	const { title, description, linkText, link, technologies } = props;
+	const { title, link, technologies } = props;
 	const [hoveredIndex, setHoveredIndex] = useState(null);
 	const { t } = useTranslation();
 

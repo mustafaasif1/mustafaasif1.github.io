@@ -11,29 +11,22 @@
 	text-decoration: none;
 }
 
+/* Hover state */
 .project:hover {
-	background: var(--quaternary-color);
+	background-color: var(--quaternary-color);
 	opacity: 1;
-	transition: background-color 0.3s ease-in-out;
 }
 
 .project:hover .project-link {
 	color: var(--link-color);
-	transition: color 0.3s ease-in-out;
 }
 
+/* Inner container */
 .project-container {
 	padding: 30px;
 }
 
-.project-logo {
-	width: 30px;
-}
-
-.project-logo img {
-	width: 100%;
-}
-
+/* Project title */
 .project-title {
 	font-family: var(--secondary-font);
 	color: var(--primary-color);
@@ -41,18 +34,24 @@
 	padding-top: 15px;
 	margin-bottom: 1em;
 	font-weight: 700;
+	transition: color 0.3s ease-in-out;
 }
 
-.project-description {
+/* Description */
+.project-description,
+.project .text-sm {
 	color: var(--secondary-color);
+	transition: color 0.3s ease-in-out;
 }
 
+/* Project link */
 .project-link {
 	display: flex;
 	align-items: center;
 	color: var(--secondary-color);
 	font-size: 12px;
 	padding-top: 20px;
+	transition: color 0.3s ease-in-out;
 }
 
 .project-link-icon {
@@ -63,4 +62,13 @@
 .project-link-text {
 	padding-left: 20px;
 	font-weight: 700;
+}
+
+/* Tooltip */
+.project .absolute {
+	background-color: var(--tooltip-bg, var(--quaternary-color));
+	color: var(--tooltip-text, var(--primary-color));
+	transition:
+		background-color 0.3s ease-in-out,
+		color 0.3s ease-in-out;
 }
