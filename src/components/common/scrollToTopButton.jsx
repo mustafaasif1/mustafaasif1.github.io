@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "../../utils/icons";
 import "./styles/scrollToTopButton.css";
 
 const ScrollToTopButton = () => {
@@ -37,18 +39,7 @@ const ScrollToTopButton = () => {
 					className="scroll-top-button"
 					aria-label="Scroll to top"
 				>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						viewBox="0 0 24 24"
-						fill="none"
-						stroke="currentColor"
-						strokeWidth="2"
-						strokeLinecap="round"
-						strokeLinejoin="round"
-						className="arrow-icon"
-					>
-						<path d="M12 19V5M5 12l7-7 7 7" />
-					</svg>
+					<FontAwesomeIcon icon={faArrowUp} className="arrow-icon" />
 				</button>
 			)}
 		</>

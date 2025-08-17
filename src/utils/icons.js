@@ -15,6 +15,10 @@ import {
 	faSchool,
 	faChevronRight,
 	faEnvelope,
+	faArrowUp,
+	faSun,
+	faMoon,
+	faExternalLinkAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Add icons to library
@@ -28,6 +32,10 @@ library.add(
 	faSchool,
 	faChevronRight,
 	faEnvelope,
+	faArrowUp,
+	faSun,
+	faMoon,
+	faExternalLinkAlt,
 	// Regular icons
 	faFaceSadTear,
 	// Brand icons
@@ -48,6 +56,10 @@ export {
 	faSchool,
 	faChevronRight,
 	faEnvelope,
+	faArrowUp,
+	faSun,
+	faMoon,
+	faExternalLinkAlt,
 	// Regular icons
 	faFaceSadTear,
 	// Brand icons
