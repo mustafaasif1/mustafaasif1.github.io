@@ -67,7 +67,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<OptimizedImage
-											src="/assets/images/photos/profile/homepage.jpg"
+											src="/assets/images/photos/profile/homepage.png"
 											alt="homepage"
 											className="homepage-image"
 											loading="eager"
