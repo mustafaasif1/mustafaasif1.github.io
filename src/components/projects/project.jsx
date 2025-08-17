@@ -39,14 +39,16 @@ const Project = (props) => {
 				</div>
 				<div className="project-title">{title}</div>
 				<div className="text-sm">{description}</div>
-				<Link to={link}>
-					<div className="project-link">
-						<div className="project-link-icon">
-							<FontAwesomeIcon icon={faLink} />
+				{link && linkText && (
+					<Link to={link}>
+						<div className="project-link">
+							<div className="project-link-icon">
+								<FontAwesomeIcon icon={faLink} />
+							</div>
+							<div className="project-link-text">{linkText}</div>
 						</div>
-						<div className="project-link-text">{linkText}</div>
-					</div>
-				</Link>
+					</Link>
+				)}
 			</div>
 		</div>
 	);

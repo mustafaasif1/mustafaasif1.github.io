@@ -182,8 +182,7 @@ const INFO = {
 			title: "Web-Based Integrated Development Environment (IDE)",
 			description:
 				"Designed and deployed a web-based IDE enabling code compilation and management in a team of 5 students, powered by a scalable microservices architecture.",
-			linkText: "View Project",
-			link: "",
+
 			technologies: [
 				LOGOS.JAVASCRIPT,
 				LOGOS.REACT,
