@@ -1,13 +1,11 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
-import NavBar from "../components/common/navBar";
+import Socials from "../components/about/socials";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import Socials from "../components/about/socials";
-
-import INFO from "../data/user";
+import NavBar from "../components/common/navBar";
 import SEO from "../data/seo";
+import INFO from "../data/user";
 
 import "./styles/contact.css";
 
@@ -47,15 +45,17 @@ const Contact = () => {
 							Thank you for your interest in getting in touch with
 							me. I welcome your feedback, questions, and
 							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
-							{" "}
-							<a href={`mailto:${INFO.main.email}`} className="text-link">
+							comment, please feel free to email me directly at{" "}
+							<a
+								href={`mailto:${INFO.main.email}`}
+								className="text-link"
+							>
 								{INFO.main.email}
 							</a>
 							. I make an effort to respond to all messages within
 							24 hours, although it may take me longer during busy
-							periods. If you prefer to connect on
-							social media, you can find me on{" "}
+							periods. If you prefer to connect on social media,
+							you can find me on{" "}
 							<a
 								href={INFO.socials.linkedin}
 								target="_blank"

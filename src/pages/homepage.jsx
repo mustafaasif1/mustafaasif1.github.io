@@ -1,28 +1,24 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Footer from "../components/common/footer";
+import Logo from "../components/common/logo";
+import NavBar from "../components/common/navBar";
+import Article from "../components/homepage/article";
+import Education from "../components/homepage/education";
+import Works from "../components/homepage/works";
+import Testimonials from "../components/homepage/testimonials/testimonials";
+import AllProjects from "../components/projects/allProjects";
+import INFO from "../data/user";
+import SEO from "../data/seo";
+import myArticles from "../data/articles";
 import {
 	faGithub,
 	faStackOverflow,
 	faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
-
-import Logo from "../components/common/logo";
-import Footer from "../components/common/footer";
-import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
-import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
-
-import INFO from "../data/user";
-import SEO from "../data/seo";
-import myArticles from "../data/articles";
-
+	faMailBulk,
+} from "../utils/icons";
 import "./styles/homepage.css";
-import Education from "../components/homepage/education";
-import Testimonials from "../components/homepage/testimonials/testimonials";
 
 const Homepage = () => {
 	useEffect(() => {
@@ -61,9 +57,6 @@ const Homepage = () => {
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description1}
 								</div>
-								{/* <div className="subtitle homepage-subtitle">
-									{INFO.homepage.description2}
-								</div> */}
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description3}
 								</div>
@@ -73,7 +66,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src="/assets/images/photos/profile/homepage.jpg"
 											alt="homepage"
 											className="homepage-image"
 										/>
@@ -129,11 +122,11 @@ const Homepage = () => {
 							<AllProjects />
 						</div>
 
-						<div class="flex flex-col w-full lg:flex-row">
-							<div class="w-full">
+						<div className="flex flex-col w-full lg:flex-row">
+							<div className="w-full">
 								<Works />
 							</div>
-							<div class="w-full">
+							<div className="w-full">
 								<Education />
 							</div>
 						</div>
@@ -141,7 +134,9 @@ const Homepage = () => {
 							<Testimonials />
 						</div>
 						<div className="pb-4">
-							<p className="articles-title">I also write sometimes.</p>
+							<p className="articles-title">
+								I also write sometimes.
+							</p>
 							{myArticles.map((article, index) => (
 								<div
 									className="homepage-article"
@@ -152,7 +147,7 @@ const Homepage = () => {
 										date={article().date}
 										title={article().title}
 										description={article().description}
-										link={"/article/" + (index + 1)}
+										link={`/article/${index + 1}`}
 									/>
 								</div>
 							))}

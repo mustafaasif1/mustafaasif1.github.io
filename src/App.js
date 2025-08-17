@@ -1,19 +1,20 @@
-import { useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { useEffect, Suspense, lazy } from "react";
 import ReactGA from "react-ga4";
-
-import Homepage from "./pages/homepage";
-import About from "./pages/about";
-import Projects from "./pages/projects";
-import Articles from "./pages/articles";
-import ReadArticle from "./pages/readArticle";
-import Contact from "./pages/contact";
-import Notfound from "./pages/404";
-
+import { Routes, Route } from "react-router-dom";
+import Loader from "./components/common/loader";
 import { TRACKING_ID } from "./data/tracking";
+import "./utils/icons"; // Import icons library
 import "./app.css";
 
-function App() {
+const Homepage = lazy(() => import("./pages/homepage"));
+const About = lazy(() => import("./pages/about"));
+const Projects = lazy(() => import("./pages/projects"));
+const Articles = lazy(() => import("./pages/articles"));
+const ReadArticle = lazy(() => import("./pages/readArticle"));
+const Contact = lazy(() => import("./pages/contact"));
+const Notfound = lazy(() => import("./pages/404"));
+
+const App = () => {
 	useEffect(() => {
 		if (TRACKING_ID !== "") {
 			ReactGA.initialize(TRACKING_ID);
@@ -22,17 +23,19 @@ function App() {
 
 	return (
 		<div className="App">
-			<Routes>
-				<Route path="/" element={<Homepage />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/articles" element={<Articles />} />
-				<Route path="/article/:slug" element={<ReadArticle />} />
-				<Route path="/contact" element={<Contact />} />
-				<Route path="*" element={<Notfound />} />
-			</Routes>
+			<Suspense fallback={<Loader />}>
+				<Routes>
+					<Route path="/" element={<Homepage />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/projects" element={<Projects />} />
+					<Route path="/articles" element={<Articles />} />
+					<Route path="/article/:slug" element={<ReadArticle />} />
+					<Route path="/contact" element={<Contact />} />
+					<Route path="*" element={<Notfound />} />
+				</Routes>
+			</Suspense>
 		</div>
 	);
-}
+};
 
 export default App;

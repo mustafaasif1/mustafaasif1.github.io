@@ -1,97 +1,96 @@
 const LOGOS = {
-  "BALSAMIQ": {
-    image: "../balsamiq.png",
-    link: "Balsamiq"
-  },
-  "C-SHARP": {
-    image: "../c-sharp.jpg",
-    link: "C-sharp"
-  },
-  "CSS": {
-    image: "../css.png",
-    link: "CSS"
-  },
-  "DOCKER": {
-    image: "../docker.png",
-    link: "Docker"
-  },
-  "FIGMA": {
-    image: "../figma.jpg",
-    link: "Figma"
-  },
-  "FIREBASE-AUTH": {
-    image: "../firebase-auth.png",
-    link: "Firebase auth"
-  },
-  "FIREBASE": {
-    image: "../firebase.png",
-    link: "Firebase"
-  },
-  "FLUTTER": {
-    image: "../flutter.png",
-    link: "Flutter"
-  },
-  "GITLAB": {
-    image: "../gitlab.png",
-    link: "Gitlab"
-  },
-  "GOOGLE-ARCORE": {
-    image: "../google-arcore.png",
-    link: "Google ARCore"
-  },
-  "GOOGLE-MAPS": {
-    image: "../google-maps.png",
-    link: "Google Maps"
-  },
-  "HEROKU": {
-    image: "../heroku.png",
-    link: "Heroku"
-  },
-  "HTML": {
-    image: "../html.png",
-    link: "HTML"
-  },
-  "JAVASCRIPT": {
-    image: "../javascript.png",
-    link: "Javascript"
-  },
-  "MONGODB": {
-    image: "../mongodb.png",
-    link: "MongoDB"
-  },
-  "MURAL": {
-    image: "../mural.png",
-    link: "Mural"
-  },
-  "REACT": {
-    image: "../react.png",
-    link: "React"
-  },
-  "SHADCN": {
-    image: "../shadcn.png",
-    link: "Shadcn"
-  },
-  "SPRING-BOOT": {
-    image: "../spring-boot.png",
-    link: "Springboot"
-  },
-  "TAILWIND": {
-    image: "../tailwind.png",
-    link: "Tailwind"
-  },
-  "UNITY": {
-    image: "../unity.png",
-    link: "Unity"
-  },
+	BALSAMIQ: {
+		image: "/assets/images/logos/tech/balsamiq.png",
+		link: "Balsamiq",
+	},
+	"C-SHARP": {
+		image: "/assets/images/logos/tech/c-sharp.jpg",
+		link: "C-sharp",
+	},
+	CSS: {
+		image: "/assets/images/logos/tech/css.png",
+		link: "CSS",
+	},
+	DOCKER: {
+		image: "/assets/images/logos/tech/docker.png",
+		link: "Docker",
+	},
+	FIGMA: {
+		image: "/assets/images/logos/tech/figma.jpg",
+		link: "Figma",
+	},
+	"FIREBASE-AUTH": {
+		image: "/assets/images/logos/tech/firebase-auth.png",
+		link: "Firebase auth",
+	},
+	FIREBASE: {
+		image: "/assets/images/logos/tech/firebase.png",
+		link: "Firebase",
+	},
+	FLUTTER: {
+		image: "/assets/images/logos/tech/flutter.png",
+		link: "Flutter",
+	},
+	GITLAB: {
+		image: "/assets/images/logos/tech/gitlab.png",
+		link: "Gitlab",
+	},
+	"GOOGLE-ARCORE": {
+		image: "/assets/images/logos/tech/google-arcore.png",
+		link: "Google ARCore",
+	},
+	"GOOGLE-MAPS": {
+		image: "/assets/images/logos/tech/google-maps.png",
+		link: "Google Maps",
+	},
+	HEROKU: {
+		image: "/assets/images/logos/tech/heroku.png",
+		link: "Heroku",
+	},
+	HTML: {
+		image: "/assets/images/logos/tech/html.png",
+		link: "HTML",
+	},
+	JAVASCRIPT: {
+		image: "/assets/images/logos/tech/javascript.png",
+		link: "Javascript",
+	},
+	MONGODB: {
+		image: "/assets/images/logos/tech/mongodb.png",
+		link: "MongoDB",
+	},
+	MURAL: {
+		image: "/assets/images/logos/tech/mural.png",
+		link: "Mural",
+	},
+	REACT: {
+		image: "/assets/images/logos/tech/react.png",
+		link: "React",
+	},
+	SHADCN: {
+		image: "/assets/images/logos/tech/shadcn.png",
+		link: "Shadcn",
+	},
+	"SPRING-BOOT": {
+		image: "/assets/images/logos/tech/spring-boot.png",
+		link: "Springboot",
+	},
+	TAILWIND: {
+		image: "/assets/images/logos/tech/tailwind.png",
+		link: "Tailwind",
+	},
+	UNITY: {
+		image: "/assets/images/logos/tech/unity.png",
+		link: "Unity",
+	},
 };
-
 
 const INFO = {
 	main: {
 		title: "Mustafa's Portfolio",
 		name: "Mustafa Asif",
 		email: "mustafaasif1@hotmail.com",
-		logo: "../logo.jpg",
+		logo: "/assets/images/photos/profile/logo.jpg",
 	},
 
 	socials: {
@@ -105,7 +104,7 @@ const INFO = {
 		title: "Full-stack web and mobile app developer, and squash enthusiast.",
 		description1: `Hey there! I'm Mustafa, currently studying M.Sc. Informatics at the Technical University of Munich, all about software-intensive systems. I got my Bachelor's in Computer Science from Lahore University of Management Sciences.`,
 		description2: `Along my coding journey, I've played with JavaScript, HTML, CSS, Python, Angular, ReactJS, React Native, and even fluttered around Flutter. Always eager to learn more!`,
-		description3: `And if you're a fellow coder or recruiter in the area, let's connect! I'm all about expanding the network. See you around! 🚀`
+		description3: `And if you're a fellow coder or recruiter in the area, let's connect! I'm all about expanding the network. See you around! 🚀`,
 	},
 
 	about: {
@@ -127,7 +126,12 @@ const INFO = {
 				"ASMByte's Landing website, showcasing their expertise in web and mobile app development, and data science projects.",
 			linkText: "View Website",
 			link: "https://asmbyte-5c49f.web.app/",
-			technologies: [LOGOS.FLUTTER, LOGOS.FIREBASE, LOGOS["FIREBASE-AUTH"], LOGOS["GOOGLE-MAPS"]]
+			technologies: [
+				LOGOS.FLUTTER,
+				LOGOS.FIREBASE,
+				LOGOS["FIREBASE-AUTH"],
+				LOGOS["GOOGLE-MAPS"],
+			],
 		},
 
 		{
@@ -136,7 +140,7 @@ const INFO = {
 				"A complete blood donation mobile application with Flutter as the front end and Cloud Firestore as the backend. ",
 			linkText: "View Project",
 			link: "https://github.com/mustafaasif1/Lahu",
-			technologies: [LOGOS.REACT, LOGOS.TAILWIND, LOGOS.FIREBASE]
+			technologies: [LOGOS.REACT, LOGOS.TAILWIND, LOGOS.FIREBASE],
 		},
 
 		{
@@ -145,7 +149,7 @@ const INFO = {
 				"Designed and prototyped a complete application in Figma aimed to bridge the gap between clothing donors and charitable organisations. ",
 			linkText: "View Project",
 			link: "https://github.com/mustafaasif1/Kapra-Eid",
-			technologies: [LOGOS.FIGMA, LOGOS.MURAL, LOGOS.BALSAMIQ]
+			technologies: [LOGOS.FIGMA, LOGOS.MURAL, LOGOS.BALSAMIQ],
 		},
 
 		{
@@ -154,7 +158,11 @@ const INFO = {
 				"Researched and developed Augmented Reality simulations with a purpose to train people about the effective ways they could safely handle fire protection devices during fire emergencies. ",
 			linkText: "View Project",
 			link: "https://github.com/mustafaasif1/AR-Simulations-For-Emergencies",
-			technologies: [LOGOS.UNITY, LOGOS["C-SHARP"], LOGOS["GOOGLE-ARCORE"]]
+			technologies: [
+				LOGOS.UNITY,
+				LOGOS["C-SHARP"],
+				LOGOS["GOOGLE-ARCORE"],
+			],
 		},
 		{
 			title: "Asli (Real) Doctor",
@@ -162,7 +170,13 @@ const INFO = {
 				"Summer 2019 project: Created a JavaScript web app addressing the rise of fake doctors by providing a platform to verify their credentials and report suspicious activity.",
 			linkText: "View Project",
 			link: "https://github.com/mustafaasif1/Asli-Doctor",
-			technologies: [LOGOS.JAVASCRIPT, LOGOS.REACT, LOGOS.TAILWIND, LOGOS.HEROKU, LOGOS.MONGODB]
+			technologies: [
+				LOGOS.JAVASCRIPT,
+				LOGOS.REACT,
+				LOGOS.TAILWIND,
+				LOGOS.HEROKU,
+				LOGOS.MONGODB,
+			],
 		},
 		{
 			title: "Web-Based Integrated Development Environment (IDE)",
@@ -170,11 +184,16 @@ const INFO = {
 				"Designed and deployed a web-based IDE enabling code compilation and management in a team of 5 students, powered by a scalable microservices architecture.",
 			linkText: "View Project",
 			link: "",
-			technologies: [LOGOS.JAVASCRIPT, LOGOS.REACT, LOGOS.SHADCN, LOGOS["SPRING-BOOT"], LOGOS.DOCKER, LOGOS.GITLAB]
+			technologies: [
+				LOGOS.JAVASCRIPT,
+				LOGOS.REACT,
+				LOGOS.SHADCN,
+				LOGOS["SPRING-BOOT"],
+				LOGOS.DOCKER,
+				LOGOS.GITLAB,
+			],
 		},
 	],
 };
-
-
 
 export default INFO;

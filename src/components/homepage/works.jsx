@@ -1,11 +1,11 @@
 import React from "react";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase } from "../../utils/icons";
 import Card from "../common/card";
 
 const Works = () => {
 	const workData = [
 		{
-			image: "./commercetools.jpeg",
+			image: "/assets/images/logos/companies/commercetools.jpeg",
 			alt: "Full Stack Software Engineer at commercetools",
 			title: "Full Stack Software Engineer",
 			subtitle: "commercetools",
@@ -14,7 +14,7 @@ const Works = () => {
 			link: "https://commercetools.com/",
 		},
 		{
-			image: "./tum.png",
+			image: "/assets/images/logos/education/tum.png",
 			alt: "Full Stack Software Engineer (Student Assistant) at TUM",
 			title: "Full Stack Software Engineer (Student Assistant)",
 			subtitle: "Technical University of Munich",
@@ -23,7 +23,7 @@ const Works = () => {
 			link: "https://www.tum.de/en/",
 		},
 		{
-			image: "./ease.png",
+			image: "/assets/images/logos/companies/ease.png",
 			alt: "Front-end Software Engineer at Ease",
 			title: "Front-end Software Engineer",
 			subtitle: "ease",
@@ -32,7 +32,7 @@ const Works = () => {
 			link: "https://ease.day/",
 		},
 		{
-			image: "./lafamiglia.jpeg",
+			image: "/assets/images/logos/companies/lafamiglia.jpeg",
 			alt: "Front-end Software Engineer at La Famiglia",
 			title: "Front-end Software Engineer",
 			subtitle: "La Famiglia",
@@ -41,7 +41,7 @@ const Works = () => {
 			link: "https://www.lafamiglia.vc/",
 		},
 		{
-			image: "./motive1.jpeg",
+			image: "/assets/images/logos/companies/motive1.jpeg",
 			alt: "Software Engineer at Motive",
 			title: "Software Engineer",
 			subtitle: "Motive",
@@ -50,7 +50,7 @@ const Works = () => {
 			link: "https://gomotive.com/",
 		},
 		{
-			image: "./arbisoft.png",
+			image: "/assets/images/logos/companies/arbisoft.png",
 			alt: "Software Engineer at Arbisoft",
 			title: "Software Engineer",
 			subtitle: "Arbisoft",
@@ -59,7 +59,7 @@ const Works = () => {
 			link: "https://arbisoft.com/",
 		},
 		{
-			image: "./laam.png",
+			image: "/assets/images/logos/companies/laam.png",
 			alt: "Software Engineer Intern at Laam",
 			title: "Software Engineer Intern",
 			subtitle: "LAAM",

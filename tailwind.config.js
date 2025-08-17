@@ -11,12 +11,12 @@ module.exports = {
 				link: "#1287A8",
 			},
 			typography: {
-        DEFAULT: {
-          css: {
-            maxWidth: '100ch', // add required value here
-          }
-        }
-      }
+				DEFAULT: {
+					css: {
+						maxWidth: "100ch", // add required value here
+					},
+				},
+			},
 		},
 	},
 	plugins: [require("@tailwindcss/typography")],

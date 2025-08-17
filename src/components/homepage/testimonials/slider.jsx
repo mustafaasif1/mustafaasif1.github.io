@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import "@splidejs/splide/dist/css/splide.min.css";
-import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState, useEffect } from "react";
+import { faQuoteLeft } from "../../../utils/icons";
 
 export function Slider({ testimonials }) {
 	const [perPage, setPerPage] = useState(calculatePerPage());
@@ -18,7 +18,9 @@ export function Slider({ testimonials }) {
 		function handleResize() {
 			setPerPage(calculatePerPage());
 		}
+
 		window.addEventListener("resize", handleResize);
+
 		return () => {
 			window.removeEventListener("resize", handleResize);
 		};
@@ -29,12 +31,12 @@ export function Slider({ testimonials }) {
 			options={{
 				type: "loop",
 				perMove: perPage,
-        perPage: perPage,
+				perPage,
 				gap: "1rem",
-        drag: "free",
-        focus  : 'center',
+				drag: "free",
+				focus: "center",
 				arrows: false,
-        lazyLoad: "nearby",
+				lazyLoad: "nearby",
 				autoScroll: {
 					pauseOnHover: true,
 					pauseOnFocus: false,
@@ -66,12 +68,14 @@ export function Slider({ testimonials }) {
 										<img
 											className="mx-auto h-16 w-16 rounded-full"
 											src={testimonial.authorImage}
-											alt=""
+											alt={testimonial.author}
+											loading="lazy"
 										/>
 										<img
 											className="mx-auto h-10 w-10 rounded-full absolute left-1/2 top-1/2 border border-quaternary shadow-md object-contain"
 											src={testimonial.companyImage}
-											alt=""
+											alt={`${testimonial.author}'s company`}
+											loading="lazy"
 										/>
 									</div>
 

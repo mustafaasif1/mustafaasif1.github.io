@@ -1,10 +1,11 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 
 import "./styles/card.css";
 
 const Card = (props) => {
 	const { icon, title, body } = props;
+
 	return (
 		<div className="card">
 			<div className="card-container">

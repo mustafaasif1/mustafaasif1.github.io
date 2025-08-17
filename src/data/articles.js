@@ -13,7 +13,7 @@ function article_1() {
 			"Tharindu N",
 			"Tharindu Nayanajith",
 		],
-		body: article1markdown
+		body: article1markdown,
 	};
 }
 
