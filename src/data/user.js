@@ -121,7 +121,8 @@ const INFO = {
 
 	projects: [
 		{
-			title: "asmbyte",
+			id: "asmbyte",
+			title: "ASMByte",
 			description:
 				"ASMByte's Landing website, showcasing their expertise in web and mobile app development, and data science projects.",
 			linkText: "View Website",
@@ -133,8 +134,8 @@ const INFO = {
 				LOGOS["GOOGLE-MAPS"],
 			],
 		},
-
 		{
+			id: "lahu",
 			title: "Lahu - Blood Donation Application",
 			description:
 				"A complete blood donation mobile application with Flutter as the front end and Cloud Firestore as the backend. ",
@@ -142,8 +143,8 @@ const INFO = {
 			link: "https://github.com/mustafaasif1/Lahu",
 			technologies: [LOGOS.REACT, LOGOS.TAILWIND, LOGOS.FIREBASE],
 		},
-
 		{
+			id: "kapra-eid",
 			title: "Kapra Eid - Clothing Donation Application",
 			description:
 				"Designed and prototyped a complete application in Figma aimed to bridge the gap between clothing donors and charitable organisations. ",
@@ -151,8 +152,8 @@ const INFO = {
 			link: "https://github.com/mustafaasif1/Kapra-Eid",
 			technologies: [LOGOS.FIGMA, LOGOS.MURAL, LOGOS.BALSAMIQ],
 		},
-
 		{
+			id: "ar-simulations",
 			title: "AR Simulations For Fire Emergencies",
 			description:
 				"Researched and developed Augmented Reality simulations with a purpose to train people about the effective ways they could safely handle fire protection devices during fire emergencies. ",
@@ -165,6 +166,7 @@ const INFO = {
 			],
 		},
 		{
+			id: "asli-doctor",
 			title: "Asli (Real) Doctor",
 			description:
 				"Summer 2019 project: Created a JavaScript web app addressing the rise of fake doctors by providing a platform to verify their credentials and report suspicious activity.",
@@ -179,10 +181,10 @@ const INFO = {
 			],
 		},
 		{
+			id: "web-ide",
 			title: "Web-Based Integrated Development Environment (IDE)",
 			description:
 				"Designed and deployed a web-based IDE enabling code compilation and management in a team of 5 students, powered by a scalable microservices architecture.",
-
 			technologies: [
 				LOGOS.JAVASCRIPT,
 				LOGOS.REACT,

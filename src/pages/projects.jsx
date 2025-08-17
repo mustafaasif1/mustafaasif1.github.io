@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Header from "../components/common/header";
@@ -10,6 +11,8 @@ import INFO from "../data/user";
 import "./styles/projects.css";
 
 const Projects = () => {
+	const { t } = useTranslation();
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -19,7 +22,7 @@ const Projects = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Projects | ${INFO.main.title}`}</title>
+				<title>{`${t("nav.projects")} | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -37,19 +40,11 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I've made trying to put my dent in the
-							universe.
+							{t("projects.title")}
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind.
+							{t("projects.subtitle")}
 						</div>
 
 						<div className="projects-list">

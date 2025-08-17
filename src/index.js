@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { HashRouter } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import App from "./App";
+import "./i18n";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
@@ -16,13 +17,16 @@ const router = {
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+// Wait for i18next to initialize before rendering
 root.render(
 	<React.StrictMode>
-		<HelmetProvider>
-			<HashRouter future={router.future}>
-				<App />
-			</HashRouter>
-		</HelmetProvider>
+		<React.Suspense fallback="Loading...">
+			<HelmetProvider>
+				<HashRouter future={router.future}>
+					<App />
+				</HashRouter>
+			</HelmetProvider>
+		</React.Suspense>
 	</React.StrictMode>,
 );
 

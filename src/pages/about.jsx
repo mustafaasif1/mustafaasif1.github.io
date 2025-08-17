@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 import OptimizedImage from "../components/common/optimizedImage";
 import Socials from "../components/about/socials";
 import Footer from "../components/common/footer";
@@ -11,6 +12,8 @@ import INFO from "../data/user";
 import "./styles/about.css";
 
 const About = () => {
+	const { t } = useTranslation();
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -20,7 +23,9 @@ const About = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`About | ${INFO.main.title}`}</title>
+				<title>
+					{t("about.pageTitle", { title: INFO.main.title })}
+				</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -41,11 +46,11 @@ const About = () => {
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
-									{INFO.about.title}
+									{t("about.title")}
 								</div>
 
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+									{t("about.description")}
 								</div>
 							</div>
 
@@ -54,7 +59,7 @@ const About = () => {
 									<div className="about-image-wrapper">
 										<OptimizedImage
 											src="/assets/images/photos/profile/about.jpg"
-											alt="about"
+											alt={t("about.imageAlt")}
 											className="about-image"
 											loading="eager"
 										/>

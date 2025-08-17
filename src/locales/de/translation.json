@@ -1,0 +1,184 @@
+{
+	"common": {
+		"switchLanguage": "Zu Englisch wechseln",
+		"scrollToTop": "Nach oben scrollen",
+		"switchTheme": "Theme ändern",
+		"email": "E-Mail",
+		"viewProject": "Projekt ansehen",
+		"readMore": "Weiterlesen",
+		"present": "Heute",
+		"fullTime": "Vollzeit",
+		"partTime": "Teilzeit",
+		"internship": "Praktikum"
+	},
+	"nav": {
+		"home": "Startseite",
+		"about": "Über mich",
+		"projects": "Projekte",
+		"articles": "Artikel",
+		"contact": "Kontakt"
+	},
+	"footer": {
+		"copyright": "© 2024 Mustafa Asif. Alle Rechte vorbehalten.",
+		"aria": {
+			"navigation": "Footer-Navigation",
+			"copyright": "Copyright-Information"
+		}
+	},
+	"experience": {
+		"title": "Berufserfahrung",
+		"positions": {
+			"commercetools": {
+				"title": "Full Stack Software Engineer",
+				"company": "commercetools",
+				"type": "Werkstudent",
+				"period": "Juni 2024 - Heute"
+			},
+			"tum": {
+				"title": "Full Stack Software Engineer (Wissenschaftliche Hilfskraft)",
+				"company": "Technische Universität München",
+				"type": "Teilzeit",
+				"period": "Apr 2023 - Heute"
+			},
+			"ease": {
+				"title": "Frontend Software Engineer",
+				"company": "ease",
+				"type": "Interdisziplinäres Projekt (IDP)",
+				"period": "Okt 2023 - Mär 2024"
+			},
+			"laFamiglia": {
+				"title": "Frontend Software Engineer",
+				"company": "La Famiglia",
+				"type": "Praktikumskurs",
+				"period": "Okt 2023 - Jan 2024"
+			},
+			"motive": {
+				"title": "Software Engineer",
+				"company": "Motive",
+				"type": "Vollzeit",
+				"period": "Jun 2022 - Sep 2022"
+			},
+			"arbisoft": {
+				"title": "Software Engineer",
+				"company": "Arbisoft",
+				"type": "Vollzeit",
+				"period": "Jun 2021 - Jun 2022"
+			},
+			"laam": {
+				"title": "Software Engineer Praktikant",
+				"company": "LAAM",
+				"type": "Praktikum",
+				"period": "Feb 2021 - Mai 2021"
+			}
+		}
+	},
+	"education": {
+		"title": "Ausbildung",
+		"institutions": {
+			"tum": {
+				"name": "Technische Universität München",
+				"degree": "Master of Science (M.Sc.), Informatik",
+				"period": "Okt 2022 - Heute"
+			},
+			"lums": {
+				"name": "Lahore University of Management Sciences",
+				"degree": "Bachelor of Science (B.Sc.), Informatik",
+				"period": "2017 - 2021"
+			},
+			"nixor": {
+				"name": "Nixor College",
+				"degree": "A-levels, Naturwissenschaften",
+				"period": "2015 - 2017"
+			},
+			"beaconhouse": {
+				"name": "Beaconhouse School System",
+				"degree": "O-levels, Naturwissenschaften",
+				"period": "Bis 2015"
+			}
+		}
+	},
+	"articles": {
+		"pageTitle": "Artikel | {{title}}",
+		"title": "Ich bin leidenschaftlich daran interessiert, die Grenzen des Möglichen zu erweitern und die nächste Generation von Innovatoren zu inspirieren.",
+		"subtitle": "Chronologische Sammlung meiner ausführlichen Gedanken zu Programmierung, Führung, Produktdesign und mehr.",
+		"aria": {
+			"articlesList": "Liste der Artikel",
+			"articleLink": "Artikel lesen: {{title}}"
+		}
+	},
+	"contact": {
+		"pageTitle": "Kontakt | {{title}}",
+		"title": "Lassen Sie uns in Kontakt treten: Möglichkeiten zur Verbindung",
+		"description": "Vielen Dank für Ihr Interesse, mit mir in Kontakt zu treten. Ich freue mich über Ihr Feedback, Ihre Fragen und Vorschläge. Wenn Sie eine spezifische Frage oder einen Kommentar haben, können Sie mir gerne direkt eine E-Mail an <email>{{email}}</email> schreiben. Ich bemühe mich, alle Nachrichten innerhalb von 24 Stunden zu beantworten, obwohl es in arbeitsreichen Zeiten länger dauern kann. Wenn Sie es vorziehen, sich über soziale Medien zu verbinden, finden Sie mich auf <linkedin>LinkedIn</linkedin>. Nochmals vielen Dank für Ihr Interesse, und ich freue mich darauf, von Ihnen zu hören!",
+		"aria": {
+			"emailLink": "E-Mail senden an {{email}}",
+			"linkedinLink": "Besuchen Sie mein LinkedIn-Profil",
+			"socialsSection": "Social Media Links"
+		}
+	},
+	"home": {
+		"title": "Full-Stack Web- und Mobile-App-Entwickler und Squash-Enthusiast.",
+		"description1": "Hallo! Ich bin Mustafa und studiere derzeit M.Sc. Informatik an der Technischen Universität München mit Fokus auf softwareintensive Systeme. Meinen Bachelor in Informatik habe ich an der Lahore University of Management Sciences gemacht.",
+		"description2": "Auf meiner Coding-Reise habe ich mit JavaScript, HTML, CSS, Python, Angular, ReactJS, React Native und sogar Flutter gearbeitet. Immer bereit, Neues zu lernen!",
+		"description3": "Wenn du auch Entwickler oder Recruiter in der Gegend bist, lass uns vernetzen! Ich freue mich immer darauf, mein Netzwerk zu erweitern. Bis bald! 🚀",
+		"writingSection": "Manchmal schreibe ich auch.",
+		"socialLinks": {
+			"github": "Mein GitHub-Profil ansehen",
+			"stackoverflow": "Mein Stack Overflow-Profil",
+			"instagram": "Folgen Sie mir auf Instagram",
+			"email": "Senden Sie mir eine E-Mail"
+		}
+	},
+	"about": {
+		"pageTitle": "Über mich | {{title}}",
+		"title": "Ich bin Mustafa Asif. Ich lebe in München, wo ich die Zukunft gestalte.",
+		"description": "Im Laufe der Jahre habe ich an verschiedenen Projekten gearbeitet und bin stolz auf die Fortschritte, die ich gemacht habe. Wenn Sie sich für eines der Projekte interessieren, an denen ich gearbeitet habe, können Sie gerne den Code überprüfen und Verbesserungen oder Erweiterungen vorschlagen. Die Zusammenarbeit mit anderen ist eine großartige Möglichkeit zu lernen und zu wachsen, und ich bin immer offen für neue Ideen und Feedback.",
+		"imageAlt": "Profilfoto von Mustafa Asif",
+		"socials": {
+			"github": "Folgen Sie mir auf GitHub",
+			"linkedin": "Verbinden Sie sich auf LinkedIn",
+			"instagram": "Folgen Sie auf Instagram",
+			"stackoverflow": "Besuchen Sie mein Stack Overflow Profil",
+			"email": "Senden Sie mir eine E-Mail"
+		}
+	},
+	"projects": {
+		"title": "Projekte, mit denen ich versuche, meinen Beitrag zur Welt zu leisten.",
+		"subtitle": "Im Laufe der Jahre habe ich an verschiedenen Projekten gearbeitet und bin stolz auf die Fortschritte, die ich gemacht habe. Viele dieser Projekte sind Open-Source und stehen anderen zur Verfügung.",
+		"viewProject": "Projekt ansehen",
+		"viewWebsite": "Website besuchen",
+		"techStack": "Technologie",
+		"projectDetails": {
+			"asmbyte": {
+				"title": "ASMByte",
+				"description": "ASMByte's Landing-Website, die ihre Expertise in Web- und Mobile-App-Entwicklung sowie Data-Science-Projekten präsentiert.",
+				"linkText": "Website besuchen"
+			},
+			"lahu": {
+				"title": "Lahu - Blutspende-Anwendung",
+				"description": "Eine komplette Blutspende-Mobile-App mit Flutter als Frontend und Cloud Firestore als Backend.",
+				"linkText": "Projekt ansehen"
+			},
+			"kapra-eid": {
+				"title": "Kapra Eid - Kleiderspenden-Anwendung",
+				"description": "Entwicklung und Prototyping einer kompletten Anwendung in Figma, die darauf abzielt, die Lücke zwischen Kleiderspendern und Wohltätigkeitsorganisationen zu schließen.",
+				"linkText": "Projekt ansehen"
+			},
+			"ar-simulations": {
+				"title": "AR-Simulationen für Notfälle",
+				"description": "Forschung und Entwicklung von Augmented-Reality-Simulationen mit dem Ziel, Menschen über effektive Möglichkeiten zur sicheren Handhabung von Brandschutzgeräten in Notfällen zu schulen.",
+				"linkText": "Projekt ansehen"
+			},
+			"asli-doctor": {
+				"title": "Asli (Echter) Arzt",
+				"description": "Sommerprojekt 2019: Entwicklung einer JavaScript-Webanwendung zur Bekämpfung gefälschter Ärzte durch eine Plattform zur Überprüfung ihrer Qualifikationen und Meldung verdächtiger Aktivitäten.",
+				"linkText": "Projekt ansehen"
+			},
+			"web-ide": {
+				"title": "Web-basierte IDE",
+				"description": "Entwicklung und Bereitstellung einer webbasierten IDE für Code-Kompilierung und -Verwaltung in einem Team von 5 Studenten, basierend auf einer skalierbaren Microservices-Architektur.",
+				"linkText": "Projekt ansehen"
+			}
+		}
+	}
+}

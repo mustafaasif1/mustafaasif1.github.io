@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import OptimizedImage from "../common/optimizedImage";
 import { faLink } from "../../utils/icons";
 
@@ -9,6 +10,7 @@ import "./styles/project.css";
 const Project = (props) => {
 	const { title, description, linkText, link, technologies } = props;
 	const [hoveredIndex, setHoveredIndex] = useState(null);
+	const { t } = useTranslation();
 
 	return (
 		<div className="project">
@@ -37,15 +39,21 @@ const Project = (props) => {
 						</div>
 					))}
 				</div>
-				<div className="project-title">{title}</div>
-				<div className="text-sm">{description}</div>
-				{link && linkText && (
+				<div className="project-title">
+					{t(`projects.projectDetails.${title}.title`)}
+				</div>
+				<div className="text-sm">
+					{t(`projects.projectDetails.${title}.description`)}
+				</div>
+				{link && (
 					<Link to={link}>
 						<div className="project-link">
 							<div className="project-link-icon">
 								<FontAwesomeIcon icon={faLink} />
 							</div>
-							<div className="project-link-text">{linkText}</div>
+							<div className="project-link-text">
+								{t(`projects.projectDetails.${title}.linkText`)}
+							</div>
 						</div>
 					</Link>
 				)}

@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 import OptimizedImage from "../components/common/optimizedImage";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -22,6 +23,8 @@ import {
 import "./styles/homepage.css";
 
 const Homepage = () => {
+	const { t } = useTranslation();
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -52,14 +55,15 @@ const Homepage = () => {
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									{t("home.title")}
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description1}
+									{t("home.description1")}{" "}
+									{t("home.description2")}
 								</div>
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description3}
+									{t("home.description3")}
 								</div>
 							</div>
 
@@ -82,6 +86,7 @@ const Homepage = () => {
 								href={INFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
+								aria-label={t("home.socialLinks.github")}
 							>
 								<FontAwesomeIcon
 									icon={faGithub}
@@ -92,6 +97,7 @@ const Homepage = () => {
 								href={INFO.socials.stackoverflow}
 								target="_blank"
 								rel="noreferrer"
+								aria-label={t("home.socialLinks.stackoverflow")}
 							>
 								<FontAwesomeIcon
 									icon={faStackOverflow}
@@ -102,6 +108,7 @@ const Homepage = () => {
 								href={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"
+								aria-label={t("home.socialLinks.instagram")}
 							>
 								<FontAwesomeIcon
 									icon={faInstagram}
@@ -112,6 +119,7 @@ const Homepage = () => {
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
 								rel="noreferrer"
+								aria-label={t("home.socialLinks.email")}
 							>
 								<FontAwesomeIcon
 									icon={faMailBulk}
@@ -137,7 +145,7 @@ const Homepage = () => {
 						</div>
 						<div className="pb-4">
 							<p className="articles-title">
-								I also write sometimes.
+								{t("home.writingSection")}
 							</p>
 							{myArticles.map((article, index) => (
 								<div

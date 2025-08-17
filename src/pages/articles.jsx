@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 import Article from "../components/articles/article";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -11,6 +12,8 @@ import INFO from "../data/user";
 import "./styles/articles.css";
 
 const Articles = () => {
+	const { t } = useTranslation();
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -20,7 +23,9 @@ const Articles = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Articles | ${INFO.main.title}`}</title>
+				<title>
+					{t("articles.pageTitle", { title: INFO.main.title })}
+				</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -38,13 +43,14 @@ const Articles = () => {
 					</div>
 
 					<div className="articles-main-container">
-						<div className="title">{INFO.articles.title}</div>
+						<div className="title">{t("articles.title")}</div>
 
-						<div className="subtitle">
-							{INFO.articles.description}
-						</div>
+						<div className="subtitle">{t("articles.subtitle")}</div>
 
-						<div className="articles-container">
+						<div
+							className="articles-container"
+							aria-label={t("articles.aria.articlesList")}
+						>
 							<div className="articles-wrapper">
 								{myArticles.map((article, index) => (
 									<div
@@ -57,6 +63,12 @@ const Articles = () => {
 											title={article.title}
 											description={article.description}
 											link={`/article/${index + 1}`}
+											aria-label={t(
+												"articles.aria.articleLink",
+												{
+													title: article.title,
+												},
+											)}
 										/>
 									</div>
 								))}
