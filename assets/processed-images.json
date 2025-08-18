@@ -1,691 +1,320 @@
 {
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/icons/back-button.png": {
-    "lastModified": "2025-08-17T11:40:24.912Z",
-    "category": "icons",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/icons/facebook.png": {
-    "lastModified": "2025-08-17T11:40:24.913Z",
-    "category": "icons",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/icons/twitter.png": {
-    "lastModified": "2025-08-17T11:40:24.916Z",
-    "category": "icons",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/allianz.jpeg": {
-    "lastModified": "2025-08-18T18:26:39.267Z",
-    "category": "logos/companies",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/arbisoft.png": {
-    "lastModified": "2025-08-17T15:04:58.585Z",
-    "category": "logos/companies",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/armani.jpeg": {
-    "lastModified": "2025-08-17T15:04:58.586Z",
-    "category": "logos/companies",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/asmbyte.png": {
-    "lastModified": "2025-08-17T15:04:58.588Z",
-    "category": "logos/companies",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/commercetools.jpeg": {
-    "lastModified": "2025-08-17T15:04:58.589Z",
-    "category": "logos/companies",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/ease.png": {
-    "lastModified": "2025-08-17T15:04:58.590Z",
-    "category": "logos/companies",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/epam_systems.jpeg": {
-    "lastModified": "2025-08-18T18:26:59.127Z",
-    "category": "logos/companies",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/intellia.jpeg": {
-    "lastModified": "2025-08-17T15:04:58.590Z",
-    "category": "logos/companies",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/laam.png": {
-    "lastModified": "2025-08-17T15:04:58.591Z",
-    "category": "logos/companies",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/lafamiglia.jpeg": {
-    "lastModified": "2025-08-17T15:04:58.592Z",
-    "category": "logos/companies",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/motive.png": {
-    "lastModified": "2025-08-17T15:04:58.593Z",
-    "category": "logos/companies",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/motive1.jpeg": {
-    "lastModified": "2025-08-17T15:04:58.594Z",
-    "category": "logos/companies",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/ukb.jpeg": {
-    "lastModified": "2025-08-17T15:04:58.595Z",
-    "category": "logos/companies",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/education/LUMS.png": {
-    "lastModified": "2025-08-17T15:04:58.595Z",
-    "category": "logos/education",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/education/beaconhouse.png": {
-    "lastModified": "2025-08-17T15:04:58.596Z",
-    "category": "logos/education",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/education/nixor.png": {
-    "lastModified": "2025-08-17T15:04:58.596Z",
-    "category": "logos/education",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/education/tum.png": {
-    "lastModified": "2025-08-17T15:04:58.597Z",
-    "category": "logos/education",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/balsamiq.png": {
-    "lastModified": "2025-08-17T15:04:58.605Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/c-sharp.jpg": {
-    "lastModified": "2025-08-17T15:04:58.606Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/css.png": {
-    "lastModified": "2025-08-17T15:04:58.606Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/docker.png": {
-    "lastModified": "2025-08-17T15:04:58.606Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/figma.jpg": {
-    "lastModified": "2025-08-17T15:04:58.607Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/firebase-auth.png": {
-    "lastModified": "2025-08-17T15:04:58.607Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/firebase.png": {
-    "lastModified": "2025-08-17T15:04:58.607Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/flutter.png": {
-    "lastModified": "2025-08-17T15:04:58.608Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/gitlab.png": {
-    "lastModified": "2025-08-17T15:04:58.608Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/google-arcore.png": {
-    "lastModified": "2025-08-17T15:04:58.608Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/google-maps.png": {
-    "lastModified": "2025-08-17T15:04:58.609Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/heroku.png": {
-    "lastModified": "2025-08-17T15:04:58.609Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/html.png": {
-    "lastModified": "2025-08-17T15:04:58.609Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/javascript.png": {
-    "lastModified": "2025-08-17T15:04:58.610Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/mongodb.png": {
-    "lastModified": "2025-08-17T15:04:58.611Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/mural.png": {
-    "lastModified": "2025-08-17T15:04:58.612Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/react-full.jpeg": {
-    "lastModified": "2025-08-17T15:04:58.616Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/react.png": {
-    "lastModified": "2025-08-17T15:04:58.621Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/shadcn.png": {
-    "lastModified": "2025-08-17T15:04:58.622Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/spring-boot.png": {
-    "lastModified": "2025-08-17T15:04:58.622Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/tailwind.png": {
-    "lastModified": "2025-08-17T15:04:58.623Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/unity.png": {
-    "lastModified": "2025-08-17T15:04:58.623Z",
-    "category": "logos/tech",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/profile/about.jpg": {
-    "lastModified": "2025-08-15T22:54:44.313Z",
-    "category": "photos/profile",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/profile/homepage.jpg": {
-    "lastModified": "2025-08-15T22:54:44.319Z",
-    "category": "photos/profile",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/profile/homepage.png": {
-    "lastModified": "2025-08-17T13:41:13.141Z",
-    "category": "photos/profile",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/profile/logo.jpg": {
-    "lastModified": "2025-08-15T22:54:44.324Z",
-    "category": "photos/profile",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/profile/mustafaSalute.gif": {
-    "lastModified": "2025-08-17T11:40:24.915Z",
-    "category": "photos/profile",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/team/fahad.jpeg": {
-    "lastModified": "2025-08-18T18:24:57.596Z",
-    "category": "photos/team",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/team/hamza.jpeg": {
-    "lastModified": "2025-08-15T22:54:44.318Z",
-    "category": "photos/team",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/team/julian.jpeg": {
-    "lastModified": "2025-08-15T22:54:44.319Z",
-    "category": "photos/team",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/team/omer.jpeg": {
-    "lastModified": "2025-08-15T22:54:44.329Z",
-    "category": "photos/team",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/team/serhat.jpeg": {
-    "lastModified": "2025-08-15T22:54:44.331Z",
-    "category": "photos/team",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  },
-  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/team/tom.jpeg": {
-    "lastModified": "2025-08-18T18:25:01.206Z",
-    "category": "photos/team",
-    "sizes": [
-      "sm",
-      "md",
-      "lg"
-    ],
-    "formats": [
-      "original",
-      "webp"
-    ]
-  }
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/icons/back-button.png": {
+		"lastModified": "2025-08-17T11:40:24.912Z",
+		"category": "icons",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/icons/facebook.png": {
+		"lastModified": "2025-08-17T11:40:24.913Z",
+		"category": "icons",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/icons/twitter.png": {
+		"lastModified": "2025-08-17T11:40:24.916Z",
+		"category": "icons",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/allianz.jpeg": {
+		"lastModified": "2025-08-18T18:26:39.267Z",
+		"category": "logos/companies",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/arbisoft.png": {
+		"lastModified": "2025-08-17T15:04:58.585Z",
+		"category": "logos/companies",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/armani.jpeg": {
+		"lastModified": "2025-08-17T15:04:58.586Z",
+		"category": "logos/companies",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/asmbyte.png": {
+		"lastModified": "2025-08-17T15:04:58.588Z",
+		"category": "logos/companies",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/commercetools.jpeg": {
+		"lastModified": "2025-08-17T15:04:58.589Z",
+		"category": "logos/companies",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/ease.png": {
+		"lastModified": "2025-08-17T15:04:58.590Z",
+		"category": "logos/companies",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/epam_systems.jpeg": {
+		"lastModified": "2025-08-18T18:26:59.127Z",
+		"category": "logos/companies",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/intellia.jpeg": {
+		"lastModified": "2025-08-17T15:04:58.590Z",
+		"category": "logos/companies",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/laam.png": {
+		"lastModified": "2025-08-17T15:04:58.591Z",
+		"category": "logos/companies",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/lafamiglia.jpeg": {
+		"lastModified": "2025-08-17T15:04:58.592Z",
+		"category": "logos/companies",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/motive.png": {
+		"lastModified": "2025-08-17T15:04:58.593Z",
+		"category": "logos/companies",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/motive1.jpeg": {
+		"lastModified": "2025-08-17T15:04:58.594Z",
+		"category": "logos/companies",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/companies/ukb.jpeg": {
+		"lastModified": "2025-08-17T15:04:58.595Z",
+		"category": "logos/companies",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/education/LUMS.png": {
+		"lastModified": "2025-08-17T15:04:58.595Z",
+		"category": "logos/education",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/education/beaconhouse.png": {
+		"lastModified": "2025-08-17T15:04:58.596Z",
+		"category": "logos/education",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/education/nixor.png": {
+		"lastModified": "2025-08-17T15:04:58.596Z",
+		"category": "logos/education",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/education/tum.png": {
+		"lastModified": "2025-08-17T15:04:58.597Z",
+		"category": "logos/education",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/balsamiq.png": {
+		"lastModified": "2025-08-17T15:04:58.605Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/c-sharp.jpg": {
+		"lastModified": "2025-08-17T15:04:58.606Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/css.png": {
+		"lastModified": "2025-08-17T15:04:58.606Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/docker.png": {
+		"lastModified": "2025-08-17T15:04:58.606Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/figma.jpg": {
+		"lastModified": "2025-08-17T15:04:58.607Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/firebase-auth.png": {
+		"lastModified": "2025-08-17T15:04:58.607Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/firebase.png": {
+		"lastModified": "2025-08-17T15:04:58.607Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/flutter.png": {
+		"lastModified": "2025-08-17T15:04:58.608Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/gitlab.png": {
+		"lastModified": "2025-08-17T15:04:58.608Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/google-arcore.png": {
+		"lastModified": "2025-08-17T15:04:58.608Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/google-maps.png": {
+		"lastModified": "2025-08-17T15:04:58.609Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/heroku.png": {
+		"lastModified": "2025-08-17T15:04:58.609Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/html.png": {
+		"lastModified": "2025-08-17T15:04:58.609Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/javascript.png": {
+		"lastModified": "2025-08-17T15:04:58.610Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/mongodb.png": {
+		"lastModified": "2025-08-17T15:04:58.611Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/mural.png": {
+		"lastModified": "2025-08-17T15:04:58.612Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/react-full.jpeg": {
+		"lastModified": "2025-08-17T15:04:58.616Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/react.png": {
+		"lastModified": "2025-08-17T15:04:58.621Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/shadcn.png": {
+		"lastModified": "2025-08-17T15:04:58.622Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/spring-boot.png": {
+		"lastModified": "2025-08-17T15:04:58.622Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/tailwind.png": {
+		"lastModified": "2025-08-17T15:04:58.623Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/logos/tech/unity.png": {
+		"lastModified": "2025-08-17T15:04:58.623Z",
+		"category": "logos/tech",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/profile/about.jpg": {
+		"lastModified": "2025-08-15T22:54:44.313Z",
+		"category": "photos/profile",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/profile/homepage.jpg": {
+		"lastModified": "2025-08-15T22:54:44.319Z",
+		"category": "photos/profile",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/profile/homepage.png": {
+		"lastModified": "2025-08-17T13:41:13.141Z",
+		"category": "photos/profile",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/profile/logo.jpg": {
+		"lastModified": "2025-08-15T22:54:44.324Z",
+		"category": "photos/profile",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/profile/mustafaSalute.gif": {
+		"lastModified": "2025-08-17T11:40:24.915Z",
+		"category": "photos/profile",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/team/fahad.jpeg": {
+		"lastModified": "2025-08-18T18:24:57.596Z",
+		"category": "photos/team",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/team/hamza.jpeg": {
+		"lastModified": "2025-08-15T22:54:44.318Z",
+		"category": "photos/team",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/team/julian.jpeg": {
+		"lastModified": "2025-08-15T22:54:44.319Z",
+		"category": "photos/team",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/team/omer.jpeg": {
+		"lastModified": "2025-08-15T22:54:44.329Z",
+		"category": "photos/team",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/team/serhat.jpeg": {
+		"lastModified": "2025-08-15T22:54:44.331Z",
+		"category": "photos/team",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	},
+	"/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/team/tom.jpeg": {
+		"lastModified": "2025-08-18T18:25:01.206Z",
+		"category": "photos/team",
+		"sizes": ["sm", "md", "lg"],
+		"formats": ["original", "webp"]
+	}
 }
