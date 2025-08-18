@@ -26,7 +26,7 @@ const Project = (props) => {
 							<OptimizedImage
 								src={tech.image}
 								alt={tech.link}
-								className="w-8 h-8 object-contain rounded-full border border-quaternary shadow-sm"
+								className="w-8 h-8 object-contain rounded-full border border-quaternary shadow-sm bg-white"
 								loading="lazy"
 							/>
 							{hoveredIndex === index && (

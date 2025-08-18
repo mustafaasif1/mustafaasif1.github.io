@@ -78,7 +78,7 @@ export function Slider({ testimonials }) {
 											loading="lazy"
 										/>
 										<OptimizedImage
-											className="mx-auto h-10 w-10 rounded-full absolute left-1/2 top-1/2 border shadow-md object-contain"
+											className="mx-auto h-10 w-10 rounded-full absolute left-1/2 top-1/2 border shadow-md object-contain bg-white"
 											style={{
 												borderColor:
 													"var(--quaternary-color)",
