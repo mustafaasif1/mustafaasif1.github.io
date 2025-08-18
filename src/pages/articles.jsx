@@ -10,6 +10,7 @@ import SEO from "../data/seo";
 import INFO from "../data/user";
 
 import "./styles/articles.css";
+import "../components/common/styles/header.css";
 
 const Articles = () => {
 	const { t } = useTranslation();

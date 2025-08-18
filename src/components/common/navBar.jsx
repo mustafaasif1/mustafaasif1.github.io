@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import "./styles/navBar.css";
+import "./styles/header.css";
 
 const NavBar = (props) => {
 	const { active } = props;

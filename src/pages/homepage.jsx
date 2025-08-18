@@ -21,6 +21,7 @@ import {
 	faMailBulk,
 } from "../utils/icons";
 import "./styles/homepage.css";
+import "../components/common/styles/header.css";
 
 const Homepage = () => {
 	const { t } = useTranslation();

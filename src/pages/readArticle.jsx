@@ -12,6 +12,7 @@ import { faArrowLeft } from "../utils/icons";
 import INFO from "../data/user";
 import myArticles from "../data/articles";
 import "./styles/readArticle.css";
+import "../components/common/styles/header.css";
 
 const ReadArticle = () => {
 	const navigate = useNavigate();

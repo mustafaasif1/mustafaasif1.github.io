@@ -9,6 +9,7 @@ import SEO from "../data/seo";
 import INFO from "../data/user";
 
 import "./styles/contact.css";
+import "../components/common/styles/header.css";
 
 const Contact = () => {
 	const { t } = useTranslation();

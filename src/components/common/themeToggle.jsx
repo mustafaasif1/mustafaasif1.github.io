@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "../../utils/icons";
 import { useTheme } from "../../context/ThemeContext";
-import "./styles/themeToggle.css";
+import "./styles/header.css";
 
 const ThemeToggle = () => {
 	const { theme, toggleTheme } = useTheme();

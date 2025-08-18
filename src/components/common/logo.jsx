@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import OptimizedImage from "./optimizedImage";
 import INFO from "../../data/user";
-import "./styles/logo.css";
+import "./styles/header.css";
 
 const Logo = (props) => {
 	const { width = 46, link = true } = props;

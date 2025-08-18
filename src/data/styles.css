@@ -32,21 +32,6 @@
 	/* ---------------------- */
 }
 
-/* Common logo container styles */
-.homepage-logo,
-.about-logo,
-.projects-logo,
-.articles-logo,
-.read-article-logo,
-.contact-logo {
-	display: flex;
-	position: fixed;
-	border-radius: 50%;
-	top: 3vh;
-	z-index: 998;
-	padding: 0;
-}
-
 /* Apply background color to root elements */
 html {
 	background-color: var(--background-color);

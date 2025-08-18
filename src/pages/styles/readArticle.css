@@ -1,10 +1,5 @@
 @import "../../data/styles.css";
 
-.read-article-logo-container {
-	display: flex;
-	justify-content: left;
-}
-
 .read-article-container {
 	margin: 0;
 	padding-top: 120px;

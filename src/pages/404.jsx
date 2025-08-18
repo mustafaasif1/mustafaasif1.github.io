@@ -6,6 +6,7 @@ import Logo from "../components/common/logo";
 import INFO from "../data/user";
 
 import "./styles/404.css";
+import "../components/common/styles/header.css";
 
 const Notfound = () => {
 	useEffect(() => {

@@ -1,20 +1,5 @@
 @import "../../data/styles.css";
 
-.notfound-logo-container {
-	display: flex;
-	justify-content: left;
-	padding-top: 25px;
-}
-
-.notfound-logo {
-	display: flex;
-	position: fixed;
-	border: 1px solid var(--background-color);
-	border-radius: 50%;
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-	top: 3vh;
-}
-
 .notfound-container {
 	display: flex;
 	flex-direction: column;
