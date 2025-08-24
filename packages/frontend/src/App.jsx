@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
 import Loader from './components/common/loader';
 import ScrollToTopButton from './components/common/scrollToTopButton';
+import Chatbot from './components/common/chatbot';
 import { TRACKING_ID } from './data/tracking';
 import './utils/icons';
 import './app.css';
@@ -27,6 +28,7 @@ const App = () => {
     <ThemeProvider>
       <div className="App">
         <ScrollToTopButton />
+        <Chatbot />
         <Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/" element={<Homepage />} />

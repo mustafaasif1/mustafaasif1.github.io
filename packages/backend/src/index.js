@@ -42,6 +42,9 @@ const corsOptions = {
 };
 app.use(cors(corsOptions));
 
+// Import routes
+const chatRoutes = require('./routes/chat');
+
 // Create base router for /api
 const apiRouter = express.Router();
 
@@ -54,6 +57,9 @@ apiRouter.get('/health', (req, res) => {
 apiRouter.get('/', (req, res) => {
   res.json({ message: 'Welcome to the API' });
 });
+
+// Mount chat routes
+apiRouter.use('/chat', chatRoutes);
 
 // Mount all routes under /api
 app.use('/api', apiRouter);
