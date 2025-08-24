@@ -88,9 +88,7 @@ const Works = () => {
 				body={
 					<div>
 						{workData.map((work, index) => {
-							const position = t(
-								`experience.positions.${work.id}`,
-							);
+
 							return (
 								<div className="flex pb-6" key={index}>
 									<OptimizedImage

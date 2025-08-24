@@ -1,0 +1,74 @@
+{
+  "name": "frontend",
+  "description": "Mustafa's Personal portfolio frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@splidejs/react-splide": "^0.7.12",
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
+    "i18next": "^23.16.8",
+    "i18next-browser-languagedetector": "^7.2.2",
+    "i18next-http-backend": "^2.7.3",
+    "prop-types": "^15.8.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-ga4": "^2.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-i18next": "^14.1.3",
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.17.0",
+    "rehype-raw": "^7.0.0",
+    "styled-components": "^5.3.10",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.12",
+    "@testing-library/jest-dom": "^6.7.0",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "gh-pages": "^4.0.0",
+    "globals": "^16.3.0",
+
+    "prettier": "^3.6.2",
+    "sharp": "^0.34.3",
+    "tailwindcss": "^3.4.3"
+  },
+  "scripts": {
+    "optimize-images": "node scripts/optimizeImages.js",
+    "dev": "react-scripts start",
+    "build": "REACT_APP_ENV=production react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "REACT_APP_ENV=production pnpm run build",
+    "deploy": "gh-pages -d build -e .",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,json,md}\""
+  },
+  "homepage": "https://mustafaasif1.github.io",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
