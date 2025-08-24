@@ -3,6 +3,7 @@
   "description": "Mustafa's Personal portfolio frontend",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
@@ -23,42 +24,39 @@
     "react-i18next": "^14.1.3",
     "react-markdown": "^9.0.1",
     "react-router-dom": "^6.22.3",
-    "react-scripts": "5.0.1",
     "react-spinners": "^0.17.0",
     "rehype-raw": "^7.0.0",
-    "styled-components": "^5.3.10",
-    "web-vitals": "^2.1.4"
+    "styled-components": "^6.1.8",
+    "web-vitals": "^3.5.2"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.12",
     "@testing-library/jest-dom": "^6.7.0",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
-    "gh-pages": "^4.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.1.1",
     "globals": "^16.3.0",
-
+    "postcss": "^8.4.38",
     "prettier": "^3.6.2",
     "sharp": "^0.34.3",
-    "tailwindcss": "^3.4.3"
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.6",
+    "vitest": "^1.4.0"
   },
   "scripts": {
     "optimize-images": "node scripts/optimizeImages.js",
-    "dev": "react-scripts start",
-    "build": "REACT_APP_ENV=production react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "REACT_APP_ENV=production pnpm run build",
-    "deploy": "gh-pages -d build -e .",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d dist -e .",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "format:check": "prettier --check \"**/*.{js,jsx,json,md}\""
   },
   "homepage": "https://mustafaasif1.github.io",
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",

@@ -1,184 +1,184 @@
 {
-	"common": {
-		"switchLanguage": "Switch to German",
-		"scrollToTop": "Scroll to top",
-		"switchTheme": "Switch theme",
-		"email": "Email",
-		"viewProject": "View Project",
-		"readMore": "Read More",
-		"present": "Present",
-		"fullTime": "Full-time",
-		"partTime": "Part-time",
-		"internship": "Internship"
-	},
-	"nav": {
-		"home": "Home",
-		"about": "About",
-		"projects": "Projects",
-		"articles": "Articles",
-		"contact": "Contact"
-	},
-	"footer": {
-		"copyright": "© 2024 Mustafa Asif. All Rights Reserved.",
-		"aria": {
-			"navigation": "Footer navigation",
-			"copyright": "Copyright information"
-		}
-	},
-	"experience": {
-		"title": "Professional Experience",
-		"positions": {
-			"commercetools": {
-				"title": "Full Stack Software Engineer",
-				"company": "commercetools",
-				"type": "Working Student",
-				"period": "June 2024 - Present"
-			},
-			"tum": {
-				"title": "Full Stack Software Engineer (Student Assistant)",
-				"company": "Technical University of Munich",
-				"type": "Part-time",
-				"period": "Apr 2023 - Present"
-			},
-			"ease": {
-				"title": "Front-end Software Engineer",
-				"company": "ease",
-				"type": "Interdisciplinary Project (IDP)",
-				"period": "Oct 2023 - Mar 2024"
-			},
-			"laFamiglia": {
-				"title": "Front-end Software Engineer",
-				"company": "La Famiglia",
-				"type": "Practical Course",
-				"period": "Oct 2023 - Jan 2024"
-			},
-			"motive": {
-				"title": "Software Engineer",
-				"company": "Motive",
-				"type": "Full-time",
-				"period": "Jun 2022 - Sep 2022"
-			},
-			"arbisoft": {
-				"title": "Software Engineer",
-				"company": "Arbisoft",
-				"type": "Full-time",
-				"period": "Jun 2021 - Jun 2022"
-			},
-			"laam": {
-				"title": "Software Engineer Intern",
-				"company": "LAAM",
-				"type": "Internship",
-				"period": "Feb 2021 - May 2021"
-			}
-		}
-	},
-	"education": {
-		"title": "Education",
-		"institutions": {
-			"tum": {
-				"name": "Technical University of Munich",
-				"degree": "Master of Science (M.Sc.), Informatik",
-				"period": "Oct 2022 - Present"
-			},
-			"lums": {
-				"name": "Lahore University of Management Sciences",
-				"degree": "Bachelor of Science (B.Sc.), Computer Science",
-				"period": "2017 - 2021"
-			},
-			"nixor": {
-				"name": "Nixor College",
-				"degree": "A-levels, Sciences",
-				"period": "2015 - 2017"
-			},
-			"beaconhouse": {
-				"name": "Beaconhouse School System",
-				"degree": "O-levels, Sciences",
-				"period": "Until 2015"
-			}
-		}
-	},
-	"articles": {
-		"pageTitle": "Articles | {{title}}",
-		"title": "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		"subtitle": "Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-		"aria": {
-			"articlesList": "List of articles",
-			"articleLink": "Read article: {{title}}"
-		}
-	},
-	"contact": {
-		"pageTitle": "Contact | {{title}}",
-		"title": "Let's Get in Touch: Ways to Connect with Me",
-		"description": "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at <email>{{email}}</email>. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. If you prefer to connect on social media, you can find me on <linkedin>LinkedIn</linkedin>. Thanks again for your interest, and I look forward to hearing from you!",
-		"aria": {
-			"emailLink": "Send email to {{email}}",
-			"linkedinLink": "Visit my LinkedIn profile",
-			"socialsSection": "Social media links"
-		}
-	},
-	"home": {
-		"title": "Full-stack web and mobile app developer, and squash enthusiast.",
-		"description1": "Hey there! I'm Mustafa, currently studying M.Sc. Informatics at the Technical University of Munich, all about software-intensive systems. I got my Bachelor's in Computer Science from Lahore University of Management Sciences.",
-		"description2": "Along my coding journey, I've played with JavaScript, HTML, CSS, Python, Angular, ReactJS, React Native, and even fluttered around Flutter. Always eager to learn more!",
-		"description3": "And if you're a fellow coder or recruiter in the area, let's connect! I'm all about expanding the network. See you around! 🚀",
-		"writingSection": "I also write sometimes.",
-		"socialLinks": {
-			"github": "View my GitHub profile",
-			"stackoverflow": "Check my Stack Overflow",
-			"instagram": "Follow me on Instagram",
-			"email": "Send me an email"
-		}
-	},
-	"about": {
-		"pageTitle": "About | {{title}}",
-		"title": "I'm Mustafa Asif. I live in Munich, where I design the future.",
-		"description": "I've worked on a variety of projects over the years and I'm proud of the progress I've made. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
-		"imageAlt": "Profile photo of Mustafa Asif",
-		"socials": {
-			"github": "Follow me on GitHub",
-			"linkedin": "Connect on LinkedIn",
-			"instagram": "Follow on Instagram",
-			"stackoverflow": "Check my Stack Overflow",
-			"email": "Send me an email"
-		}
-	},
-	"projects": {
-		"title": "Things I've made trying to put my dent in the universe.",
-		"subtitle": "I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-		"viewProject": "View Project",
-		"viewWebsite": "View Website",
-		"techStack": "Technology",
-		"projectDetails": {
-			"asmbyte": {
-				"title": "ASMByte",
-				"description": "ASMByte's Landing website, showcasing their expertise in web and mobile app development, and data science projects.",
-				"linkText": "View Website"
-			},
-			"lahu": {
-				"title": "Lahu - Blood Donation Application",
-				"description": "A complete blood donation mobile application with Flutter as the front end and Cloud Firestore as the backend.",
-				"linkText": "View Project"
-			},
-			"kapra-eid": {
-				"title": "Kapra Eid - Clothing Donation Application",
-				"description": "Designed and prototyped a complete application in Figma aimed to bridge the gap between clothing donors and charitable organisations.",
-				"linkText": "View Project"
-			},
-			"ar-simulations": {
-				"title": "AR Simulations For Fire Emergencies",
-				"description": "Researched and developed Augmented Reality simulations with a purpose to train people about the effective ways they could safely handle fire protection devices during fire emergencies.",
-				"linkText": "View Project"
-			},
-			"asli-doctor": {
-				"title": "Asli (Real) Doctor",
-				"description": "Summer 2019 project: Created a JavaScript web app addressing the rise of fake doctors by providing a platform to verify their credentials and report suspicious activity.",
-				"linkText": "View Project"
-			},
-			"web-ide": {
-				"title": "Web-Based IDE",
-				"description": "Designed and deployed a web-based IDE enabling code compilation and management in a team of 5 students, powered by a scalable microservices architecture.",
-				"linkText": "View Project"
-			}
-		}
-	}
+  "common": {
+    "switchLanguage": "Switch to German",
+    "scrollToTop": "Scroll to top",
+    "switchTheme": "Switch theme",
+    "email": "Email",
+    "viewProject": "View Project",
+    "readMore": "Read More",
+    "present": "Present",
+    "fullTime": "Full-time",
+    "partTime": "Part-time",
+    "internship": "Internship"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "articles": "Articles",
+    "contact": "Contact"
+  },
+  "footer": {
+    "copyright": "© 2024 Mustafa Asif. All Rights Reserved.",
+    "aria": {
+      "navigation": "Footer navigation",
+      "copyright": "Copyright information"
+    }
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "positions": {
+      "commercetools": {
+        "title": "Full Stack Software Engineer",
+        "company": "commercetools",
+        "type": "Working Student",
+        "period": "June 2024 - Present"
+      },
+      "tum": {
+        "title": "Full Stack Software Engineer (Student Assistant)",
+        "company": "Technical University of Munich",
+        "type": "Part-time",
+        "period": "Apr 2023 - Present"
+      },
+      "ease": {
+        "title": "Front-end Software Engineer",
+        "company": "ease",
+        "type": "Interdisciplinary Project (IDP)",
+        "period": "Oct 2023 - Mar 2024"
+      },
+      "laFamiglia": {
+        "title": "Front-end Software Engineer",
+        "company": "La Famiglia",
+        "type": "Practical Course",
+        "period": "Oct 2023 - Jan 2024"
+      },
+      "motive": {
+        "title": "Software Engineer",
+        "company": "Motive",
+        "type": "Full-time",
+        "period": "Jun 2022 - Sep 2022"
+      },
+      "arbisoft": {
+        "title": "Software Engineer",
+        "company": "Arbisoft",
+        "type": "Full-time",
+        "period": "Jun 2021 - Jun 2022"
+      },
+      "laam": {
+        "title": "Software Engineer Intern",
+        "company": "LAAM",
+        "type": "Internship",
+        "period": "Feb 2021 - May 2021"
+      }
+    }
+  },
+  "education": {
+    "title": "Education",
+    "institutions": {
+      "tum": {
+        "name": "Technical University of Munich",
+        "degree": "Master of Science (M.Sc.), Informatik",
+        "period": "Oct 2022 - Present"
+      },
+      "lums": {
+        "name": "Lahore University of Management Sciences",
+        "degree": "Bachelor of Science (B.Sc.), Computer Science",
+        "period": "2017 - 2021"
+      },
+      "nixor": {
+        "name": "Nixor College",
+        "degree": "A-levels, Sciences",
+        "period": "2015 - 2017"
+      },
+      "beaconhouse": {
+        "name": "Beaconhouse School System",
+        "degree": "O-levels, Sciences",
+        "period": "Until 2015"
+      }
+    }
+  },
+  "articles": {
+    "pageTitle": "Articles | {{title}}",
+    "title": "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+    "subtitle": "Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+    "aria": {
+      "articlesList": "List of articles",
+      "articleLink": "Read article: {{title}}"
+    }
+  },
+  "contact": {
+    "pageTitle": "Contact | {{title}}",
+    "title": "Let's Get in Touch: Ways to Connect with Me",
+    "description": "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at <email>{{email}}</email>. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. If you prefer to connect on social media, you can find me on <linkedin>LinkedIn</linkedin>. Thanks again for your interest, and I look forward to hearing from you!",
+    "aria": {
+      "emailLink": "Send email to {{email}}",
+      "linkedinLink": "Visit my LinkedIn profile",
+      "socialsSection": "Social media links"
+    }
+  },
+  "home": {
+    "title": "Full-stack web and mobile app developer, and squash enthusiast.",
+    "description1": "Hey there! I'm Mustafa, currently studying M.Sc. Informatics at the Technical University of Munich, all about software-intensive systems. I got my Bachelor's in Computer Science from Lahore University of Management Sciences.",
+    "description2": "Along my coding journey, I've played with JavaScript, HTML, CSS, Python, Angular, ReactJS, React Native, and even fluttered around Flutter. Always eager to learn more!",
+    "description3": "And if you're a fellow coder or recruiter in the area, let's connect! I'm all about expanding the network. See you around! 🚀",
+    "writingSection": "I also write sometimes.",
+    "socialLinks": {
+      "github": "View my GitHub profile",
+      "stackoverflow": "Check my Stack Overflow",
+      "instagram": "Follow me on Instagram",
+      "email": "Send me an email"
+    }
+  },
+  "about": {
+    "pageTitle": "About | {{title}}",
+    "title": "I'm Mustafa Asif. I live in Munich, where I design the future.",
+    "description": "I've worked on a variety of projects over the years and I'm proud of the progress I've made. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+    "imageAlt": "Profile photo of Mustafa Asif",
+    "socials": {
+      "github": "Follow me on GitHub",
+      "linkedin": "Connect on LinkedIn",
+      "instagram": "Follow on Instagram",
+      "stackoverflow": "Check my Stack Overflow",
+      "email": "Send me an email"
+    }
+  },
+  "projects": {
+    "title": "Things I've made trying to put my dent in the universe.",
+    "subtitle": "I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
+    "viewProject": "View Project",
+    "viewWebsite": "View Website",
+    "techStack": "Technology",
+    "projectDetails": {
+      "asmbyte": {
+        "title": "ASMByte",
+        "description": "ASMByte's Landing website, showcasing their expertise in web and mobile app development, and data science projects.",
+        "linkText": "View Website"
+      },
+      "lahu": {
+        "title": "Lahu - Blood Donation Application",
+        "description": "A complete blood donation mobile application with Flutter as the front end and Cloud Firestore as the backend.",
+        "linkText": "View Project"
+      },
+      "kapra-eid": {
+        "title": "Kapra Eid - Clothing Donation Application",
+        "description": "Designed and prototyped a complete application in Figma aimed to bridge the gap between clothing donors and charitable organisations.",
+        "linkText": "View Project"
+      },
+      "ar-simulations": {
+        "title": "AR Simulations For Fire Emergencies",
+        "description": "Researched and developed Augmented Reality simulations with a purpose to train people about the effective ways they could safely handle fire protection devices during fire emergencies.",
+        "linkText": "View Project"
+      },
+      "asli-doctor": {
+        "title": "Asli (Real) Doctor",
+        "description": "Summer 2019 project: Created a JavaScript web app addressing the rise of fake doctors by providing a platform to verify their credentials and report suspicious activity.",
+        "linkText": "View Project"
+      },
+      "web-ide": {
+        "title": "Web-Based IDE",
+        "description": "Designed and deployed a web-based IDE enabling code compilation and management in a team of 5 students, powered by a scalable microservices architecture.",
+        "linkText": "View Project"
+      }
+    }
+  }
 }

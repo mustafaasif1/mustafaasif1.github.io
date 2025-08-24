@@ -6,22 +6,24 @@ const morgan = require('morgan');
 
 const app = express();
 // For AWS Elastic Beanstalk, use process.env.PORT
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 8000;
 
 // Production security configurations
 if (process.env.NODE_ENV === 'production') {
   app.set('trust proxy', 1); // trust first proxy
-  app.use(helmet({
-    contentSecurityPolicy: {
-      directives: {
-        defaultSrc: ["'self'"],
-        connectSrc: ["'self'", 'https://mustafaasif1.github.io'],
-        imgSrc: ["'self'", 'data:', 'https:'],
-        scriptSrc: ["'self'"],
-        styleSrc: ["'self'", "'unsafe-inline'"],
+  app.use(
+    helmet({
+      contentSecurityPolicy: {
+        directives: {
+          defaultSrc: ["'self'"],
+          connectSrc: ["'self'", 'https://mustafaasif1.github.io'],
+          imgSrc: ["'self'", 'data:', 'https:'],
+          scriptSrc: ["'self'"],
+          styleSrc: ["'self'", "'unsafe-inline'"],
+        },
       },
-    },
-  }));
+    }),
+  );
 }
 
 // Middleware
@@ -36,7 +38,7 @@ const corsOptions = {
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
-  optionsSuccessStatus: 200
+  optionsSuccessStatus: 200,
 };
 app.use(cors(corsOptions));
 

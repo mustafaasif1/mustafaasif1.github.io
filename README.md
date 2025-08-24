@@ -42,12 +42,14 @@ This monorepo contains both the frontend (React) and backend (Express.js) code f
 ### Installation
 
 1. Install dependencies:
+
    ```bash
    # Clean and install all dependencies
    pnpm clean && pnpm install:all
    ```
 
 2. Set up environment variables:
+
    ```bash
    # Development (.env)
    # Frontend
@@ -86,6 +88,7 @@ pnpm backend dev   # Backend only
 ### Frontend (GitHub Pages)
 
 1. Set production environment:
+
    ```bash
    # packages/frontend/.env.production
    REACT_APP_API_URL=https://your-aws-domain.com/api
@@ -100,6 +103,7 @@ pnpm backend dev   # Backend only
 ### Backend (AWS)
 
 1. Set AWS environment:
+
    ```bash
    PORT=8081
    NODE_ENV=production
@@ -115,6 +119,7 @@ pnpm backend dev   # Backend only
 ### Deployment Workflow
 
 1. Make changes:
+
    ```bash
    git add .
    git commit -m "Your changes"
@@ -122,6 +127,7 @@ pnpm backend dev   # Backend only
    ```
 
 2. Deploy:
+
    ```bash
    # Frontend
    pnpm frontend deploy
@@ -137,6 +143,7 @@ pnpm backend dev   # Backend only
 ### Development Issues
 
 1. Dependency problems:
+
    ```bash
    pnpm clean
    pnpm install:all
