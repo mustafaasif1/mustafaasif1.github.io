@@ -28,17 +28,23 @@
 	"experience": {
 		"title": "Berufserfahrung",
 		"positions": {
-			"commercetools": {
+			"commercetools-fulltime": {
 				"title": "Full Stack Software Engineer",
 				"company": "commercetools",
+				"type": "Vollzeit",
+				"period": "Juli 2025 - Heute"
+			},
+			"commercetools-workingstudent": {
+				"title": "Full Stack Software Engineer (Werkstudent)",
+				"company": "commercetools",
 				"type": "Werkstudent",
-				"period": "Juni 2024 - Heute"
+				"period": "Juni 2024 - Juni 2025"
 			},
 			"tum": {
 				"title": "Full Stack Software Engineer (Wissenschaftliche Hilfskraft)",
 				"company": "Technische Universität München",
 				"type": "Teilzeit",
-				"period": "Apr 2023 - Heute"
+				"period": "Apr 2023 - Juni 2024"
 			},
 			"ease": {
 				"title": "Frontend Software Engineer",
@@ -74,12 +80,15 @@
 	},
 	"education": {
 		"title": "Ausbildung",
+		"thesisLabel": "Masterarbeit",
+		"gradeLabel": "Note",
+		"activitiesLabel": "Aktivitäten und Gesellschaften",
 		"institutions": {
-			"tum": {
-				"name": "Technische Universität München",
-				"degree": "Master of Science (M.Sc.), Informatik",
-				"period": "Okt 2022 - Heute"
-			},
+		"tum": {
+			"name": "Technische Universität München",
+			"degree": "Master of Science (M.Sc.), Informatik",
+			"period": "Okt 2022 - Sep 2025"
+		},
 			"lums": {
 				"name": "Lahore University of Management Sciences",
 				"degree": "Bachelor of Science (B.Sc.), Informatik",
@@ -118,14 +127,13 @@
 	},
 	"home": {
 		"title": "Full-Stack Web- und Mobile-App-Entwickler und Squash-Enthusiast.",
-		"description1": "Hallo! Ich bin Mustafa und studiere derzeit M.Sc. Informatik an der Technischen Universität München mit Fokus auf softwareintensive Systeme. Meinen Bachelor in Informatik habe ich an der Lahore University of Management Sciences gemacht.",
+		"description1": "Hallo! Ich bin Mustafa, Full Stack Software Engineer bei commercetools. Ich habe kürzlich meinen M.Sc. Informatik an der Technischen Universität München abgeschlossen, mit Fokus auf softwareintensive Systeme. Meinen Bachelor in Informatik habe ich an der Lahore University of Management Sciences gemacht.",
 		"description2": "Auf meiner Coding-Reise habe ich mit JavaScript, HTML, CSS, Python, Angular, ReactJS, React Native und sogar Flutter gearbeitet. Immer bereit, Neues zu lernen!",
 		"description3": "Wenn du auch Entwickler oder Recruiter in der Gegend bist, lass uns vernetzen! Ich freue mich immer darauf, mein Netzwerk zu erweitern. Bis bald! 🚀",
 		"writingSection": "Manchmal schreibe ich auch.",
 		"socialLinks": {
 			"github": "Mein GitHub-Profil ansehen",
-			"stackoverflow": "Mein Stack Overflow-Profil",
-			"instagram": "Folgen Sie mir auf Instagram",
+			"linkedin": "Auf LinkedIn verbinden",
 			"email": "Senden Sie mir eine E-Mail"
 		}
 	},

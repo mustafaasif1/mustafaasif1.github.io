@@ -28,17 +28,23 @@
 	"experience": {
 		"title": "Professional Experience",
 		"positions": {
-			"commercetools": {
+			"commercetools-fulltime": {
 				"title": "Full Stack Software Engineer",
 				"company": "commercetools",
+				"type": "Full-time",
+				"period": "July 2025 - Present"
+			},
+			"commercetools-workingstudent": {
+				"title": "Full Stack Software Engineer (Working Student)",
+				"company": "commercetools",
 				"type": "Working Student",
-				"period": "June 2024 - Present"
+				"period": "June 2024 - June 2025"
 			},
 			"tum": {
 				"title": "Full Stack Software Engineer (Student Assistant)",
 				"company": "Technical University of Munich",
 				"type": "Part-time",
-				"period": "Apr 2023 - Present"
+				"period": "Apr 2023 - June 2024"
 			},
 			"ease": {
 				"title": "Front-end Software Engineer",
@@ -74,12 +80,15 @@
 	},
 	"education": {
 		"title": "Education",
+		"thesisLabel": "Master's Thesis",
+		"gradeLabel": "Grade",
+		"activitiesLabel": "Activities and Societies",
 		"institutions": {
-			"tum": {
-				"name": "Technical University of Munich",
-				"degree": "Master of Science (M.Sc.), Informatik",
-				"period": "Oct 2022 - Present"
-			},
+		"tum": {
+			"name": "Technical University of Munich",
+			"degree": "Master of Science (M.Sc.), Informatik",
+			"period": "Oct 2022 - Sep 2025"
+		},
 			"lums": {
 				"name": "Lahore University of Management Sciences",
 				"degree": "Bachelor of Science (B.Sc.), Computer Science",
@@ -118,14 +127,13 @@
 	},
 	"home": {
 		"title": "Full-stack web and mobile app developer, and squash enthusiast.",
-		"description1": "Hey there! I'm Mustafa, currently studying M.Sc. Informatics at the Technical University of Munich, all about software-intensive systems. I got my Bachelor's in Computer Science from Lahore University of Management Sciences.",
+		"description1": "Hey there! I'm Mustafa, a Full Stack Software Engineer at commercetools. I recently completed my M.Sc. Informatics at the Technical University of Munich, focusing on software-intensive systems. I got my Bachelor's in Computer Science from Lahore University of Management Sciences.",
 		"description2": "Along my coding journey, I've played with JavaScript, HTML, CSS, Python, Angular, ReactJS, React Native, and even fluttered around Flutter. Always eager to learn more!",
 		"description3": "And if you're a fellow coder or recruiter in the area, let's connect! I'm all about expanding the network. See you around! 🚀",
 		"writingSection": "I also write sometimes.",
 		"socialLinks": {
 			"github": "View my GitHub profile",
-			"stackoverflow": "Check my Stack Overflow",
-			"instagram": "Follow me on Instagram",
+			"linkedin": "Connect on LinkedIn",
 			"email": "Send me an email"
 		}
 	},

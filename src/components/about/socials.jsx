@@ -6,7 +6,6 @@ import {
 	faEnvelope,
 	faGithub,
 	faLinkedin,
-	faInstagram,
 } from "../../utils/icons";
 
 import "./styles/socials.css";
@@ -36,19 +35,6 @@ const Socials = () => {
 				>
 					<FontAwesomeIcon
 						icon={faLinkedin}
-						className="social-icon"
-					/>
-				</a>
-
-				<a
-					href={INFO.socials.instagram}
-					target="_blank"
-					rel="noreferrer"
-					className="social-item"
-					aria-label={t("about.socials.instagram")}
-				>
-					<FontAwesomeIcon
-						icon={faInstagram}
 						className="social-icon"
 					/>
 				</a>

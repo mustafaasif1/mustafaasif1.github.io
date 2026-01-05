@@ -12,11 +12,22 @@ const Works = () => {
 			id: "commercetools",
 			image: "/assets/images/logos/companies/commercetools.jpeg",
 			alt: "Full Stack Software Engineer at commercetools",
-			title: "Full Stack Software Engineer",
 			subtitle: "commercetools",
-			type: "Working Student",
-			duration: "June 2024 - Present",
 			link: "https://commercetools.com/",
+			positions: [
+				{
+					id: "commercetools-fulltime",
+					title: "Full Stack Software Engineer",
+					type: "Full-time",
+					duration: "July 2025 - Present",
+				},
+				{
+					id: "commercetools-workingstudent",
+					title: "Full Stack Software Engineer (Working Student)",
+					type: "Working Student",
+					duration: "June 2024 - June 2025",
+				},
+			],
 		},
 		{
 			id: "tum",
@@ -25,7 +36,7 @@ const Works = () => {
 			title: "Full Stack Software Engineer (Student Assistant)",
 			subtitle: "Technical University of Munich",
 			type: "Part-time",
-			duration: "Apr 2023 - Present",
+			duration: "Apr 2023 - June 2024",
 			link: "https://www.tum.de/en/",
 		},
 		{
@@ -88,8 +99,61 @@ const Works = () => {
 				body={
 					<div>
 						{workData.map((work, index) => {
+							// Handle entries with multiple positions (e.g., commercetools)
+							if (work.positions && work.positions.length > 0) {
+								return (
+									<div className="flex pb-6" key={index}>
+										<OptimizedImage
+											src={work.image}
+											alt={work.alt}
+											className="h-10 w-10 rounded-full border shadow-md object-contain bg-white"
+											style={{
+												borderColor:
+													"var(--quaternary-color)",
+											}}
+											loading="lazy"
+										/>
+										<div className="flex-grow pl-5">
+											{work.positions.map((position, posIndex) => {
+												const positionData = t(
+													`experience.positions.${position.id}`,
+													{ returnObjects: true },
+												);
+												return (
+													<div
+														key={posIndex}
+														className={posIndex > 0 ? "pt-3" : ""}
+													>
+														<div className="text-md font-medium text-secondary pb-1">
+															{positionData?.title || position.title} at{" "}
+															<a
+																href={work.link}
+																className="text-link"
+																target="_blank"
+																rel="noopener noreferrer"
+															>
+																{work.subtitle}
+															</a>
+														</div>
+														<div className="flex justify-between text-xs text-secondary">
+															<div className="mr-4">
+																{positionData?.type || position.type}
+															</div>
+															<div>
+																{positionData?.period || position.duration}
+															</div>
+														</div>
+													</div>
+												);
+											})}
+										</div>
+									</div>
+								);
+							}
+							// Handle single position entries (existing format)
 							const position = t(
 								`experience.positions.${work.id}`,
+								{ returnObjects: true },
 							);
 							return (
 								<div className="flex pb-6" key={index}>
@@ -105,7 +169,7 @@ const Works = () => {
 									/>
 									<div className="flex-grow pl-5">
 										<div className="text-md font-medium text-secondary pb-1">
-											{work.title} at{" "}
+											{position?.title || work.title} at{" "}
 											<a
 												href={work.link}
 												className="text-link"
@@ -117,9 +181,9 @@ const Works = () => {
 										</div>
 										<div className="flex justify-between text-xs text-secondary">
 											<div className="mr-4">
-												{work.type}
+												{position?.type || work.type}
 											</div>
-											<div>{work.duration}</div>
+											<div>{position?.period || work.duration}</div>
 										</div>
 									</div>
 								</div>

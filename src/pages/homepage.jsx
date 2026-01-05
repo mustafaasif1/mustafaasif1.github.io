@@ -16,8 +16,7 @@ import SEO from "../data/seo";
 import myArticles from "../data/articles";
 import {
 	faGithub,
-	faStackOverflow,
-	faInstagram,
+	faLinkedin,
 	faMailBulk,
 } from "../utils/icons";
 import "./styles/homepage.css";
@@ -95,24 +94,13 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
-								aria-label={t("home.socialLinks.stackoverflow")}
+								aria-label={t("home.socialLinks.linkedin")}
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-								aria-label={t("home.socialLinks.instagram")}
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
