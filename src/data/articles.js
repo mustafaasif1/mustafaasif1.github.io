@@ -17,7 +17,7 @@ const article_1 = {
 };
 
 const article_2 = {
-	date: "15 August 2025",
+	date: "06 Jan 2026",
 	title: "Beyond Static Scans: Why an \"A-Team\" of AI Agents is the Future of Web Security",
 	author: "Mustafa Asif",
 	description:
