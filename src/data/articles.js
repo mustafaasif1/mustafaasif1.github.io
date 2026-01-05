@@ -1,4 +1,5 @@
 import { article1markdown } from "./articles-markdown/article1";
+import { article2markdown } from "./articles-markdown/article2";
 
 const article_1 = {
 	date: "7 May 2023",
@@ -15,6 +16,23 @@ const article_1 = {
 	body: article1markdown,
 };
 
-const myArticles = [article_1];
+const article_2 = {
+	date: "15 August 2025",
+	title: "Beyond Static Scans: Why an \"A-Team\" of AI Agents is the Future of Web Security",
+	author: "Mustafa Asif",
+	description:
+		"Exploring a novel approach to software vulnerability detection using multi-agent systems powered by Large Language Models. This research demonstrates how AI can enhance security analysis by combining semantic understanding with collaborative agent architectures.",
+	keywords: [
+		"Software Security",
+		"Vulnerability Detection",
+		"Large Language Models",
+		"Multi-Agent Systems",
+		"AI in Cybersecurity",
+		"Static Analysis",
+	],
+	body: article2markdown,
+};
+
+const myArticles = [article_2, article_1];
 
 export default myArticles;

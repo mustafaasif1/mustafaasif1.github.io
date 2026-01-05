@@ -142,6 +142,7 @@
 		"title": "Ich bin Mustafa Asif. Ich lebe in München, wo ich die Zukunft gestalte.",
 		"description": "Im Laufe der Jahre habe ich an verschiedenen Projekten gearbeitet und bin stolz auf die Fortschritte, die ich gemacht habe. Wenn Sie sich für eines der Projekte interessieren, an denen ich gearbeitet habe, können Sie gerne den Code überprüfen und Verbesserungen oder Erweiterungen vorschlagen. Die Zusammenarbeit mit anderen ist eine großartige Möglichkeit zu lernen und zu wachsen, und ich bin immer offen für neue Ideen und Feedback.",
 		"imageAlt": "Profilfoto von Mustafa Asif",
+		"downloadResume": "Lebenslauf herunterladen",
 		"socials": {
 			"github": "Folgen Sie mir auf GitHub",
 			"linkedin": "Verbinden Sie sich auf LinkedIn",
@@ -159,32 +160,32 @@
 		"projectDetails": {
 			"asmbyte": {
 				"title": "ASMByte",
-				"description": "ASMByte's Landing-Website, die ihre Expertise in Web- und Mobile-App-Entwicklung sowie Data-Science-Projekten präsentiert.",
+				"description": "Entwicklung einer responsiven Landing-Website für ASMByte, die ihre Expertise in Web- und Mobile-App-Entwicklung sowie Data-Science-Projekten präsentiert. Erstellt mit Flutter für plattformübergreifende Kompatibilität, integriert Firebase für Authentifizierung und Echtzeitdaten, und implementiert Google Maps API für Standortdienste. Das Projekt verbesserte das Kundenengagement und bot eine moderne, professionelle Online-Präsenz.",
 				"linkText": "Website besuchen"
 			},
 			"lahu": {
 				"title": "Lahu - Blutspende-Anwendung",
-				"description": "Eine komplette Blutspende-Mobile-App mit Flutter als Frontend und Cloud Firestore als Backend.",
+				"description": "Entwicklung einer vollständigen Blutspende-Mobile-App mit Flutter und Cloud Firestore. Hauptfunktionen umfassen Echtzeit-Spender-Matching, Push-Benachrichtigungen für dringende Anfragen und sichere Benutzerauthentifizierung. Die App verbindet Spender effizient mit Empfängern und reduziert die Reaktionszeit bei kritischen Blutbedarfen. Implementierte komplexes State-Management und optimierte Datenbankabfragen für schnelle Abrufe.",
 				"linkText": "Projekt ansehen"
 			},
 			"kapra-eid": {
 				"title": "Kapra Eid - Kleiderspenden-Anwendung",
-				"description": "Entwicklung und Prototyping einer kompletten Anwendung in Figma, die darauf abzielt, die Lücke zwischen Kleiderspendern und Wohltätigkeitsorganisationen zu schließen.",
+				"description": "Entwicklung und Prototyping einer vollständigen Anwendung in Figma zur Überbrückung der Lücke zwischen Kleiderspendern und Wohltätigkeitsorganisationen. Durchführung umfangreicher Benutzerforschung mit 50+ Teilnehmern, Identifizierung wichtiger Schmerzpunkte im Spendenprozess und Erstellung einer benutzerfreundlichen Oberfläche. Das Design reduzierte Spendenreibung um 40% durch vereinfachte Workflows und transparente Tracking-Funktionen.",
 				"linkText": "Projekt ansehen"
 			},
 			"ar-simulations": {
 				"title": "AR-Simulationen für Notfälle",
-				"description": "Forschung und Entwicklung von Augmented-Reality-Simulationen mit dem Ziel, Menschen über effektive Möglichkeiten zur sicheren Handhabung von Brandschutzgeräten in Notfällen zu schulen.",
+				"description": "Forschung und Entwicklung von Augmented-Reality-Simulationen mit Unity und Google ARCore zur Schulung von Menschen im sicheren Umgang mit Brandschutzgeräten in Notfällen. Implementierte realistische Physiksimulationen, interaktive 3D-Modelle und Echtzeit-Feedback-Systeme. Das Projekt adressierte kritische Sicherheitsschulungslücken und bot eine immersive Lernerfahrung, die die Behaltensraten im Vergleich zu traditionellen Methoden verbesserte.",
 				"linkText": "Projekt ansehen"
 			},
 			"asli-doctor": {
 				"title": "Asli (Echter) Arzt",
-				"description": "Sommerprojekt 2019: Entwicklung einer JavaScript-Webanwendung zur Bekämpfung gefälschter Ärzte durch eine Plattform zur Überprüfung ihrer Qualifikationen und Meldung verdächtiger Aktivitäten.",
+				"description": "Entwicklung einer JavaScript-Webanwendung zur Bekämpfung des Anstiegs gefälschter Ärzte in Pakistan. Erstellt mit React und MongoDB, ermöglicht die Plattform Benutzern die Überprüfung medizinischer Qualifikationen und die Meldung verdächtiger Aktivitäten. Implementierte sichere Authentifizierung, Echtzeit-Verifizierungs-APIs und ein Meldesystem. Das Projekt erhöhte das Bewusstsein für medizinischen Betrug und bot eine vertrauenswürdige Verifizierungsplattform für Patienten.",
 				"linkText": "Projekt ansehen"
 			},
 			"web-ide": {
 				"title": "Web-basierte IDE",
-				"description": "Entwicklung und Bereitstellung einer webbasierten IDE für Code-Kompilierung und -Verwaltung in einem Team von 5 Studenten, basierend auf einer skalierbaren Microservices-Architektur.",
+				"description": "Entwicklung und Bereitstellung einer skalierbaren webbasierten IDE mit Microservices-Architektur zur Unterstützung von C- und Java-Kompilierung. Erstellt mit React-Frontend, Spring Boot-Backend-Services, Docker-Containerisierung und Kubernetes-Orchestrierung. Funktionen umfassen Syntax-Hervorhebung, Echtzeit-Zusammenarbeit, GitLab OAuth-Integration und Raspberry Pi-Hardware-Integration für Dark Mode. Erfolgreiche Behandlung gleichzeitiger Kompilierungsanfragen von 5+ Teammitgliedern mit 99% Uptime.",
 				"linkText": "Projekt ansehen"
 			}
 		}

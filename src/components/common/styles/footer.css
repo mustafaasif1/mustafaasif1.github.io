@@ -17,11 +17,14 @@
 	list-style: none;
 	justify-content: space-between;
 	align-items: center;
+	gap: 12px;
+	flex-wrap: wrap;
 }
 
 .footer-nav-link-item {
 	font-weight: bold;
 	font-size: 80%;
+	white-space: nowrap;
 }
 
 .footer-nav-link-list a {
@@ -43,16 +46,26 @@
 @media (max-width: 600px) {
 	.footer {
 		flex-direction: column;
-		height: 85px;
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 
 	.footer-links {
 		display: flex;
 		width: 100%;
 		justify-content: center;
+		padding: 0 20px;
 	}
 
 	.footer-nav-link-list {
 		width: 100%;
+		justify-content: center;
+		gap: 16px;
+		padding: 0;
+	}
+
+	.footer-nav-link-item {
+		font-size: 12px;
 	}
 }

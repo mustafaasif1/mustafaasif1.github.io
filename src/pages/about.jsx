@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "../utils/icons";
 import OptimizedImage from "../components/common/optimizedImage";
 import Socials from "../components/about/socials";
 import Footer from "../components/common/footer";
@@ -65,6 +67,18 @@ const About = () => {
 											loading="eager"
 										/>
 									</div>
+								</div>
+
+								<div className="about-resume-download">
+									<a
+										href="/resume/Mustafa_Asif_Resume.pdf"
+										download="Mustafa_Asif_Resume.pdf"
+										className="resume-download-button"
+										aria-label={t("about.downloadResume")}
+									>
+										<FontAwesomeIcon icon={faDownload} />
+										<span>{t("about.downloadResume")}</span>
+									</a>
 								</div>
 
 								<div className="about-socials">

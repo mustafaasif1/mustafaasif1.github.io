@@ -50,8 +50,39 @@
 	width: 100%;
 }
 
+.about-resume-download {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.resume-download-button {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	padding: 12px 24px;
+	background-color: var(--primary-color);
+	color: var(--background-color);
+	border-radius: 8px;
+	text-decoration: none;
+	font-weight: 500;
+	transition: all 0.3s ease;
+	border: 2px solid var(--primary-color);
+}
+
+.resume-download-button:hover {
+	background-color: transparent;
+	color: var(--primary-color);
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-download-button svg {
+	width: 16px;
+	height: 16px;
+}
+
 .about-socials {
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 50px;
 }
 
