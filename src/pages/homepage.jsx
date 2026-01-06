@@ -121,17 +121,17 @@ const Homepage = () => {
 							<AllProjects />
 						</div>
 
-						<div className="flex flex-col w-full lg:flex-row">
-							<div className="w-full">
-								<Works />
-							</div>
-							<div className="w-full">
-								<Education />
-							</div>
+					<div className="flex flex-col w-full lg:flex-row">
+						<div className="w-full">
+							<Works />
 						</div>
-						<div className="py-6">
-							<Testimonials />
+						<div className="w-full">
+							<Education />
 						</div>
+					</div>
+					<div className="py-6">
+						<Testimonials />
+					</div>
 						<div className="pb-4">
 							<p className="articles-title">
 								{t("home.writingSection")}

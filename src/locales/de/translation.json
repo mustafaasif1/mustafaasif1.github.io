@@ -151,6 +151,23 @@
 			"email": "Senden Sie mir eine E-Mail"
 		}
 	},
+	"githubActivity": {
+		"title": "GitHub Aktivität",
+		"loading": "GitHub-Daten werden geladen...",
+		"error": "GitHub-Daten konnten nicht geladen werden. Bitte versuchen Sie es später erneut.",
+		"repositories": "Repositories",
+		"stars": "Sterne",
+		"followers": "Follower",
+		"contributions": "Beitragsaktivität",
+		"contributionsAlt": "GitHub-Beitragsdiagramm - Klicken Sie, um das Profil anzuzeigen",
+		"recentCommits": "Letzte Commits",
+		"viewProfile": "GitHub-Profil ansehen",
+		"viewOnGitHub": "Auf GitHub ansehen",
+		"today": "Heute",
+		"yesterday": "Gestern",
+		"daysAgo": "vor {{count}} Tagen",
+		"weeksAgo": "vor {{count}} Wochen"
+	},
 	"projects": {
 		"title": "Projekte, mit denen ich versuche, meinen Beitrag zur Welt zu leisten.",
 		"subtitle": "Im Laufe der Jahre habe ich an verschiedenen Projekten gearbeitet und bin stolz auf die Fortschritte, die ich gemacht habe. Viele dieser Projekte sind Open-Source und stehen anderen zur Verfügung.",

@@ -151,6 +151,23 @@
 			"email": "Send me an email"
 		}
 	},
+	"githubActivity": {
+		"title": "GitHub Activity",
+		"loading": "Loading GitHub data...",
+		"error": "Unable to load GitHub data. Please try again later.",
+		"repositories": "Repositories",
+		"stars": "Stars",
+		"followers": "Followers",
+		"contributions": "Contribution Activity",
+		"contributionsAlt": "GitHub contribution graph - Click to view profile",
+		"recentCommits": "Recent Commits",
+		"viewProfile": "View GitHub Profile",
+		"viewOnGitHub": "View on GitHub",
+		"today": "Today",
+		"yesterday": "Yesterday",
+		"daysAgo": "{{count}} days ago",
+		"weeksAgo": "{{count}} weeks ago"
+	},
 	"projects": {
 		"title": "Things I've made trying to put my dent in the universe.",
 		"subtitle": "I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",

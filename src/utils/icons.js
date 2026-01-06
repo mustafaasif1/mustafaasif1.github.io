@@ -20,6 +20,9 @@ import {
 	faMoon,
 	faExternalLinkAlt,
 	faDownload,
+	faCodeBranch,
+	faStar,
+	faEye,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Add icons to library
@@ -38,6 +41,9 @@ library.add(
 	faMoon,
 	faExternalLinkAlt,
 	faDownload,
+	faCodeBranch,
+	faStar,
+	faEye,
 	// Regular icons
 	faFaceSadTear,
 	// Brand icons
@@ -63,6 +69,9 @@ export {
 	faMoon,
 	faExternalLinkAlt,
 	faDownload,
+	faCodeBranch,
+	faStar,
+	faEye,
 	// Regular icons
 	faFaceSadTear,
 	// Brand icons
