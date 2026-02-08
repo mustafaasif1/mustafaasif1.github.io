@@ -19,7 +19,7 @@
 		"contact": "Kontakt"
 	},
 	"footer": {
-		"copyright": "© 2024 Mustafa Asif. Alle Rechte vorbehalten.",
+		"copyright": "© {{year}} Mustafa Asif. Alle Rechte vorbehalten.",
 		"aria": {
 			"navigation": "Footer-Navigation",
 			"copyright": "Copyright-Information"
@@ -131,6 +131,10 @@
 		"description2": "Auf meiner Coding-Reise habe ich mit JavaScript, HTML, CSS, Python, Angular, ReactJS, React Native und sogar Flutter gearbeitet. Immer bereit, Neues zu lernen!",
 		"description3": "Wenn du auch Entwickler oder Recruiter in der Gegend bist, lass uns vernetzen! Ich freue mich immer darauf, mein Netzwerk zu erweitern. Bis bald! 🚀",
 		"writingSection": "Manchmal schreibe ich auch.",
+		"bookChat": "15-Min-Chat buchen",
+		"bookChatAria": "15-minütiges Intro- oder Kaffee-Chat buchen",
+		"pitstopHighlight": "Pitstop AI — KI-Buchungsplattform für Dienstleister (WhatsApp, Instagram, Facebook).",
+		"currentlyLearningTitle": "Aktuell lerne & baue ich",
 		"socialLinks": {
 			"github": "Mein GitHub-Profil ansehen",
 			"linkedin": "Auf LinkedIn verbinden",
@@ -174,36 +178,22 @@
 		"viewProject": "Projekt ansehen",
 		"viewWebsite": "Website besuchen",
 		"techStack": "Technologie",
+		"readArticle": "Artikel lesen",
 		"projectDetails": {
-			"asmbyte": {
-				"title": "ASMByte",
-				"description": "Entwicklung einer responsiven Landing-Website für ASMByte, die ihre Expertise in Web- und Mobile-App-Entwicklung sowie Data-Science-Projekten präsentiert. Erstellt mit Flutter für plattformübergreifende Kompatibilität, integriert Firebase für Authentifizierung und Echtzeitdaten, und implementiert Google Maps API für Standortdienste. Das Projekt verbesserte das Kundenengagement und bot eine moderne, professionelle Online-Präsenz.",
-				"linkText": "Website besuchen"
-			},
-			"lahu": {
-				"title": "Lahu - Blutspende-Anwendung",
-				"description": "Entwicklung einer vollständigen Blutspende-Mobile-App mit Flutter und Cloud Firestore. Hauptfunktionen umfassen Echtzeit-Spender-Matching, Push-Benachrichtigungen für dringende Anfragen und sichere Benutzerauthentifizierung. Die App verbindet Spender effizient mit Empfängern und reduziert die Reaktionszeit bei kritischen Blutbedarfen. Implementierte komplexes State-Management und optimierte Datenbankabfragen für schnelle Abrufe.",
-				"linkText": "Projekt ansehen"
-			},
 			"kapra-eid": {
 				"title": "Kapra Eid - Kleiderspenden-Anwendung",
 				"description": "Entwicklung und Prototyping einer vollständigen Anwendung in Figma zur Überbrückung der Lücke zwischen Kleiderspendern und Wohltätigkeitsorganisationen. Durchführung umfangreicher Benutzerforschung mit 50+ Teilnehmern, Identifizierung wichtiger Schmerzpunkte im Spendenprozess und Erstellung einer benutzerfreundlichen Oberfläche. Das Design reduzierte Spendenreibung um 40% durch vereinfachte Workflows und transparente Tracking-Funktionen.",
-				"linkText": "Projekt ansehen"
-			},
-			"ar-simulations": {
-				"title": "AR-Simulationen für Notfälle",
-				"description": "Forschung und Entwicklung von Augmented-Reality-Simulationen mit Unity und Google ARCore zur Schulung von Menschen im sicheren Umgang mit Brandschutzgeräten in Notfällen. Implementierte realistische Physiksimulationen, interaktive 3D-Modelle und Echtzeit-Feedback-Systeme. Das Projekt adressierte kritische Sicherheitsschulungslücken und bot eine immersive Lernerfahrung, die die Behaltensraten im Vergleich zu traditionellen Methoden verbesserte.",
-				"linkText": "Projekt ansehen"
-			},
-			"asli-doctor": {
-				"title": "Asli (Echter) Arzt",
-				"description": "Entwicklung einer JavaScript-Webanwendung zur Bekämpfung des Anstiegs gefälschter Ärzte in Pakistan. Erstellt mit React und MongoDB, ermöglicht die Plattform Benutzern die Überprüfung medizinischer Qualifikationen und die Meldung verdächtiger Aktivitäten. Implementierte sichere Authentifizierung, Echtzeit-Verifizierungs-APIs und ein Meldesystem. Das Projekt erhöhte das Bewusstsein für medizinischen Betrug und bot eine vertrauenswürdige Verifizierungsplattform für Patienten.",
 				"linkText": "Projekt ansehen"
 			},
 			"web-ide": {
 				"title": "Web-basierte IDE",
 				"description": "Entwicklung und Bereitstellung einer skalierbaren webbasierten IDE mit Microservices-Architektur zur Unterstützung von C- und Java-Kompilierung. Erstellt mit React-Frontend, Spring Boot-Backend-Services, Docker-Containerisierung und Kubernetes-Orchestrierung. Funktionen umfassen Syntax-Hervorhebung, Echtzeit-Zusammenarbeit, GitLab OAuth-Integration und Raspberry Pi-Hardware-Integration für Dark Mode. Erfolgreiche Behandlung gleichzeitiger Kompilierungsanfragen von 5+ Teammitgliedern mit 99% Uptime.",
 				"linkText": "Projekt ansehen"
+			},
+			"pitstopai": {
+				"title": "Pitstop AI",
+				"description": "KI-gestützte Buchungsplattform für Dienstleister. Kunden buchen 24/7 über KI-Agenten auf WhatsApp, Instagram und Facebook Messenger. Multi-Mandanten-B2B-SaaS mit Mastra-Agenten, Smart-Kalender, Analysen und automatischen Erinnerungen. Gebaut für Salons, Kliniken und Studios, die Buchungen ohne manuellen Aufwand annehmen wollen.",
+				"linkText": "Website besuchen"
 			}
 		}
 	}

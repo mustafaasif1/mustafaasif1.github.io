@@ -19,7 +19,7 @@
 		"contact": "Contact"
 	},
 	"footer": {
-		"copyright": "© 2024 Mustafa Asif. All Rights Reserved.",
+		"copyright": "© {{year}} Mustafa Asif. All Rights Reserved.",
 		"aria": {
 			"navigation": "Footer navigation",
 			"copyright": "Copyright information"
@@ -131,6 +131,10 @@
 		"description2": "Along my coding journey, I've played with JavaScript, HTML, CSS, Python, Angular, ReactJS, React Native, and even fluttered around Flutter. Always eager to learn more!",
 		"description3": "And if you're a fellow coder or recruiter in the area, let's connect! I'm all about expanding the network. See you around! 🚀",
 		"writingSection": "I also write sometimes.",
+		"bookChat": "Book a 15-min chat",
+		"bookChatAria": "Book a 15-minute intro or coffee chat",
+		"pitstopHighlight": "Building Pitstop AI — AI booking platform for service businesses (WhatsApp, Instagram, Facebook).",
+		"currentlyLearningTitle": "Currently learning & building",
 		"socialLinks": {
 			"github": "View my GitHub profile",
 			"linkedin": "Connect on LinkedIn",
@@ -174,36 +178,22 @@
 		"viewProject": "View Project",
 		"viewWebsite": "View Website",
 		"techStack": "Technology",
+		"readArticle": "Read the article",
 		"projectDetails": {
-			"asmbyte": {
-				"title": "ASMByte",
-				"description": "Developed a responsive landing website for ASMByte showcasing their expertise in web and mobile app development, and data science projects. Built with Flutter for cross-platform compatibility, integrated Firebase for authentication and real-time data, and implemented Google Maps API for location services. The project improved client engagement and provided a modern, professional online presence.",
-				"linkText": "View Website"
-			},
-			"lahu": {
-				"title": "Lahu - Blood Donation Application",
-				"description": "Built a complete blood donation mobile application using Flutter and Cloud Firestore. Key features include real-time donor matching, push notifications for urgent requests, and secure user authentication. The app connects donors with recipients efficiently, reducing response time for critical blood needs. Implemented complex state management and optimized database queries for fast retrieval.",
-				"linkText": "View Project"
-			},
 			"kapra-eid": {
 				"title": "Kapra Eid - Clothing Donation Application",
 				"description": "Designed and prototyped a complete application in Figma to bridge the gap between clothing donors and charitable organisations. Conducted extensive user research with 50+ participants, identified key pain points in the donation process, and created a user-friendly interface. The design reduced donation friction by 40% through simplified workflows and transparent tracking features.",
-				"linkText": "View Project"
-			},
-			"ar-simulations": {
-				"title": "AR Simulations For Fire Emergencies",
-				"description": "Researched and developed Augmented Reality simulations using Unity and Google ARCore to train people on safely handling fire protection devices during emergencies. Implemented realistic physics simulations, interactive 3D models, and real-time feedback systems. The project addressed critical safety training gaps and provided an immersive learning experience that improved retention rates compared to traditional methods.",
-				"linkText": "View Project"
-			},
-			"asli-doctor": {
-				"title": "Asli (Real) Doctor",
-				"description": "Created a JavaScript web application addressing the rise of fake doctors in Pakistan. Built with React and MongoDB, the platform allows users to verify medical credentials and report suspicious activity. Implemented secure authentication, real-time verification APIs, and a reporting system. The project raised awareness about medical fraud and provided a trusted verification platform for patients.",
 				"linkText": "View Project"
 			},
 			"web-ide": {
 				"title": "Web-Based IDE",
 				"description": "Designed and deployed a scalable web-based IDE with microservices architecture supporting C and Java compilation. Built with React frontend, Spring Boot backend services, Docker containerization, and Kubernetes orchestration. Features include syntax highlighting, real-time collaboration, GitLab OAuth integration, and Raspberry Pi hardware integration for dark mode. Successfully handled concurrent compilation requests from 5+ team members with 99% uptime.",
 				"linkText": "View Project"
+			},
+			"pitstopai": {
+				"title": "Pitstop AI",
+				"description": "AI-powered booking platform for service businesses. Customers book appointments 24/7 via AI agents on WhatsApp, Instagram, and Facebook Messenger. Multi-tenant B2B SaaS with Mastra-powered agents, smart calendar, analytics, and automated reminders. Built to help salons, clinics, and studios accept bookings without manual back-and-forth.",
+				"linkText": "View Website"
 			}
 		}
 	}

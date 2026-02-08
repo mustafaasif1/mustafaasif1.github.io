@@ -15,6 +15,7 @@ const AllProjects = () => {
 						description={project.description}
 						linkText={project.linkText}
 						link={project.link}
+						articleLink={project.articleLink}
 						technologies={project.technologies.map((tech) => ({
 							...tech,
 							link: `${t("projects.techStack")}: ${tech.link}`,

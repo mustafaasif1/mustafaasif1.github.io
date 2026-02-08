@@ -55,6 +55,10 @@ const LOGOS = {
 		image: "/assets/images/logos/tech/javascript.png",
 		link: "Javascript",
 	},
+	MASTRA: {
+		image: "/assets/images/logos/tech/mastra.jpeg",
+		link: "Mastra",
+	},
 	MONGODB: {
 		image: "/assets/images/logos/tech/mongodb.png",
 		link: "MongoDB",
@@ -70,6 +74,10 @@ const LOGOS = {
 	SHADCN: {
 		image: "/assets/images/logos/tech/shadcn.png",
 		link: "Shadcn",
+	},
+	SUPABASE: {
+		image: "/assets/images/logos/tech/supabase.jpg",
+		link: "Supabase",
 	},
 	"SPRING-BOOT": {
 		image: "/assets/images/logos/tech/spring-boot.png",
@@ -87,10 +95,11 @@ const LOGOS = {
 
 const INFO = {
 	main: {
-		title: "Mustafa's Portfolio",
+		title: "Mustafa Asif - Full Stack Software Engineer",
 		name: "Mustafa Asif",
 		email: "mustafaasif1@hotmail.com",
 		logo: "/assets/images/photos/profile/logo.jpg",
+		calendly: "https://calendly.com/mustafa-asif15/30min",
 	},
 
 	socials: {
@@ -121,64 +130,21 @@ const INFO = {
 
 	projects: [
 		{
-			id: "asmbyte",
-			title: "ASMByte",
+			id: "pitstopai",
+			title: "Pitstop AI",
 			description:
-				"ASMByte's Landing website, showcasing their expertise in web and mobile app development, and data science projects.",
+				"AI-powered booking platform for service businesses. Customers book 24/7 via AI agents on WhatsApp, Instagram, and Facebook Messenger. Multi-tenant B2B SaaS with Mastra-powered agents, smart calendar, and analytics.",
 			linkText: "View Website",
-			link: "https://asmbyte-5c49f.web.app/",
-			technologies: [
-				LOGOS.FLUTTER,
-				LOGOS.FIREBASE,
-				LOGOS["FIREBASE-AUTH"],
-				LOGOS["GOOGLE-MAPS"],
-			],
-		},
-		{
-			id: "lahu",
-			title: "Lahu - Blood Donation Application",
-			description:
-				"A complete blood donation mobile application with Flutter as the front end and Cloud Firestore as the backend. ",
-			linkText: "View Project",
-			link: "https://github.com/mustafaasif1/Lahu",
-			technologies: [LOGOS.REACT, LOGOS.TAILWIND, LOGOS.FIREBASE],
+			link: "https://www.pitstopai.co/",
+			technologies: [LOGOS.MASTRA, LOGOS.SUPABASE, LOGOS.SHADCN, LOGOS.REACT, LOGOS.JAVASCRIPT],
 		},
 		{
 			id: "kapra-eid",
 			title: "Kapra Eid - Clothing Donation Application",
 			description:
 				"Designed and prototyped a complete application in Figma aimed to bridge the gap between clothing donors and charitable organisations. ",
-			linkText: "View Project",
-			link: "https://github.com/mustafaasif1/Kapra-Eid",
+			articleLink: "/article/2",
 			technologies: [LOGOS.FIGMA, LOGOS.MURAL, LOGOS.BALSAMIQ],
-		},
-		{
-			id: "ar-simulations",
-			title: "AR Simulations For Fire Emergencies",
-			description:
-				"Researched and developed Augmented Reality simulations with a purpose to train people about the effective ways they could safely handle fire protection devices during fire emergencies. ",
-			linkText: "View Project",
-			link: "https://github.com/mustafaasif1/AR-Simulations-For-Emergencies",
-			technologies: [
-				LOGOS.UNITY,
-				LOGOS["C-SHARP"],
-				LOGOS["GOOGLE-ARCORE"],
-			],
-		},
-		{
-			id: "asli-doctor",
-			title: "Asli (Real) Doctor",
-			description:
-				"Summer 2019 project: Created a JavaScript web app addressing the rise of fake doctors by providing a platform to verify their credentials and report suspicious activity.",
-			linkText: "View Project",
-			link: "https://github.com/mustafaasif1/Asli-Doctor",
-			technologies: [
-				LOGOS.JAVASCRIPT,
-				LOGOS.REACT,
-				LOGOS.TAILWIND,
-				LOGOS.HEROKU,
-				LOGOS.MONGODB,
-			],
 		},
 		{
 			id: "web-ide",

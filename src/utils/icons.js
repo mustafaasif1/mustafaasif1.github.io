@@ -23,6 +23,9 @@ import {
 	faCodeBranch,
 	faStar,
 	faEye,
+	faCalendarCheck,
+	faLightbulb,
+	faBookOpen,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Add icons to library
@@ -44,6 +47,9 @@ library.add(
 	faCodeBranch,
 	faStar,
 	faEye,
+	faCalendarCheck,
+	faLightbulb,
+	faBookOpen,
 	// Regular icons
 	faFaceSadTear,
 	// Brand icons
@@ -72,6 +78,9 @@ export {
 	faCodeBranch,
 	faStar,
 	faEye,
+	faCalendarCheck,
+	faLightbulb,
+	faBookOpen,
 	// Regular icons
 	faFaceSadTear,
 	// Brand icons

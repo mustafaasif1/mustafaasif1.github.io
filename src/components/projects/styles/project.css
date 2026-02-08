@@ -7,8 +7,10 @@
 	height: 100%;
 }
 
-.project a {
+.project a,
+.project .project-link-wrapper {
 	text-decoration: none;
+	color: inherit;
 }
 
 /* Hover state */
@@ -44,14 +46,24 @@
 	transition: color 0.3s ease-in-out;
 }
 
-/* Project link */
+/* Project links */
+.project-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem 1.5rem;
+	padding-top: 20px;
+}
+
 .project-link {
 	display: flex;
 	align-items: center;
 	color: var(--secondary-color);
 	font-size: 12px;
-	padding-top: 20px;
 	transition: color 0.3s ease-in-out;
+}
+
+.project-link-article {
+	padding-top: 0;
 }
 
 .project-link-icon {

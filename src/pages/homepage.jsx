@@ -18,6 +18,7 @@ import {
 	faGithub,
 	faLinkedin,
 	faMailBulk,
+	faCalendarCheck,
 } from "../utils/icons";
 import "./styles/homepage.css";
 import "../components/common/styles/header.css";
@@ -115,6 +116,18 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
+							{INFO.main.calendly && (
+								<a
+									href={INFO.main.calendly}
+									target="_blank"
+									rel="noreferrer"
+									className="homepage-book-chat"
+									aria-label={t("home.bookChatAria")}
+								>
+									<FontAwesomeIcon icon={faCalendarCheck} />
+									<span>{t("home.bookChat")}</span>
+								</a>
+							)}
 						</div>
 
 						<div className="homepage-projects">

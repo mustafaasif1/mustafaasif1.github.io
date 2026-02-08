@@ -36,7 +36,7 @@ const Footer = () => {
 				aria-label={t("footer.aria.copyright")}
 			>
 				<div className="footer-credits-text">
-					{t("footer.copyright")}
+					{t("footer.copyright", { year: new Date().getFullYear() })}
 				</div>
 			</div>
 		</div>
