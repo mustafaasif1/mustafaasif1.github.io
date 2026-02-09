@@ -1,5 +1,6 @@
 import { article1markdown } from "./articles-markdown/article1";
 import { article2markdown } from "./articles-markdown/article2";
+import { getReadTimeMinutes } from "../utils/readTime";
 
 const article_1 = {
 	date: "7 May 2023",
@@ -14,6 +15,9 @@ const article_1 = {
 		"Tharindu Nayanajith",
 	],
 	body: article1markdown,
+	get readTime() {
+		return getReadTimeMinutes(this.body);
+	},
 };
 
 const article_2 = {
@@ -31,6 +35,9 @@ const article_2 = {
 		"Static Analysis",
 	],
 	body: article2markdown,
+	get readTime() {
+		return getReadTimeMinutes(this.body);
+	},
 };
 
 const myArticles = [article_2, article_1];

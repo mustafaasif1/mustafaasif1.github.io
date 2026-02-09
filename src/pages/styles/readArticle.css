@@ -41,6 +41,10 @@
 	padding-left: 15px;
 }
 
+.read-article-min-read {
+	opacity: 0.9;
+}
+
 .read-article-title {
 	padding-bottom: 1rem;
 	color: var(--primary-color);

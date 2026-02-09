@@ -3,10 +3,12 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Markdown from "react-markdown";
 import { useNavigate, useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import rehypeRaw from "rehype-raw";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Header from "../components/common/header";
+import Breadcrumb from "../components/common/Breadcrumb";
 import OptimizedMarkdownImage from "../components/articles/optimizedMarkdownImage";
 import { faArrowLeft } from "../utils/icons";
 import INFO from "../data/user";
@@ -17,6 +19,7 @@ import "../components/common/styles/header.css";
 const ReadArticle = () => {
 	const navigate = useNavigate();
 	const { slug } = useParams();
+	const { t } = useTranslation();
 	const article = myArticles[parseInt(slug) - 1];
 
 	useEffect(() => {
@@ -54,10 +57,23 @@ const ReadArticle = () => {
 							/>
 						</div>
 
+						{article && (
+							<Breadcrumb
+								items={[
+									{ label: t("nav.articles"), to: "/articles" },
+									{ label: article.title },
+								]}
+							/>
+						)}
+
 						<div className="read-article-wrapper">
 							<div className="read-article-date-container">
 								<div className="read-article-date">
 									{article.date}
+									<span className="read-article-min-read" aria-hidden="true">
+										{" · "}
+										{t("articles.minRead", { count: article.readTime })}
+									</span>
 								</div>
 							</div>
 

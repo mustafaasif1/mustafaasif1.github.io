@@ -110,6 +110,7 @@
 		"pageTitle": "Artikel | {{title}}",
 		"title": "Ich bin leidenschaftlich daran interessiert, die Grenzen des Möglichen zu erweitern und die nächste Generation von Innovatoren zu inspirieren.",
 		"subtitle": "Chronologische Sammlung meiner ausführlichen Gedanken zu Programmierung, Führung, Produktdesign und mehr.",
+		"minRead": "{{count}} Min. Lesezeit",
 		"aria": {
 			"articlesList": "Liste der Artikel",
 			"articleLink": "Artikel lesen: {{title}}"

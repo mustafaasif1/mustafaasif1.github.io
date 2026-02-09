@@ -165,6 +165,7 @@ const Homepage = () => {
 										title={article.title}
 										description={article.description}
 										link={`/article/${index + 1}`}
+										readTime={article.readTime}
 									/>
 								</div>
 							))}
