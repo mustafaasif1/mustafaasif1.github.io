@@ -84,11 +84,11 @@
 		"gradeLabel": "Grade",
 		"activitiesLabel": "Activities and Societies",
 		"institutions": {
-		"tum": {
-			"name": "Technical University of Munich",
-			"degree": "Master of Science (M.Sc.), Informatik",
-			"period": "Oct 2022 - Sep 2025"
-		},
+			"tum": {
+				"name": "Technical University of Munich",
+				"degree": "Master of Science (M.Sc.), Informatik",
+				"period": "Oct 2022 - Sep 2025"
+			},
 			"lums": {
 				"name": "Lahore University of Management Sciences",
 				"degree": "Bachelor of Science (B.Sc.), Computer Science",

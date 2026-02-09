@@ -139,17 +139,17 @@ const Homepage = () => {
 							<Skills />
 						</div>
 
-					<div className="flex flex-col w-full lg:flex-row">
-						<div className="w-full">
-							<Works />
+						<div className="flex flex-col w-full lg:flex-row">
+							<div className="w-full">
+								<Works />
+							</div>
+							<div className="w-full">
+								<Education />
+							</div>
 						</div>
-						<div className="w-full">
-							<Education />
+						<div className="skills-and-testimonials">
+							<Testimonials />
 						</div>
-					</div>
-					<div className="skills-and-testimonials">
-						<Testimonials />
-					</div>
 						<div className="pb-4">
 							<p className="articles-title">
 								{t("home.writingSection")}

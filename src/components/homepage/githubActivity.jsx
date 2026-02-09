@@ -17,7 +17,8 @@ const GitHubActivity = () => {
 	// Detect current theme and screen size
 	useEffect(() => {
 		const updateTheme = () => {
-			const currentTheme = document.documentElement.getAttribute("data-theme") || "dark";
+			const currentTheme =
+				document.documentElement.getAttribute("data-theme") || "dark";
 			setTheme(currentTheme);
 		};
 
@@ -92,7 +93,9 @@ const GitHubActivity = () => {
 									aria-label={t("githubActivity.viewProfile")}
 								>
 									<FontAwesomeIcon icon={faGithub} />
-									<span>{t("githubActivity.viewOnGitHub")}</span>
+									<span>
+										{t("githubActivity.viewOnGitHub")}
+									</span>
 								</a>
 							</div>
 							<div className="github-contributions-graph-wrapper">
@@ -101,12 +104,16 @@ const GitHubActivity = () => {
 									target="_blank"
 									rel="noopener noreferrer"
 									className="github-graph-link"
-									aria-label={t("githubActivity.contributionsAlt")}
+									aria-label={t(
+										"githubActivity.contributionsAlt",
+									)}
 								>
 									<div className="github-contributions-graph">
 										<img
 											src={graphUrl}
-											alt={t("githubActivity.contributionsAlt")}
+											alt={t(
+												"githubActivity.contributionsAlt",
+											)}
 											loading="lazy"
 											onError={(e) => {
 												// Fallback to GitHub's native contribution graph
@@ -125,4 +132,3 @@ const GitHubActivity = () => {
 };
 
 export default GitHubActivity;
-

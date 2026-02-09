@@ -84,11 +84,11 @@
 		"gradeLabel": "Note",
 		"activitiesLabel": "Aktivitäten und Gesellschaften",
 		"institutions": {
-		"tum": {
-			"name": "Technische Universität München",
-			"degree": "Master of Science (M.Sc.), Informatik",
-			"period": "Okt 2022 - Sep 2025"
-		},
+			"tum": {
+				"name": "Technische Universität München",
+				"degree": "Master of Science (M.Sc.), Informatik",
+				"period": "Okt 2022 - Sep 2025"
+			},
 			"lums": {
 				"name": "Lahore University of Management Sciences",
 				"degree": "Bachelor of Science (B.Sc.), Informatik",

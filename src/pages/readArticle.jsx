@@ -60,7 +60,10 @@ const ReadArticle = () => {
 						{article && (
 							<Breadcrumb
 								items={[
-									{ label: t("nav.articles"), to: "/articles" },
+									{
+										label: t("nav.articles"),
+										to: "/articles",
+									},
 									{ label: article.title },
 								]}
 							/>
@@ -70,9 +73,14 @@ const ReadArticle = () => {
 							<div className="read-article-date-container">
 								<div className="read-article-date">
 									{article.date}
-									<span className="read-article-min-read" aria-hidden="true">
+									<span
+										className="read-article-min-read"
+										aria-hidden="true"
+									>
 										{" · "}
-										{t("articles.minRead", { count: article.readTime })}
+										{t("articles.minRead", {
+											count: article.readTime,
+										})}
 									</span>
 								</div>
 							</div>

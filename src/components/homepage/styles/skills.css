@@ -6,7 +6,7 @@
 	width: 100%;
 	overflow: visible; /* Allow tooltips to show */
 	max-height: none;
-	padding-bottom: 1.25rem; 
+	padding-bottom: 1.25rem;
 }
 
 /* Ensure container doesn't overflow */

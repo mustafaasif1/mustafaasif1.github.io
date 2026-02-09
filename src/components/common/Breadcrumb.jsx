@@ -12,10 +12,7 @@ const Breadcrumb = ({ items }) => {
 	if (!items?.length) return null;
 
 	return (
-		<nav
-			className="breadcrumb"
-			aria-label="Breadcrumb"
-		>
+		<nav className="breadcrumb" aria-label="Breadcrumb">
 			<ol className="breadcrumb-list">
 				{items.map((item, index) => {
 					const isLast = index === items.length - 1;
@@ -34,10 +31,7 @@ const Breadcrumb = ({ items }) => {
 								</span>
 							)}
 							{item.to && !isLast ? (
-								<Link
-									to={item.to}
-									className="breadcrumb-link"
-								>
+								<Link to={item.to} className="breadcrumb-link">
 									{item.label}
 								</Link>
 							) : (

@@ -3,7 +3,9 @@
 	position: relative;
 	display: inline-flex;
 	cursor: pointer;
-	transition: transform 0.2s ease, z-index 0.2s ease;
+	transition:
+		transform 0.2s ease,
+		z-index 0.2s ease;
 	z-index: 1;
 }
 

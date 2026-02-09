@@ -215,11 +215,9 @@
 		font-size: 9px;
 		padding: 2px 5px;
 	}
-
 }
 
 /* Landscape orientation on mobile */
 @media (max-width: 768px) and (orientation: landscape) {
 	/* No additional padding needed */
 }
-

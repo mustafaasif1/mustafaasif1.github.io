@@ -2,11 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import INFO from "../../data/user";
-import {
-	faEnvelope,
-	faGithub,
-	faLinkedin,
-} from "../../utils/icons";
+import { faEnvelope, faGithub, faLinkedin } from "../../utils/icons";
 
 import "./styles/socials.css";
 

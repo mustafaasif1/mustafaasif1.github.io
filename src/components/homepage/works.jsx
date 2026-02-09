@@ -114,38 +114,52 @@ const Works = () => {
 											loading="lazy"
 										/>
 										<div className="flex-grow pl-5">
-											{work.positions.map((position, posIndex) => {
-												const positionData = t(
-													`experience.positions.${position.id}`,
-													{ returnObjects: true },
-												);
-												return (
-													<div
-														key={posIndex}
-														className={posIndex > 0 ? "pt-3" : ""}
-													>
-														<div className="text-md font-medium text-secondary pb-1">
-															{positionData?.title || position.title} at{" "}
-															<a
-																href={work.link}
-																className="text-link"
-																target="_blank"
-																rel="noopener noreferrer"
-															>
-																{work.subtitle}
-															</a>
-														</div>
-														<div className="flex justify-between text-xs text-secondary">
-															<div className="mr-4">
-																{positionData?.type || position.type}
+											{work.positions.map(
+												(position, posIndex) => {
+													const positionData = t(
+														`experience.positions.${position.id}`,
+														{ returnObjects: true },
+													);
+													return (
+														<div
+															key={posIndex}
+															className={
+																posIndex > 0
+																	? "pt-3"
+																	: ""
+															}
+														>
+															<div className="text-md font-medium text-secondary pb-1">
+																{positionData?.title ||
+																	position.title}{" "}
+																at{" "}
+																<a
+																	href={
+																		work.link
+																	}
+																	className="text-link"
+																	target="_blank"
+																	rel="noopener noreferrer"
+																>
+																	{
+																		work.subtitle
+																	}
+																</a>
 															</div>
-															<div>
-																{positionData?.period || position.duration}
+															<div className="flex justify-between text-xs text-secondary">
+																<div className="mr-4">
+																	{positionData?.type ||
+																		position.type}
+																</div>
+																<div>
+																	{positionData?.period ||
+																		position.duration}
+																</div>
 															</div>
 														</div>
-													</div>
-												);
-											})}
+													);
+												},
+											)}
 										</div>
 									</div>
 								);
@@ -183,7 +197,10 @@ const Works = () => {
 											<div className="mr-4">
 												{position?.type || work.type}
 											</div>
-											<div>{position?.period || work.duration}</div>
+											<div>
+												{position?.period ||
+													work.duration}
+											</div>
 										</div>
 									</div>
 								</div>

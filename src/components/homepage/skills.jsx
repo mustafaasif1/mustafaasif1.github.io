@@ -77,23 +77,30 @@ const Skills = () => {
 						{/* Skills Section - Two column layout on larger screens */}
 						<div className="skills-section">
 							<div className="skills-container">
-								{Object.entries(skillsData).map(([category, skills]) => (
-									<div key={category} className="skill-category">
-										<h4 className="skill-category-title">
-											{t(`skills.categories.${category}`)}
-										</h4>
-										<div className="skills-grid">
-											{skills.map((skill, index) => (
-												<TechIcon
-													key={index}
-													src={skill.logo.image}
-													name={skill.name}
-													className="skill-item"
-												/>
-											))}
+								{Object.entries(skillsData).map(
+									([category, skills]) => (
+										<div
+											key={category}
+											className="skill-category"
+										>
+											<h4 className="skill-category-title">
+												{t(
+													`skills.categories.${category}`,
+												)}
+											</h4>
+											<div className="skills-grid">
+												{skills.map((skill, index) => (
+													<TechIcon
+														key={index}
+														src={skill.logo.image}
+														name={skill.name}
+														className="skill-item"
+													/>
+												))}
+											</div>
 										</div>
-									</div>
-								))}
+									),
+								)}
 							</div>
 						</div>
 
@@ -104,7 +111,10 @@ const Skills = () => {
 								</h4>
 								<div className="certifications-list">
 									{certificationsData.map((cert, index) => (
-										<div key={index} className="certification-item">
+										<div
+											key={index}
+											className="certification-item"
+										>
 											<div className="flex-grow">
 												<div className="text-md font-medium text-secondary pb-1">
 													{cert.link ? (

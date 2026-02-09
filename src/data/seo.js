@@ -54,11 +54,7 @@ const SEO = [
 		page: "contact",
 		description:
 			"Get in touch with Mustafa Asif - Full Stack and mobile development. Based in Munich.",
-		keywords: [
-			"Mustafa Asif",
-			"contact",
-			"Munich",
-		],
+		keywords: ["Mustafa Asif", "contact", "Munich"],
 	},
 ];
 

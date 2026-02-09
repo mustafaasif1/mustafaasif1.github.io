@@ -23,7 +23,7 @@ const article_1 = {
 
 const article_2 = {
 	date: "6 Jan 2026",
-	title: "Beyond Static Scans: Why an \"A-Team\" of AI Agents is the Future of Web Security",
+	title: 'Beyond Static Scans: Why an "A-Team" of AI Agents is the Future of Web Security',
 	author: "Mustafa Asif",
 	description:
 		"Exploring a novel approach to software vulnerability detection using multi-agent systems powered by Large Language Models. This research demonstrates how AI can enhance security analysis by combining semantic understanding with collaborative agent architectures.",

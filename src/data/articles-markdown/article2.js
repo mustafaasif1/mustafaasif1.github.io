@@ -70,4 +70,3 @@ As we move forward, the next step is to integrate dynamic execution agents which
 
 *This research was conducted as part of my Master's thesis at the Technical University of Munich, completed in August 2025. The full thesis document is available upon request.*
 `;
-

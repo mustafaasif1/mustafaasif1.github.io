@@ -1,44 +1,155 @@
 const LOGOS = {
-	AI_SDK: { image: "/assets/optimized/logos/tech/md/ai-sdk.jpeg", link: "AI SDK" },
-	ANGULAR: { image: "/assets/optimized/logos/tech/md/angular.png", link: "Angular" },
-	BALSAMIQ: { image: "/assets/optimized/logos/tech/md/balsamiq.png", link: "Balsamiq" },
-	"C-SHARP": { image: "/assets/optimized/logos/tech/md/c-sharp.jpg", link: "C-sharp" },
+	AI_SDK: {
+		image: "/assets/optimized/logos/tech/md/ai-sdk.jpeg",
+		link: "AI SDK",
+	},
+	ANGULAR: {
+		image: "/assets/optimized/logos/tech/md/angular.png",
+		link: "Angular",
+	},
+	BALSAMIQ: {
+		image: "/assets/optimized/logos/tech/md/balsamiq.png",
+		link: "Balsamiq",
+	},
+	"C-SHARP": {
+		image: "/assets/optimized/logos/tech/md/c-sharp.jpg",
+		link: "C-sharp",
+	},
 	CSS: { image: "/assets/optimized/logos/tech/md/css.png", link: "CSS" },
-	DOCKER: { image: "/assets/optimized/logos/tech/md/docker.png", link: "Docker" },
-	FIGMA: { image: "/assets/optimized/logos/tech/md/figma.jpg", link: "Figma" },
-	"FIREBASE-AUTH": { image: "/assets/optimized/logos/tech/md/firebase-auth.png", link: "Firebase auth" },
-	FIREBASE: { image: "/assets/optimized/logos/tech/md/firebase.png", link: "Firebase" },
-	FLUTTER: { image: "/assets/optimized/logos/tech/md/flutter.png", link: "Flutter" },
-	GITHUB_ACTIONS: { image: "/assets/optimized/logos/tech/md/github-actions.png", link: "GitHub Actions" },
-	GITLAB: { image: "/assets/optimized/logos/tech/md/gitlab.png", link: "GitLab" },
-	"GOOGLE-ARCORE": { image: "/assets/optimized/logos/tech/md/google-arcore.png", link: "Google ARCore" },
-	"GOOGLE-MAPS": { image: "/assets/optimized/logos/tech/md/google-maps.png", link: "Google Maps" },
-	GRAPHQL: { image: "/assets/optimized/logos/tech/md/graphql.png", link: "GraphQL" },
-	HEROKU: { image: "/assets/optimized/logos/tech/md/heroku.png", link: "Heroku" },
+	DOCKER: {
+		image: "/assets/optimized/logos/tech/md/docker.png",
+		link: "Docker",
+	},
+	FIGMA: {
+		image: "/assets/optimized/logos/tech/md/figma.jpg",
+		link: "Figma",
+	},
+	"FIREBASE-AUTH": {
+		image: "/assets/optimized/logos/tech/md/firebase-auth.png",
+		link: "Firebase auth",
+	},
+	FIREBASE: {
+		image: "/assets/optimized/logos/tech/md/firebase.png",
+		link: "Firebase",
+	},
+	FLUTTER: {
+		image: "/assets/optimized/logos/tech/md/flutter.png",
+		link: "Flutter",
+	},
+	GITHUB_ACTIONS: {
+		image: "/assets/optimized/logos/tech/md/github-actions.png",
+		link: "GitHub Actions",
+	},
+	GITLAB: {
+		image: "/assets/optimized/logos/tech/md/gitlab.png",
+		link: "GitLab",
+	},
+	"GOOGLE-ARCORE": {
+		image: "/assets/optimized/logos/tech/md/google-arcore.png",
+		link: "Google ARCore",
+	},
+	"GOOGLE-MAPS": {
+		image: "/assets/optimized/logos/tech/md/google-maps.png",
+		link: "Google Maps",
+	},
+	GRAPHQL: {
+		image: "/assets/optimized/logos/tech/md/graphql.png",
+		link: "GraphQL",
+	},
+	HEROKU: {
+		image: "/assets/optimized/logos/tech/md/heroku.png",
+		link: "Heroku",
+	},
 	HTML: { image: "/assets/optimized/logos/tech/md/html.png", link: "HTML" },
-	JAVASCRIPT: { image: "/assets/optimized/logos/tech/md/javascript.png", link: "JavaScript" },
-	KUBERNETES: { image: "/assets/optimized/logos/tech/md/kubernetes.png", link: "Kubernetes" },
-	LANGFUSE: { image: "/assets/optimized/logos/tech/md/langfuse.jpeg", link: "Langfuse" },
-	LANGGRAPH: { image: "/assets/optimized/logos/tech/md/langgraph.png", link: "LangGraph" },
-	LANGSMITH: { image: "/assets/optimized/logos/tech/md/langsmith.png", link: "LangSmith" },
-	MASTRA: { image: "/assets/optimized/logos/tech/md/mastra.jpeg", link: "Mastra" },
-	MONGODB: { image: "/assets/optimized/logos/tech/md/mongodb.png", link: "MongoDB" },
-	MURAL: { image: "/assets/optimized/logos/tech/md/mural.png", link: "Mural" },
-	NEXTJS: { image: "/assets/optimized/logos/tech/md/next.png", link: "Next.js" },
-	POSTGRESQL: { image: "/assets/optimized/logos/tech/md/postgres.png", link: "PostgreSQL" },
-	PRISMA: { image: "/assets/optimized/logos/tech/md/prisma.jpeg", link: "Prisma" },
-	RAILWAY: { image: "/assets/optimized/logos/tech/md/railway.png", link: "Railway" },
-	REACT: { image: "/assets/optimized/logos/tech/md/react.png", link: "React" },
-	REDUX: { image: "/assets/optimized/logos/tech/md/redux.png", link: "Redux" },
-	SHADCN: { image: "/assets/optimized/logos/tech/md/shadcn.png", link: "Shadcn" },
-	"SPRING-BOOT": { image: "/assets/optimized/logos/tech/md/spring-boot.png", link: "Spring Boot" },
-	SUPABASE: { image: "/assets/optimized/logos/tech/md/supabase.jpg", link: "Supabase" },
-	TAILWIND: { image: "/assets/optimized/logos/tech/md/tailwind.png", link: "Tailwind" },
-	TYPESCRIPT: { image: "/assets/optimized/logos/tech/md/typescript.png", link: "TypeScript" },
-	UNITY: { image: "/assets/optimized/logos/tech/md/unity.png", link: "Unity" },
-	VERCEL: { image: "/assets/optimized/logos/tech/md/vercel.png", link: "Vercel" },
+	JAVASCRIPT: {
+		image: "/assets/optimized/logos/tech/md/javascript.png",
+		link: "JavaScript",
+	},
+	KUBERNETES: {
+		image: "/assets/optimized/logos/tech/md/kubernetes.png",
+		link: "Kubernetes",
+	},
+	LANGFUSE: {
+		image: "/assets/optimized/logos/tech/md/langfuse.jpeg",
+		link: "Langfuse",
+	},
+	LANGGRAPH: {
+		image: "/assets/optimized/logos/tech/md/langgraph.png",
+		link: "LangGraph",
+	},
+	LANGSMITH: {
+		image: "/assets/optimized/logos/tech/md/langsmith.png",
+		link: "LangSmith",
+	},
+	MASTRA: {
+		image: "/assets/optimized/logos/tech/md/mastra.jpeg",
+		link: "Mastra",
+	},
+	MONGODB: {
+		image: "/assets/optimized/logos/tech/md/mongodb.png",
+		link: "MongoDB",
+	},
+	MURAL: {
+		image: "/assets/optimized/logos/tech/md/mural.png",
+		link: "Mural",
+	},
+	NEXTJS: {
+		image: "/assets/optimized/logos/tech/md/next.png",
+		link: "Next.js",
+	},
+	POSTGRESQL: {
+		image: "/assets/optimized/logos/tech/md/postgres.png",
+		link: "PostgreSQL",
+	},
+	PRISMA: {
+		image: "/assets/optimized/logos/tech/md/prisma.jpeg",
+		link: "Prisma",
+	},
+	RAILWAY: {
+		image: "/assets/optimized/logos/tech/md/railway.png",
+		link: "Railway",
+	},
+	REACT: {
+		image: "/assets/optimized/logos/tech/md/react.png",
+		link: "React",
+	},
+	REDUX: {
+		image: "/assets/optimized/logos/tech/md/redux.png",
+		link: "Redux",
+	},
+	SHADCN: {
+		image: "/assets/optimized/logos/tech/md/shadcn.png",
+		link: "Shadcn",
+	},
+	"SPRING-BOOT": {
+		image: "/assets/optimized/logos/tech/md/spring-boot.png",
+		link: "Spring Boot",
+	},
+	SUPABASE: {
+		image: "/assets/optimized/logos/tech/md/supabase.jpg",
+		link: "Supabase",
+	},
+	TAILWIND: {
+		image: "/assets/optimized/logos/tech/md/tailwind.png",
+		link: "Tailwind",
+	},
+	TYPESCRIPT: {
+		image: "/assets/optimized/logos/tech/md/typescript.png",
+		link: "TypeScript",
+	},
+	UNITY: {
+		image: "/assets/optimized/logos/tech/md/unity.png",
+		link: "Unity",
+	},
+	VERCEL: {
+		image: "/assets/optimized/logos/tech/md/vercel.png",
+		link: "Vercel",
+	},
 	VITE: { image: "/assets/optimized/logos/tech/md/vite.png", link: "Vite" },
-	ZUSTAND: { image: "/assets/optimized/logos/tech/md/zustand.jpeg", link: "Zustand" },
+	ZUSTAND: {
+		image: "/assets/optimized/logos/tech/md/zustand.jpeg",
+		link: "Zustand",
+	},
 };
 
 const INFO = {
@@ -84,7 +195,13 @@ const INFO = {
 				"AI-powered booking platform for service businesses. Customers book 24/7 via AI agents on WhatsApp, Instagram, and Facebook Messenger. Multi-tenant B2B SaaS with Mastra-powered agents, smart calendar, and analytics.",
 			linkText: "View Website",
 			link: "https://www.pitstopai.co/",
-			technologies: [LOGOS.MASTRA, LOGOS.SUPABASE, LOGOS.SHADCN, LOGOS.REACT, LOGOS.JAVASCRIPT],
+			technologies: [
+				LOGOS.MASTRA,
+				LOGOS.SUPABASE,
+				LOGOS.SHADCN,
+				LOGOS.REACT,
+				LOGOS.JAVASCRIPT,
+			],
 		},
 		{
 			id: "kapra-eid",

@@ -15,7 +15,7 @@ const Education = () => {
 			title: "Technical University of Munich",
 			subtitle: "Master of Science (M.Sc.), Informatik",
 			duration: "Oct 2022 - Sep 2025",
-			thesis: 'Multi-Agent Large Language Model for Software Vulnerability Detection', 
+			thesis: "Multi-Agent Large Language Model for Software Vulnerability Detection",
 		},
 		{
 			id: "lums",
@@ -27,7 +27,7 @@ const Education = () => {
 			activities: [
 				"Treasurer at Innovation and Design Society (INDEX)",
 				"Team Manager and Best Squash Player for the year 2018",
-				"Active Member of LUMS Community Service Society"
+				"Active Member of LUMS Community Service Society",
 			],
 		},
 		{
@@ -82,24 +82,36 @@ const Education = () => {
 										</div>
 										{education.thesis && (
 											<div className="text-xs text-secondary pt-1 italic">
-												{t("education.thesisLabel")}: {education.thesis}
+												{t("education.thesisLabel")}:{" "}
+												{education.thesis}
 											</div>
 										)}
 										{education.grade && (
 											<div className="text-xs text-secondary pt-1">
-												{t("education.gradeLabel")}: {education.grade}
+												{t("education.gradeLabel")}:{" "}
+												{education.grade}
 											</div>
 										)}
-										{education.activities && education.activities.length > 0 && (
-											<div className="text-xs text-secondary pt-1">
-												<div className="font-medium pb-1">{t("education.activitiesLabel")}:</div>
-												<ul className="list-disc list-inside pl-2 space-y-0.5">
-													{education.activities.map((activity, idx) => (
-														<li key={idx}>{activity}</li>
-													))}
-												</ul>
-											</div>
-										)}
+										{education.activities &&
+											education.activities.length > 0 && (
+												<div className="text-xs text-secondary pt-1">
+													<div className="font-medium pb-1">
+														{t(
+															"education.activitiesLabel",
+														)}
+														:
+													</div>
+													<ul className="list-disc list-inside pl-2 space-y-0.5">
+														{education.activities.map(
+															(activity, idx) => (
+																<li key={idx}>
+																	{activity}
+																</li>
+															),
+														)}
+													</ul>
+												</div>
+											)}
 									</div>
 								</div>
 							);

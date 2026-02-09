@@ -31,8 +31,8 @@ const Project = (props) => {
 					{t(`projects.projectDetails.${title}.description`)}
 				</div>
 				<div className="project-links">
-					{link && (
-						link.startsWith("http") ? (
+					{link &&
+						(link.startsWith("http") ? (
 							<a
 								href={link}
 								target="_blank"
@@ -44,7 +44,9 @@ const Project = (props) => {
 										<FontAwesomeIcon icon={faLink} />
 									</div>
 									<div className="project-link-text">
-										{t(`projects.projectDetails.${title}.linkText`)}
+										{t(
+											`projects.projectDetails.${title}.linkText`,
+										)}
 									</div>
 								</div>
 							</a>
@@ -55,12 +57,13 @@ const Project = (props) => {
 										<FontAwesomeIcon icon={faLink} />
 									</div>
 									<div className="project-link-text">
-										{t(`projects.projectDetails.${title}.linkText`)}
+										{t(
+											`projects.projectDetails.${title}.linkText`,
+										)}
 									</div>
 								</div>
 							</Link>
-						)
-					)}
+						))}
 					{articleLink && (
 						<Link to={articleLink} className="project-link-wrapper">
 							<div className="project-link project-link-article">
