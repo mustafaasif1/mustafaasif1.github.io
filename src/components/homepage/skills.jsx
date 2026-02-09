@@ -62,9 +62,20 @@ const Skills = () => {
 		],
 	};
 
-	// Certifications data
+	// Certifications / courses: name, issuer, optional link, optional date
 	const certificationsData = [
-		// Add your certifications here
+		{
+			name: "AWS Cloud Technical Essentials",
+			issuer: "Amazon Web Services (Coursera)",
+			link: "https://www.coursera.org/account/accomplishments/verify/ASJXCPAK9F2D",
+			date: "Aug 2024",
+		},
+		{
+			name: "Generative AI - Risk and Cyber Security Masterclass 2025",
+			issuer: "Udemy",
+			link: "https://www.udemy.com/certificate/UC-b694768b-4c30-42ec-8ce0-d91fab69fbdc/",
+			date: "Aug 2025",
+		},
 	];
 
 	return (
@@ -73,7 +84,7 @@ const Skills = () => {
 				icon={faAward}
 				title={t("skills.title")}
 				body={
-					<div>
+					<div className="skills-card-body">
 						{/* Skills Section - Two column layout on larger screens */}
 						<div className="skills-section">
 							<div className="skills-container">
@@ -131,7 +142,8 @@ const Skills = () => {
 													)}
 												</div>
 												<div className="text-xs text-secondary">
-													{cert.issuer} • {cert.date}
+													{cert.issuer}
+													{cert.date ? ` • ${cert.date}` : ""}
 												</div>
 											</div>
 										</div>

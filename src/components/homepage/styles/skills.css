@@ -97,10 +97,16 @@
 	margin: 0;
 }
 
+/* Card body: extra bottom spacing so content isn’t flush with card edge */
+.skills-card-body {
+	padding-bottom: 1.25rem;
+}
+
 /* Certifications - same row style as Works */
 .certifications-section {
 	margin-top: 1.5rem;
 	padding-top: 1rem;
+	padding-bottom: 0.25rem;
 	border-top: 1px solid var(--quaternary-color);
 }
 
