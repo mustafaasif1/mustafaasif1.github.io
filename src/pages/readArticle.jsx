@@ -4,7 +4,10 @@ import { Helmet } from "react-helmet-async";
 import Markdown from "react-markdown";
 import { useNavigate, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
 import rehypeRaw from "rehype-raw";
+import "katex/dist/katex.min.css";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Header from "../components/common/header";
@@ -92,7 +95,8 @@ const ReadArticle = () => {
 							<div className="read-article-body">
 								<Markdown
 									className="prose prose-md"
-									rehypePlugins={[rehypeRaw]}
+									remarkPlugins={[remarkMath]}
+									rehypePlugins={[rehypeKatex, rehypeRaw]}
 									components={{
 										img: ({ src, alt }) => (
 											<OptimizedMarkdownImage

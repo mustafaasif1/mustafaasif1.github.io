@@ -1,6 +1,7 @@
 import { article1markdown } from "./articles-markdown/article1";
 import { article2markdown } from "./articles-markdown/article2";
 import { articleGenUISecurity } from "./articles-markdown/article3";
+import { articleAgentEvaluation } from "./articles-markdown/article4";
 import { getReadTimeMinutes } from "../utils/readTime";
 
 const article_1 = {
@@ -62,7 +63,29 @@ const article_3 = {
 	},
 };
 
+const article_4 = {
+	date: "10 Feb 2026",
+	title: "Evaluating AI Agents Beyond the Vibe Check",
+	author: "Mustafa Asif",
+	description:
+		"A deep dive into agent evaluation: compounding non-determinism, the Agent Evaluation Pyramid, LLM-as-a-Judge, stateful mocks, Pass@k, and building golden datasets to operationalize trust in autonomous systems.",
+	keywords: [
+		"Agent Evaluation",
+		"AI QA",
+		"LLM-as-a-Judge",
+		"Pass@k",
+		"Autonomous Agents",
+		"Agent Testing",
+		"Trajectory Analysis",
+		"Generative AI",
+	],
+	body: articleAgentEvaluation,
+	get readTime() {
+		return getReadTimeMinutes(this.body);
+	},
+};
+
 // Newest first (by recency)
-const myArticles = [article_3, article_2, article_1];
+const myArticles = [article_4, article_3, article_2, article_1];
 
 export default myArticles;
