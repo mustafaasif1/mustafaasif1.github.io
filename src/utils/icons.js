@@ -26,6 +26,8 @@ import {
 	faCalendarCheck,
 	faLightbulb,
 	faBookOpen,
+	faAward,
+	faCertificate,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Add icons to library
@@ -50,6 +52,8 @@ library.add(
 	faCalendarCheck,
 	faLightbulb,
 	faBookOpen,
+	faAward,
+	faCertificate,
 	// Regular icons
 	faFaceSadTear,
 	// Brand icons
@@ -81,6 +85,8 @@ export {
 	faCalendarCheck,
 	faLightbulb,
 	faBookOpen,
+	faAward,
+	faCertificate,
 	// Regular icons
 	faFaceSadTear,
 	// Brand icons

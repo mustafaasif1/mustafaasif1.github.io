@@ -1,41 +1,27 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { faLink, faBookOpen } from "../../utils/icons";
+import TechIcon from "../common/TechIcon";
 
 import "./styles/project.css";
 
 const Project = (props) => {
 	const { title, link, articleLink, technologies } = props;
-	const [hoveredIndex, setHoveredIndex] = useState(null);
 	const { t } = useTranslation();
 
 	return (
 		<div className="project">
 			<div className="project-container">
-				<div className="flex space-x-1">
+				<div className="project-tech-icons">
 					{technologies.map((tech, index) => (
-						<div
+						<TechIcon
 							key={index}
-							className="relative"
-							onMouseEnter={() => setHoveredIndex(index)}
-							onMouseLeave={() => setHoveredIndex(null)}
-						>
-							<img
-								src={tech.image}
-								alt={tech.link}
-								className="w-8 h-8 object-contain rounded-full border border-quaternary shadow-sm bg-white"
-								loading="lazy"
-							/>
-							{hoveredIndex === index && (
-								<div className="absolute -top-8 -left-2 rounded-md p-2 bg-slate-100 pb-1">
-									<p className="text-[10px] w-full whitespace-nowrap">
-										{tech.link}
-									</p>
-								</div>
-							)}
-						</div>
+							src={tech.image}
+							name={tech.link}
+							className="project-tech-icon"
+						/>
 					))}
 				</div>
 				<div className="project-title">

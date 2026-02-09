@@ -196,5 +196,19 @@
 				"linkText": "View Website"
 			}
 		}
+	},
+	"skills": {
+		"title": "Skills",
+		"categories": {
+			"frontend": "Frontend",
+			"backend": "Backend",
+			"cloud": "Cloud & DevOps",
+			"mobile": "Mobile",
+			"design": "Design",
+			"ai": "AI & ML"
+		},
+		"certifications": {
+			"title": "Certifications"
+		}
 	}
 }

@@ -137,6 +137,18 @@
 	clear: both;
 }
 
+.homepage-skills-below-projects {
+	padding-top: 1rem;
+}
+
+/* Testimonials slider */
+.skills-and-testimonials {
+	padding-top: 1.5rem;
+}
+.skills-and-testimonials > div:first-child {
+	margin-bottom: 0.75rem;
+}
+
 .homepage-article {
 	padding-bottom: 5px;
 }

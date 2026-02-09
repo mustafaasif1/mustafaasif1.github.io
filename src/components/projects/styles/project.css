@@ -3,7 +3,6 @@
 .project {
 	mix-blend-mode: normal;
 	border-radius: 20px;
-	opacity: 0.8;
 	height: 100%;
 }
 
@@ -16,7 +15,6 @@
 /* Hover state */
 .project:hover {
 	background-color: var(--quaternary-color);
-	opacity: 1;
 }
 
 .project:hover .project-link {
@@ -26,6 +24,14 @@
 /* Inner container */
 .project-container {
 	padding: 30px;
+}
+
+/* Tech icons row – uses shared TechIcon component */
+.project-tech-icons {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.25rem;
 }
 
 /* Project title */
@@ -76,11 +82,3 @@
 	font-weight: 700;
 }
 
-/* Tooltip */
-.project .absolute {
-	background-color: var(--tooltip-bg, var(--quaternary-color));
-	color: var(--tooltip-text, var(--primary-color));
-	transition:
-		background-color 0.3s ease-in-out,
-		color 0.3s ease-in-out;
-}

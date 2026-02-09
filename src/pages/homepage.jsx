@@ -10,6 +10,7 @@ import Article from "../components/homepage/article";
 import Education from "../components/homepage/education";
 import Works from "../components/homepage/works";
 import Testimonials from "../components/homepage/testimonials/testimonials";
+import Skills from "../components/homepage/skills";
 import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -134,6 +135,10 @@ const Homepage = () => {
 							<AllProjects />
 						</div>
 
+						<div className="homepage-skills-below-projects">
+							<Skills />
+						</div>
+
 					<div className="flex flex-col w-full lg:flex-row">
 						<div className="w-full">
 							<Works />
@@ -142,7 +147,7 @@ const Homepage = () => {
 							<Education />
 						</div>
 					</div>
-					<div className="py-6">
+					<div className="skills-and-testimonials">
 						<Testimonials />
 					</div>
 						<div className="pb-4">
