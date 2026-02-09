@@ -67,8 +67,9 @@ html {
 	font-family: var(--secondary-font);
 	font-size: 35px;
 	font-weight: 700;
+	line-height: 1.1;
+	letter-spacing: -0.02em;
 	width: 70%;
-	line-height: 40px;
 }
 
 .subtitle {
@@ -132,6 +133,9 @@ html {
 
 	.title {
 		width: 100%;
+		font-size: 32px;
+		line-height: 1.1;
+		letter-spacing: -0.02em;
 	}
 
 	.subtitle {

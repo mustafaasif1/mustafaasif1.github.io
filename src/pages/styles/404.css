@@ -19,6 +19,8 @@
 	color: var(--primary-color);
 	font-size: 60px;
 	font-weight: 700;
+	line-height: 1.1;
+	letter-spacing: -0.02em;
 	margin-bottom: 10px;
 }
 
@@ -26,6 +28,8 @@
 	color: var(--secondary-color);
 	font-size: 30px;
 	font-weight: 700;
+	line-height: 1.1;
+	letter-spacing: -0.02em;
 	margin-bottom: 20px;
 }
 
