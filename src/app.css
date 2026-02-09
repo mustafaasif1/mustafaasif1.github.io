@@ -1,5 +1,10 @@
 @import "/src/data/styles.css";
 
+/* Prevent layout shift when scrollbar appears/disappears (e.g. Home → About → Home) */
+html {
+	scrollbar-gutter: stable;
+}
+
 ::-webkit-scrollbar {
 	width: 10px;
 }
