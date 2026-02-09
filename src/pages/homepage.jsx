@@ -54,32 +54,25 @@ const Homepage = () => {
 					</div>
 
 					<div className="homepage-container">
-						<div className="homepage-first-area">
-							<div className="homepage-first-area-left-side">
-								<div className="title homepage-title">
+						<div className="homepage-hero">
+							<div className="homepage-hero-text">
+								<h1 className="homepage-hero-title">
 									{t("home.title")}
-								</div>
-
-								<div className="subtitle homepage-subtitle">
-									{t("home.description1")}{" "}
-									{t("home.description2")}
-								</div>
-								<div className="subtitle homepage-subtitle">
+								</h1>
+								<p className="homepage-hero-subtitle">
+									{t("home.description1")} {t("home.description2")}
+								</p>
+								<p className="homepage-hero-subtitle">
 									{t("home.description3")}
-								</div>
+								</p>
 							</div>
-
-							<div className="homepage-first-area-right-side">
-								<div className="homepage-image-container">
-									<div className="homepage-image-wrapper">
-										<OptimizedImage
-											src="/assets/images/photos/profile/homepage.png"
-											alt="homepage"
-											className="homepage-image"
-											loading="eager"
-										/>
-									</div>
-								</div>
+							<div className="homepage-hero-image">
+								<OptimizedImage
+									src="/assets/images/photos/profile/homepage.png"
+									alt="homepage"
+									className="homepage-hero-img"
+									loading="eager"
+								/>
 							</div>
 						</div>
 

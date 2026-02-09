@@ -244,12 +244,6 @@
 /* ===============================
    RESPONSIVE DESIGN
    =============================== */
-@media (max-width: 1200px) {
-	.homepage-first-area-left-side {
-		max-width: 50%;
-	}
-}
-
 @media (max-width: 1024px) {
 	.header-content {
 		max-width: 90%;
