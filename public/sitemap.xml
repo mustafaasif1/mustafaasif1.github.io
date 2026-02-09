@@ -42,4 +42,10 @@
 		<changefreq>yearly</changefreq>
 		<priority>0.7</priority>
 	</url>
+	<url>
+		<loc>https://mustafaasif1.github.io/article/3</loc>
+		<lastmod>2026-02-09</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.7</priority>
+	</url>
 </urlset>
