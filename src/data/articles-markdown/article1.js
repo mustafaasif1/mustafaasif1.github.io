@@ -7,27 +7,27 @@ export const article1markdown = `
   <img src="/assets/images/articles/kapraEid/DonorHistory.png" alt="Donor History" />
 </div>
 
-More than 60 million kilograms of fabric are wasted in Pakistan every year, with the country also serving as a dumping ground for post-consumer textiles from the EU. Through user research, we found that only 9.2% of people donate clothes to charitable organizations, primarily due to limited awareness and access. Most individuals either throw clothes away or give them directly to acquaintances.
+Pakistan wastes over 60 million kilograms of fabric every year. It's also a dumping ground for post-consumer textiles from the EU. When we dug into the numbers, we found that only 9.2% of people donate clothes to charities. Why? Mostly limited awareness and access. Everyone else was either throwing clothes away or passing them to friends and family.
 
-> #### KapraEid bridges this gap by developing a platform that provides efficient communication between organizations and donors, helping boost people's confidence in these organizations.
+> #### KapraEid is our answer: a platform that connects organizations and donors and helps rebuild trust in how donations actually get used.
 
 ## Brainstorming Phase
-We conducted brainstorming sessions over Zoom and Mural to define requirements and key features for the application.
+We ran brainstorming sessions on Zoom and Mural to nail down what the app had to do.
 
 ### Requirements
 
-Based on user research with donors and organizations, we identified core requirements:  
+Talking to donors and organizations gave us a clear picture. We needed:
 
-- **User-friendly interface** that makes the donation process convenient for a wide variety of audiences
-- **Tutorial/demo** to guide users through the donation process
-- **Minimal questions** during donation (only essential details like photos, descriptions, and categories)
-- **Quick process** that respects donors' limited time
-- **Transparency and trust-building** through feedback, reviews, and clear communication channels
-- **Organization visibility** so donors can learn about different organizations and their initiatives
+- **A simple interface** so that donating doesn't feel like filling out a form for the tax office
+- **A short tutorial** so people know what to expect
+- **As few questions as possible** (photos, short descriptions, categories)
+- **Speed** so donors aren't stuck for 20 minutes
+- **Transparency** so people can see where their stuff went and leave or read reviews
+- **Visibility for organizations** so donors can browse and pick causes they care about
 
 ### Key Features
 
-We identified the following essential features:  
+From that we landed on these:  
 
 - ***Donation drives with progress tracking:*** Organizations create targeted drives with descriptions and deadlines. Donors see active drives on their home screen with real-time progress indicators (items collected vs. target, donor count) and can view detailed drive pages before contributing.
 
@@ -43,31 +43,27 @@ We identified the following essential features:
 
 - ***Messaging & communication:*** Direct messaging channels enable donors and organizations to communicate about queries, pickup coordination, and support.
 
-After identifying these features, we prioritized them by feasibility and importance to reach our final design.
+We then prioritized by what we could actually build and what would move the needle most.
 
 ## Design Phase
-The design phase consisted of Lo-fi and Hi-fi prototypes, incorporating solutions to problems identified during user research.
+We went through Lo-fi and Hi-fi stages, fixing issues as we learned from user research.
 
 ### Lo-fi Design
 
-We built our prototype on Balsamiq for Android (356x700 dimensions), focusing on creating separate but complementary experiences for donors and organizations.
+We built the first prototype in Balsamiq for Android (356x700), with two separate but linked flows: one for donors, one for organizations.
 
-**Donor prototype:** The home screen was organized into clear sections: donation drives at the top showing progress metrics, followed by a searchable organizations section with rating displays, and success stories at the bottom. We designed a dedicated donation drive detail page with comprehensive information and a clear call-to-action button. The donations history page used a tabbed interface (Pending, Approved, Successful) to help users track their contributions. A prominent floating action button in the navigation bar provided quick access to the donation flow.
+**Donor side:** Home screen had donation drives at the top (with progress), then a searchable list of organizations with ratings, then success stories. We added a dedicated page for each drive and a tabbed history (Pending, Approved, Successful) so donors could see where their stuff was. A big floating “donate” button stayed in the nav so giving was always one tap away.
 
-**Organization prototype:** The organizational interface prioritized a statistics dashboard on the home screen, giving representatives immediate visibility into their performance metrics. We simplified content creation with direct access to posting stories and managing donation drives from the main screen, ensuring a low learning curve so organizations could focus on their core mission.
+**Organization side:** We put a stats dashboard front and center so they could see donations, ratings, and requests at a glance. Posting stories and managing drives lived right on the main screen so they didn’t have to dig. The idea was: minimal learning curve, more time on their actual mission.
 
 ### Hi-fi Design
-After testing the lo-fi prototype, we refined the interface based on user feedback. The final design features a clean, intuitive interface with distinct experiences for donors and organizations.
+We tested the lo-fi, took feedback, and tightened everything up. The final version is cleaner and keeps the two experiences clearly distinct.
 
-**Donor Interface:**
-The donor homepage prominently displays active donation drives with real-time progress indicators (e.g., "121 clothes out of 400 collected") and donor counts. Below this, a searchable organizations section allows donors to browse and filter organizations by name, with each card showing ratings to help build trust. Success stories are featured to showcase the impact of donations. The navigation bar includes a prominent yellow "+ DONATE NOW" button for quick access to the donation flow.
+**Donor interface:** The homepage shows active drives with live progress (e.g. “121 clothes out of 400 collected”) and donor counts. Below that, donors can search and filter organizations; each card shows ratings. Success stories sit at the bottom so impact is visible. The nav has a clear yellow “+ DONATE NOW” so starting a donation is obvious.
 
-The donation drive detail page provides comprehensive information including the organizing foundation, drive timeline, current progress, and a detailed description of the cause. A prominent "SUPPORT THIS CAUSE" button guides users to contribute.
+Drive pages show who’s running it, the timeline, progress, and a short description. One main button: “SUPPORT THIS CAUSE.” History is three tabs (Pending, Approved, Successful). For completed donations we show org name, when they gave, how many items, pickup details, payment method, and a “VIEW IMAGE” link so nothing feels hidden.
 
-The donations history page organizes contributions into three tabs: Pending, Approved, and Successful. Each successful donation card displays organization name, donation timestamp, item count, pickup date and time, payment method, and a "VIEW IMAGE" button for transparency.
+**Organization interface:** The homepage is a stats dashboard: all-time and monthly donations, rating, review count, pending vs accepted requests. They can post and manage success stories from the same screen. “+ UPLOAD POST” in the nav keeps content creation one click away.
 
-**Organization Interface:**
-The organizational homepage features a statistics dashboard showing key metrics: all-time donations, monthly donations, current rating, total reviews, pending requests, and accepted requests. This gives organizations immediate insight into their performance. Success stories can be posted and managed directly from the home screen, and the navigation includes a "+ UPLOAD POST" button for easy content creation.
-
-Throughout both interfaces, we maintained a clean white background with blue accents and yellow for primary actions, ensuring visual consistency and reducing cognitive load.
+Visually we kept it simple: white background, blue accents, yellow for primary actions. No clutter.
 `;
