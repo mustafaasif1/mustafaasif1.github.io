@@ -2,6 +2,7 @@ import { article1markdown } from "./articles-markdown/article1";
 import { article2markdown } from "./articles-markdown/article2";
 import { articleGenUISecurity } from "./articles-markdown/article3";
 import { articleAgentEvaluation } from "./articles-markdown/article4";
+import { articleSoftwareEngineering2026 } from "./articles-markdown/article5";
 import { getReadTimeMinutes } from "../utils/readTime";
 
 const article_1 = {
@@ -85,7 +86,29 @@ const article_4 = {
 	},
 };
 
+const article_5 = {
+	date: "11 Feb 2026",
+	title: "The Strategic Reconfiguration of Software Engineering: A Longitudinal Analysis of the Generative AI Era (2025–2030)",
+	author: "Mustafa Asif",
+	description:
+		"A comprehensive analysis of how generative AI is fundamentally reshaping software engineering: from the evolution to AI-native development and agentic SDLC, to structural displacement in entry-level labor markets, pedagogical shifts, and emerging occupational archetypes.",
+	keywords: [
+		"Software Engineering",
+		"Generative AI",
+		"AI-Native Development",
+		"Agentic SDLC",
+		"Labor Market",
+		"Software Engineering Jobs",
+		"AI in Software Development",
+		"Future of Engineering",
+	],
+	body: articleSoftwareEngineering2026,
+	get readTime() {
+		return getReadTimeMinutes(this.body);
+	},
+};
+
 // Newest first (by recency)
-const myArticles = [article_4, article_3, article_2, article_1];
+const myArticles = [article_5, article_4, article_3, article_2, article_1];
 
 export default myArticles;

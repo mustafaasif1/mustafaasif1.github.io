@@ -5,6 +5,7 @@ import Markdown from "react-markdown";
 import { useNavigate, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import remarkMath from "remark-math";
+import remarkGfm from "remark-gfm";
 import rehypeKatex from "rehype-katex";
 import rehypeRaw from "rehype-raw";
 import "katex/dist/katex.min.css";
@@ -95,7 +96,7 @@ const ReadArticle = () => {
 							<div className="read-article-body">
 								<Markdown
 									className="prose prose-md"
-									remarkPlugins={[remarkMath]}
+									remarkPlugins={[remarkMath, remarkGfm]}
 									rehypePlugins={[rehypeKatex, rehypeRaw]}
 									components={{
 										img: ({ src, alt }) => (
@@ -103,6 +104,15 @@ const ReadArticle = () => {
 												src={src}
 												alt={alt}
 											/>
+										),
+										a: ({ href, children }) => (
+											<a
+												href={href}
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												{children}
+											</a>
 										),
 									}}
 								>
