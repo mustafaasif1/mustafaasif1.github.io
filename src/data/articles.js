@@ -88,7 +88,7 @@ const article_4 = {
 
 const article_5 = {
 	date: "11 Feb 2026",
-	title: "The Strategic Reconfiguration of Software Engineering: A Longitudinal Analysis of the Generative AI Era (2025–2030)",
+	title: "The Code Monkey is Dead: Welcome to the Hard Hat Era",
 	author: "Mustafa Asif",
 	description:
 		"A comprehensive analysis of how generative AI is fundamentally reshaping software engineering: from the evolution to AI-native development and agentic SDLC, to structural displacement in entry-level labor markets, pedagogical shifts, and emerging occupational archetypes.",
