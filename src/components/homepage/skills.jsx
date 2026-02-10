@@ -65,16 +65,22 @@ const Skills = () => {
 	// Certifications / courses: name, issuer, optional link, optional date
 	const certificationsData = [
 		{
-			name: "AWS Cloud Technical Essentials",
-			issuer: "Amazon Web Services (Coursera)",
-			link: "https://www.coursera.org/account/accomplishments/verify/ASJXCPAK9F2D",
-			date: "Aug 2024",
+			name: "Practical Introduction to Observability",
+			issuer: "Udemy",
+			link: "https://www.udemy.com/certificate/UC-5513d17c-0acb-4dc4-8460-5a73473ca670/",
+			date: "Feb 2026",
 		},
 		{
 			name: "Generative AI - Risk and Cyber Security Masterclass 2025",
 			issuer: "Udemy",
 			link: "https://www.udemy.com/certificate/UC-b694768b-4c30-42ec-8ce0-d91fab69fbdc/",
 			date: "Aug 2025",
+		},
+		{
+			name: "AWS Cloud Technical Essentials",
+			issuer: "Amazon Web Services (Coursera)",
+			link: "https://www.coursera.org/account/accomplishments/verify/ASJXCPAK9F2D",
+			date: "Aug 2024",
 		},
 	];
 
