@@ -91,6 +91,7 @@ const article_4 = {
 };
 
 const article_5 = {
+	id: 5,
 	date: "11 Feb 2026",
 	title: "The Code Monkey is Dead: Welcome to the Hard Hat Era",
 	author: "Mustafa Asif",
