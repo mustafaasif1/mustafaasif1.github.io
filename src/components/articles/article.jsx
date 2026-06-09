@@ -3,11 +3,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { faChevronRight } from "../../utils/icons";
+import ArticleTags from "../common/articleTags";
 
 import "./style/article.css";
 
 const Article = (props) => {
-	const { date, title, description, link, readTime } = props;
+	const { date, title, description, link, readTime, tags } = props;
 	const { t } = useTranslation();
 
 	return (
@@ -28,8 +29,9 @@ const Article = (props) => {
 				<div className="article-right-side">
 					<div className="article-title">{title}</div>
 					<div className="article-description">{description}</div>
+					<ArticleTags tags={tags} />
 					<div className="article-link">
-						Read Article{" "}
+						{t("articles.readArticle")}{" "}
 						<FontAwesomeIcon
 							style={{ fontSize: "10px" }}
 							icon={faChevronRight}

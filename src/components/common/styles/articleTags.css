@@ -1,0 +1,25 @@
+@import "../../../data/styles.css";
+
+.article-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-top: 10px;
+}
+
+.article-tag {
+	display: inline-flex;
+	align-items: center;
+	padding: 4px 10px;
+	border-radius: 999px;
+	background: var(--quaternary-color);
+	color: var(--secondary-color);
+	font-size: 11px;
+	font-weight: 600;
+}
+
+.homepage-article-content:hover .article-tag,
+.article-right-side:hover .article-tag {
+	background: var(--background-color);
+	outline: 1px solid var(--tertiary-color);
+}

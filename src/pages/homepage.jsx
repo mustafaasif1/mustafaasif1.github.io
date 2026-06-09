@@ -1,7 +1,8 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import OptimizedImage from "../components/common/optimizedImage";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -24,6 +25,8 @@ import {
 import "./styles/homepage.css";
 import "../components/common/styles/header.css";
 
+const HOMEPAGE_ARTICLE_LIMIT = 3;
+
 const Homepage = () => {
 	const { t } = useTranslation();
 
@@ -32,6 +35,7 @@ const Homepage = () => {
 	}, []);
 
 	const currentSEO = SEO.find((item) => item.page === "home");
+	const featuredArticles = myArticles.slice(0, HOMEPAGE_ARTICLE_LIMIT);
 
 	return (
 		<React.Fragment>
@@ -143,22 +147,33 @@ const Homepage = () => {
 						<div className="skills-and-testimonials">
 							<Testimonials />
 						</div>
-						<div className="pb-4">
-							<p className="articles-title">
-								{t("home.writingSection")}
-							</p>
-							{myArticles.map((article) => (
+
+						<div className="homepage-writing-section pb-4">
+							<div className="homepage-writing-header">
+								<p className="articles-title">
+									{t("home.writingSection")}
+								</p>
+								{myArticles.length > HOMEPAGE_ARTICLE_LIMIT && (
+									<Link
+										to="/articles"
+										className="homepage-view-all-articles"
+									>
+										{t("home.viewAllArticles")}
+									</Link>
+								)}
+							</div>
+							{featuredArticles.map((article) => (
 								<div
 									className="homepage-article"
 									key={article.id}
 								>
 									<Article
-										key={article.id}
 										date={article.date}
 										title={article.title}
 										description={article.description}
 										link={`/article/${article.id}`}
 										readTime={article.readTime}
+										tags={article.tags}
 									/>
 								</div>
 							))}

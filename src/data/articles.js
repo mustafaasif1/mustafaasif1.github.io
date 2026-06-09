@@ -5,9 +5,24 @@ import { articleAgentEvaluation } from "./articles-markdown/article4";
 import { articleSoftwareEngineering2026 } from "./articles-markdown/article5";
 import { getReadTimeMinutes } from "../utils/readTime";
 
+const ARTICLE_TAGS = {
+	PRODUCT: "Product Design",
+	UX: "UX",
+	CASE_STUDY: "Case Study",
+	AI: "AI",
+	SECURITY: "Security",
+	RESEARCH: "Research",
+	GENUI: "GenUI",
+	ENGINEERING: "Engineering",
+	TESTING: "Testing",
+	CAREER: "Career",
+	INDUSTRY: "Industry",
+};
+
 const article_1 = {
 	id: 1,
 	date: "7 May 2023",
+	tags: [ARTICLE_TAGS.PRODUCT, ARTICLE_TAGS.UX, ARTICLE_TAGS.CASE_STUDY],
 	title: "How did my team manage to prototype a clothing donation application for Pakistan?",
 	author: "Mustafa Asif",
 	description:
@@ -27,6 +42,7 @@ const article_1 = {
 const article_2 = {
 	id: 2,
 	date: "6 Jan 2026",
+	tags: [ARTICLE_TAGS.AI, ARTICLE_TAGS.SECURITY, ARTICLE_TAGS.RESEARCH],
 	title: 'Beyond Static Scans: Why an "A-Team" of AI Agents is the Future of Web Security',
 	author: "Mustafa Asif",
 	description:
@@ -48,6 +64,7 @@ const article_2 = {
 const article_3 = {
 	id: 3,
 	date: "9 Feb 2026",
+	tags: [ARTICLE_TAGS.AI, ARTICLE_TAGS.SECURITY, ARTICLE_TAGS.GENUI],
 	title: "Securing Generative UI Against Indirect Prompt Injection with the Trusted UI Pattern",
 	author: "Mustafa Asif",
 	description:
@@ -70,6 +87,7 @@ const article_3 = {
 const article_4 = {
 	id: 4,
 	date: "10 Feb 2026",
+	tags: [ARTICLE_TAGS.AI, ARTICLE_TAGS.ENGINEERING, ARTICLE_TAGS.TESTING],
 	title: "Evaluating AI Agents Beyond the Vibe Check",
 	author: "Mustafa Asif",
 	description:
@@ -93,6 +111,7 @@ const article_4 = {
 const article_5 = {
 	id: 5,
 	date: "11 Feb 2026",
+	tags: [ARTICLE_TAGS.AI, ARTICLE_TAGS.CAREER, ARTICLE_TAGS.INDUSTRY],
 	title: "The Code Monkey is Dead: Welcome to the Hard Hat Era",
 	author: "Mustafa Asif",
 	description:
@@ -116,4 +135,5 @@ const article_5 = {
 // Newest first (by recency)
 const myArticles = [article_5, article_4, article_3, article_2, article_1];
 
+export { ARTICLE_TAGS };
 export default myArticles;

@@ -65,6 +65,7 @@ const Articles = () => {
 											description={article.description}
 											link={`/article/${article.id}`}
 											readTime={article.readTime}
+											tags={article.tags}
 											aria-label={t(
 												"articles.aria.articleLink",
 												{

@@ -111,9 +111,13 @@
 		"title": "Ich bin leidenschaftlich daran interessiert, die Grenzen des Möglichen zu erweitern und die nächste Generation von Innovatoren zu inspirieren.",
 		"subtitle": "Chronologische Sammlung meiner ausführlichen Gedanken zu Programmierung, Führung, Produktdesign und mehr.",
 		"minRead": "{{count}} Min. Lesezeit",
+		"readArticle": "Artikel lesen",
+		"previousArticle": "Zurück",
+		"nextArticle": "Weiter",
 		"aria": {
 			"articlesList": "Liste der Artikel",
-			"articleLink": "Artikel lesen: {{title}}"
+			"articleLink": "Artikel lesen: {{title}}",
+			"articleNavigation": "Artikelnavigation"
 		}
 	},
 	"contact": {
@@ -130,8 +134,9 @@
 		"title": "Full-Stack Web- und Mobile-App-Entwickler und Squash-Enthusiast.",
 		"description1": "Hallo! Ich bin Mustafa, Full Stack Software Engineer bei commercetools. Ich habe kürzlich meinen M.Sc. Informatik an der Technischen Universität München abgeschlossen, mit Fokus auf softwareintensive Systeme. Meinen Bachelor in Informatik habe ich an der Lahore University of Management Sciences gemacht.",
 		"description2": "Auf meiner Coding-Reise habe ich mit JavaScript, HTML, CSS, Python, Angular, ReactJS, React Native und sogar Flutter gearbeitet. Immer bereit, Neues zu lernen!",
-		"description3": "Wenn du auch Entwickler oder Recruiter in der Gegend bist, lass uns vernetzen! Ich freue mich immer darauf, mein Netzwerk zu erweitern. Bis bald! 🚀",
+		"description3": "Ich bin in Berlin ansässig. Wenn du Entwickler oder Recruiter bist, lass uns vernetzen! Ich freue mich immer darauf, mein Netzwerk zu erweitern. Bis bald! 🚀",
 		"writingSection": "Manchmal schreibe ich auch.",
+		"viewAllArticles": "Alle Artikel ansehen",
 		"bookChat": "15-Min-Chat buchen",
 		"bookChatAria": "15-minütiges Intro- oder Kaffee-Chat buchen",
 		"pitstopHighlight": "Pitstop AI — KI-Buchungsplattform für Dienstleister (WhatsApp, Instagram, Facebook).",
@@ -144,7 +149,7 @@
 	},
 	"about": {
 		"pageTitle": "Über mich | {{title}}",
-		"title": "Ich bin Mustafa Asif. Ich lebe in München, wo ich die Zukunft gestalte.",
+		"title": "Ich bin Mustafa Asif. Ich lebe in Berlin, wo ich die Zukunft gestalte.",
 		"description": "Im Laufe der Jahre habe ich an verschiedenen Projekten gearbeitet und bin stolz auf die Fortschritte, die ich gemacht habe. Wenn Sie sich für eines der Projekte interessieren, an denen ich gearbeitet habe, können Sie gerne den Code überprüfen und Verbesserungen oder Erweiterungen vorschlagen. Die Zusammenarbeit mit anderen ist eine großartige Möglichkeit zu lernen und zu wachsen, und ich bin immer offen für neue Ideen und Feedback.",
 		"imageAlt": "Profilfoto von Mustafa Asif",
 		"downloadResume": "Lebenslauf herunterladen",

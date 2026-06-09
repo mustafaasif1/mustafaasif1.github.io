@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Markdown from "react-markdown";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import remarkMath from "remark-math";
 import remarkGfm from "remark-gfm";
@@ -13,6 +13,7 @@ import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Header from "../components/common/header";
 import Breadcrumb from "../components/common/Breadcrumb";
+import ArticleTags from "../components/common/articleTags";
 import OptimizedMarkdownImage from "../components/articles/optimizedMarkdownImage";
 import { faArrowLeft } from "../utils/icons";
 import INFO from "../data/user";
@@ -36,6 +37,14 @@ const ReadArticle = () => {
 		navigate("/404");
 		return null;
 	}
+
+	const articleIndex = myArticles.findIndex((a) => a.id === article.id);
+	const newerArticle =
+		articleIndex > 0 ? myArticles[articleIndex - 1] : null;
+	const olderArticle =
+		articleIndex < myArticles.length - 1
+			? myArticles[articleIndex + 1]
+			: null;
 
 	return (
 		<React.Fragment>
@@ -91,8 +100,15 @@ const ReadArticle = () => {
 								</div>
 							</div>
 
-							<div className="title read-article-title">
-								{article.title}
+							<div className="read-article-header">
+								<div className="title read-article-title">
+									{article.title}
+								</div>
+
+								<ArticleTags
+									tags={article.tags}
+									className="read-article-tags"
+								/>
 							</div>
 
 							<div className="read-article-body">
@@ -107,20 +123,70 @@ const ReadArticle = () => {
 												alt={alt}
 											/>
 										),
-										a: ({ href, children }) => (
-											<a
-												href={href}
-												target="_blank"
-												rel="noopener noreferrer"
-											>
-												{children}
-											</a>
-										),
+										a: ({ href, children }) => {
+											const isInternal =
+												typeof href === "string" &&
+												href.startsWith("/");
+
+											if (isInternal) {
+												return (
+													<Link to={href}>
+														{children}
+													</Link>
+												);
+											}
+
+											return (
+												<a
+													href={href}
+													target="_blank"
+													rel="noopener noreferrer"
+												>
+													{children}
+												</a>
+											);
+										},
 									}}
 								>
 									{article.body}
 								</Markdown>
 							</div>
+
+							{(newerArticle || olderArticle) && (
+								<nav
+									className="read-article-navigation"
+									aria-label={t(
+										"articles.aria.articleNavigation",
+									)}
+								>
+									{olderArticle ? (
+										<Link
+											to={`/article/${olderArticle.id}`}
+											className="read-article-nav-link read-article-nav-link--previous"
+										>
+											<span className="read-article-nav-label">
+												{t("articles.previousArticle")}
+											</span>
+											<span className="read-article-nav-title">
+												{olderArticle.title}
+											</span>
+										</Link>
+									) : null}
+									{newerArticle ? (
+										<Link
+											to={`/article/${newerArticle.id}`}
+											className="read-article-nav-link read-article-nav-link--next"
+										>
+											<span className="read-article-nav-label">
+												{t("articles.nextArticle")}
+											</span>
+											<span className="read-article-nav-title">
+												{newerArticle.title}
+											</span>
+										</Link>
+									) : null}
+								</nav>
+							)}
 						</div>
 					</div>
 					<div className="page-footer">

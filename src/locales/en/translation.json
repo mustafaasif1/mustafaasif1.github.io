@@ -111,9 +111,13 @@
 		"title": "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
 		"subtitle": "Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 		"minRead": "{{count}} min read",
+		"readArticle": "Read article",
+		"previousArticle": "Previous",
+		"nextArticle": "Next",
 		"aria": {
 			"articlesList": "List of articles",
-			"articleLink": "Read article: {{title}}"
+			"articleLink": "Read article: {{title}}",
+			"articleNavigation": "Article navigation"
 		}
 	},
 	"contact": {
@@ -130,8 +134,9 @@
 		"title": "Full-stack web and mobile app developer, and squash enthusiast.",
 		"description1": "Hey there! I'm Mustafa, a Full Stack Software Engineer at commercetools. I recently completed my M.Sc. Informatics at the Technical University of Munich, focusing on software-intensive systems. I got my Bachelor's in Computer Science from Lahore University of Management Sciences.",
 		"description2": "Along my coding journey, I've played with JavaScript, HTML, CSS, Python, Angular, ReactJS, React Native, and even fluttered around Flutter. Always eager to learn more!",
-		"description3": "And if you're a fellow coder or recruiter in the area, let's connect! I'm all about expanding the network. See you around! 🚀",
+		"description3": "I'm based in Berlin. If you're a fellow coder or recruiter, let's connect! I'm all about expanding the network. See you around! 🚀",
 		"writingSection": "I also write sometimes.",
+		"viewAllArticles": "View all articles",
 		"bookChat": "Book a 15-min chat",
 		"bookChatAria": "Book a 15-minute intro or coffee chat",
 		"pitstopHighlight": "Building Pitstop AI — AI booking platform for service businesses (WhatsApp, Instagram, Facebook).",
@@ -144,7 +149,7 @@
 	},
 	"about": {
 		"pageTitle": "About | {{title}}",
-		"title": "I'm Mustafa Asif. I live in Munich, where I design the future.",
+		"title": "I'm Mustafa Asif. I live in Berlin, where I design the future.",
 		"description": "I've worked on a variety of projects over the years and I'm proud of the progress I've made. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 		"imageAlt": "Profile photo of Mustafa Asif",
 		"downloadResume": "Download Resume",

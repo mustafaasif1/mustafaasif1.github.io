@@ -2,7 +2,7 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"Mustafa Asif - Full Stack Software Engineer at commercetools. M.Sc. Informatics (TUM). React, TypeScript, Flutter, Node.js. Based in Munich.",
+			"Mustafa Asif - Full Stack Software Engineer at commercetools. M.Sc. Informatics (TUM). React, TypeScript, Flutter, Node.js. Based in Berlin.",
 		keywords: [
 			"Mustafa Asif",
 			"Full Stack Developer",
@@ -10,7 +10,7 @@ const SEO = [
 			"React",
 			"TypeScript",
 			"Flutter",
-			"Munich",
+			"Berlin",
 			"commercetools",
 			"TUM",
 		],
@@ -18,12 +18,12 @@ const SEO = [
 	{
 		page: "about",
 		description:
-			"About Mustafa Asif - Full Stack Software Engineer in Munich. Experience at commercetools, TUM, Motive, Arbisoft. M.Sc. from Technical University of Munich.",
+			"About Mustafa Asif - Full Stack Software Engineer in Berlin. Experience at commercetools, TUM, Motive, Arbisoft. M.Sc. from Technical University of Munich.",
 		keywords: [
 			"Mustafa Asif",
 			"Software Engineer",
 			"Full Stack",
-			"Munich",
+			"Berlin",
 			"portfolio",
 		],
 	},
@@ -53,8 +53,8 @@ const SEO = [
 	{
 		page: "contact",
 		description:
-			"Get in touch with Mustafa Asif - Full Stack and mobile development. Based in Munich.",
-		keywords: ["Mustafa Asif", "contact", "Munich"],
+			"Get in touch with Mustafa Asif - Full Stack and mobile development. Based in Berlin.",
+		keywords: ["Mustafa Asif", "contact", "Berlin"],
 	},
 ];
 
