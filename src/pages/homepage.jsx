@@ -147,17 +147,17 @@ const Homepage = () => {
 							<p className="articles-title">
 								{t("home.writingSection")}
 							</p>
-							{myArticles.map((article, index) => (
+							{myArticles.map((article) => (
 								<div
 									className="homepage-article"
-									key={(index + 1).toString()}
+									key={article.id}
 								>
 									<Article
-										key={(index + 1).toString()}
+										key={article.id}
 										date={article.date}
 										title={article.title}
 										description={article.description}
-										link={`/article/${index + 1}`}
+										link={`/article/${article.id}`}
 										readTime={article.readTime}
 									/>
 								</div>

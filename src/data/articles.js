@@ -6,6 +6,7 @@ import { articleSoftwareEngineering2026 } from "./articles-markdown/article5";
 import { getReadTimeMinutes } from "../utils/readTime";
 
 const article_1 = {
+	id: 1,
 	date: "7 May 2023",
 	title: "How did my team manage to prototype a clothing donation application for Pakistan?",
 	author: "Mustafa Asif",
@@ -24,6 +25,7 @@ const article_1 = {
 };
 
 const article_2 = {
+	id: 2,
 	date: "6 Jan 2026",
 	title: 'Beyond Static Scans: Why an "A-Team" of AI Agents is the Future of Web Security',
 	author: "Mustafa Asif",
@@ -44,6 +46,7 @@ const article_2 = {
 };
 
 const article_3 = {
+	id: 3,
 	date: "9 Feb 2026",
 	title: "Securing Generative UI Against Indirect Prompt Injection with the Trusted UI Pattern",
 	author: "Mustafa Asif",
@@ -65,6 +68,7 @@ const article_3 = {
 };
 
 const article_4 = {
+	id: 4,
 	date: "10 Feb 2026",
 	title: "Evaluating AI Agents Beyond the Vibe Check",
 	author: "Mustafa Asif",

@@ -24,7 +24,9 @@ const ReadArticle = () => {
 	const navigate = useNavigate();
 	const { slug } = useParams();
 	const { t } = useTranslation();
-	const article = myArticles[parseInt(slug) - 1];
+	const article = myArticles.find(
+		(a) => a.id === parseInt(slug, 10),
+	);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);

@@ -208,7 +208,7 @@ const INFO = {
 			title: "Kapra Eid - Clothing Donation Application",
 			description:
 				"Designed and prototyped a complete application in Figma aimed to bridge the gap between clothing donors and charitable organisations. ",
-			articleLink: "/article/3",
+			articleLink: "/article/1",
 			technologies: [LOGOS.FIGMA, LOGOS.MURAL, LOGOS.BALSAMIQ],
 		},
 		{

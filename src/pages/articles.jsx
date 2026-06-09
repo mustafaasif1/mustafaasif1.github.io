@@ -53,17 +53,17 @@ const Articles = () => {
 							aria-label={t("articles.aria.articlesList")}
 						>
 							<div className="articles-wrapper">
-								{myArticles.map((article, index) => (
+								{myArticles.map((article) => (
 									<div
 										className="articles-article"
-										key={(index + 1).toString()}
+										key={article.id}
 									>
 										<Article
-											key={(index + 1).toString()}
+											key={article.id}
 											date={article.date}
 											title={article.title}
 											description={article.description}
-											link={`/article/${index + 1}`}
+											link={`/article/${article.id}`}
 											readTime={article.readTime}
 											aria-label={t(
 												"articles.aria.articleLink",
