@@ -210,7 +210,7 @@
 			},
 			"web-ide": {
 				"title": "Web-basierte IDE",
-				"description": "Entwicklung und Bereitstellung einer skalierbaren webbasierten IDE mit Microservices-Architektur zur Unterstützung von C- und Java-Kompilierung. Erstellt mit React-Frontend, Spring Boot-Backend-Services, Docker-Containerisierung und Kubernetes-Orchestrierung. Funktionen umfassen Syntax-Hervorhebung, Echtzeit-Zusammenarbeit, GitLab OAuth-Integration und Raspberry Pi-Hardware-Integration für Dark Mode. Erfolgreiche Behandlung gleichzeitiger Kompilierungsanfragen von 5+ Teammitgliedern mit 99% Uptime.",
+				"description": "Entwicklung und Bereitstellung einer skalierbaren webbasierten IDE mit Microservices-Architektur zur Unterstützung von C- und Java-Kompilierung. Erstellt mit React-Frontend, Spring Boot-Backend-Services, Docker-Containerisierung und Kubernetes-Orchestrierung. Funktionen umfassen Syntax-Hervorhebung, Echtzeit-Zusammenarbeit, GitLab OAuth-Integration und Raspberry Pi-Hardware-Integration für Dark Mode. Erfolgreiche Behandlung gleichzeitiger Kompilierungsanfragen von 5+ Teammitgliedern.",
 				"linkText": "Projekt ansehen"
 			},
 			"pitstopai": {

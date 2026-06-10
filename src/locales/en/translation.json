@@ -210,7 +210,7 @@
 			},
 			"web-ide": {
 				"title": "Web-Based IDE",
-				"description": "Designed and deployed a scalable web-based IDE with microservices architecture supporting C and Java compilation. Built with React frontend, Spring Boot backend services, Docker containerization, and Kubernetes orchestration. Features include syntax highlighting, real-time collaboration, GitLab OAuth integration, and Raspberry Pi hardware integration for dark mode. Successfully handled concurrent compilation requests from 5+ team members with 99% uptime.",
+				"description": "Designed and deployed a scalable web-based IDE with microservices architecture supporting C and Java compilation. Built with React frontend, Spring Boot backend services, Docker containerization, and Kubernetes orchestration. Features include syntax highlighting, real-time collaboration, GitLab OAuth integration, and Raspberry Pi hardware integration for dark mode. Successfully handled concurrent compilation requests from 5+ team members.",
 				"linkText": "View Project"
 			},
 			"pitstopai": {
