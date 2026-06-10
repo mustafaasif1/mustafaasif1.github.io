@@ -78,6 +78,23 @@
 			}
 		}
 	},
+	"languages": {
+		"title": "Languages",
+		"items": {
+			"urdu": {
+				"name": "Urdu",
+				"level": "Native"
+			},
+			"english": {
+				"name": "English",
+				"level": "C1"
+			},
+			"german": {
+				"name": "German",
+				"level": "A2"
+			}
+		}
+	},
 	"education": {
 		"title": "Education",
 		"thesisLabel": "Master's Thesis",

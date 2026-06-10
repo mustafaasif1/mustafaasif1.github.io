@@ -39,7 +39,7 @@ const Testimonials = () => {
 			companyImage: "/assets/images/logos/companies/epam_systems.jpeg",
 		},
 		{
-			quote: "I had the pleasure of collaborating with Mustafa at Ease, where we worked closely on integrating backend and frontend components for a restaurant OS project. His expertise in ReactJS and web development was evident throughout our collaboration, ensuring seamless communication and efficient problem-solving. Mustafa's relaxed manner and sense of humor added to the positive team dynamics, making it a pleasure to work alongside him. I would eagerly recommend him and look forward to the opportunity to work together again in the future.",
+			quote: "I had the pleasure of collaborating with Mustafa at Ease, where we worked closely on integrating backend and frontend components for a restaurant OS project. His expertise in ReactJS and web development was evident throughout our collaboration, ensuring seamless communication and efficient problem-solving. I would eagerly recommend him and look forward to the opportunity to work together again in the future.",
 			author: "Tom Böttger",
 			authorImage: "/assets/images/photos/team/tom.jpeg",
 			position: "Software Engineer at Allianz Technology",

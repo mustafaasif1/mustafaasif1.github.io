@@ -28,6 +28,7 @@ const IMAGE_CATEGORIES = {
 	logos: {
 		companies: "logos/companies",
 		education: "logos/education",
+		flags: "logos/flags",
 		tech: "logos/tech",
 	},
 	photos: {

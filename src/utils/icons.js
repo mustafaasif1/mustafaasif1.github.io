@@ -29,6 +29,7 @@ import {
 	faBookOpen,
 	faAward,
 	faCertificate,
+	faLanguage,
 } from "@fortawesome/free-solid-svg-icons";
 
 // Add icons to library
@@ -56,6 +57,7 @@ library.add(
 	faBookOpen,
 	faAward,
 	faCertificate,
+	faLanguage,
 	// Regular icons
 	faFaceSadTear,
 	// Brand icons
@@ -90,6 +92,7 @@ export {
 	faBookOpen,
 	faAward,
 	faCertificate,
+	faLanguage,
 	// Regular icons
 	faFaceSadTear,
 	// Brand icons

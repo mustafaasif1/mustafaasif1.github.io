@@ -56,6 +56,8 @@ const OptimizedImage = ({
 			onError={(e) => {
 				// Fallback to original image if optimized version fails to load
 				e.target.onerror = null;
+				e.target.removeAttribute("srcset");
+				e.target.removeAttribute("sizes");
 				e.target.src = src;
 			}}
 		/>

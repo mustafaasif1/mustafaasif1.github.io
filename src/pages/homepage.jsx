@@ -9,6 +9,7 @@ import Logo from "../components/common/logo";
 import Header from "../components/common/header";
 import Article from "../components/homepage/article";
 import Education from "../components/homepage/education";
+import Languages from "../components/homepage/languages";
 import Works from "../components/homepage/works";
 import Testimonials from "../components/homepage/testimonials/testimonials";
 import Skills from "../components/homepage/skills";
@@ -136,12 +137,13 @@ const Homepage = () => {
 							<Skills />
 						</div>
 
-						<div className="flex flex-col w-full lg:flex-row">
+						<div className="flex flex-col w-full lg:flex-row lg:items-start">
 							<div className="w-full">
 								<Works />
 							</div>
-							<div className="w-full">
+							<div className="w-full flex flex-col">
 								<Education />
+								<Languages />
 							</div>
 						</div>
 						<div className="skills-and-testimonials">

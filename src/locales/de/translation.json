@@ -78,6 +78,23 @@
 			}
 		}
 	},
+	"languages": {
+		"title": "Sprachen",
+		"items": {
+			"urdu": {
+				"name": "Urdu",
+				"level": "Muttersprache"
+			},
+			"english": {
+				"name": "Englisch",
+				"level": "C1"
+			},
+			"german": {
+				"name": "Deutsch",
+				"level": "A2"
+			}
+		}
+	},
 	"education": {
 		"title": "Ausbildung",
 		"thesisLabel": "Masterarbeit",
