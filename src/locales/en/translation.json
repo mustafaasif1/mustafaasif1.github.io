@@ -166,8 +166,19 @@
 	},
 	"about": {
 		"pageTitle": "About | {{title}}",
-		"title": "I'm Mustafa Asif. I live in Berlin, where I design the future.",
-		"description": "I've worked on a variety of projects over the years and I'm proud of the progress I've made. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+		"title": "I'm Mustafa Asif. I live in Berlin and build software with the commercetools team.",
+		"description": "I grew up in Karachi, studied in Munich, and now work in Berlin. Most days that means shipping product with the same people I travel with. Off the clock I play squash and write when something is worth writing down.",
+		"events": {
+			"valencia": {
+				"title": "Valencia",
+				"text": "Team offsite. We cooked paella, biked the city, and spent an afternoon on the water.",
+				"photos": {
+					"boat": "The commercetools team on a boat in Valencia",
+					"paella": "The commercetools team after cooking paella in Valencia",
+					"towers": "The commercetools team in front of the Serranos towers in Valencia"
+				}
+			}
+		},
 		"imageAlt": "Profile photo of Mustafa Asif",
 		"downloadResume": "Download Resume",
 		"socials": {

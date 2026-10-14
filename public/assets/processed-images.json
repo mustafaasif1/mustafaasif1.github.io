@@ -973,5 +973,44 @@
       "original",
       "webp"
     ]
+  },
+  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/profile/valencia-offsite.jpg": {
+    "lastModified": "2026-10-14T22:12:27.068Z",
+    "category": "photos/profile",
+    "sizes": [
+      "sm",
+      "md",
+      "lg"
+    ],
+    "formats": [
+      "original",
+      "webp"
+    ]
+  },
+  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/profile/valencia-paella.jpg": {
+    "lastModified": "2026-10-14T22:21:17.653Z",
+    "category": "photos/profile",
+    "sizes": [
+      "sm",
+      "md",
+      "lg"
+    ],
+    "formats": [
+      "original",
+      "webp"
+    ]
+  },
+  "/Users/mustafa/Documents/mustafaasif1.github.io/public/assets/images/photos/profile/valencia-towers.jpg": {
+    "lastModified": "2026-10-14T22:21:17.662Z",
+    "category": "photos/profile",
+    "sizes": [
+      "sm",
+      "md",
+      "lg"
+    ],
+    "formats": [
+      "original",
+      "webp"
+    ]
   }
 }

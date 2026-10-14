@@ -166,8 +166,19 @@
 	},
 	"about": {
 		"pageTitle": "Über mich | {{title}}",
-		"title": "Ich bin Mustafa Asif. Ich lebe in Berlin, wo ich die Zukunft gestalte.",
-		"description": "Im Laufe der Jahre habe ich an verschiedenen Projekten gearbeitet und bin stolz auf die Fortschritte, die ich gemacht habe. Wenn Sie sich für eines der Projekte interessieren, an denen ich gearbeitet habe, können Sie gerne den Code überprüfen und Verbesserungen oder Erweiterungen vorschlagen. Die Zusammenarbeit mit anderen ist eine großartige Möglichkeit zu lernen und zu wachsen, und ich bin immer offen für neue Ideen und Feedback.",
+		"title": "Ich bin Mustafa Asif. Ich lebe in Berlin und baue Software mit dem commercetools-Team.",
+		"description": "Ich bin in Karachi aufgewachsen, habe in München studiert und arbeite jetzt in Berlin. Die meiste Zeit heißt das, Produkt mit denselben Menschen zu bauen, mit denen ich auch reise. Neben der Arbeit spiele ich Squash und schreibe, wenn etwas es wert ist.",
+		"events": {
+			"valencia": {
+				"title": "Valencia",
+				"text": "Team-Offsite. Wir haben Paella gekocht, sind durch die Stadt geradelt und haben einen Nachmittag auf dem Wasser verbracht.",
+				"photos": {
+					"boat": "Das commercetools-Team auf einem Boot in Valencia",
+					"paella": "Das commercetools-Team nach dem Paella-Kochen in Valencia",
+					"towers": "Das commercetools-Team vor den Torres de Serranos in Valencia"
+				}
+			}
+		},
 		"imageAlt": "Profilfoto von Mustafa Asif",
 		"downloadResume": "Lebenslauf herunterladen",
 		"socials": {
