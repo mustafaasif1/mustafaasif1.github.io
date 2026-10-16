@@ -3,6 +3,7 @@ import { article2markdown } from "./articles-markdown/article2";
 import { articleGenUISecurity } from "./articles-markdown/article3";
 import { articleAgentEvaluation } from "./articles-markdown/article4";
 import { articleSoftwareEngineering2026 } from "./articles-markdown/article5";
+import { articleEuAiActDevelopers } from "./articles-markdown/article6";
 import { getReadTimeMinutes } from "../utils/readTime";
 
 const ARTICLE_TAGS = {
@@ -132,8 +133,32 @@ const article_5 = {
 	},
 };
 
+const article_6 = {
+	id: 6,
+	date: "16 Oct 2026",
+	tags: [ARTICLE_TAGS.AI, ARTICLE_TAGS.ENGINEERING, ARTICLE_TAGS.INDUSTRY],
+	title: "Classify First: A Developer's Map of the EU AI Act",
+	author: "Mustafa Asif",
+	description:
+		"A developer's map of the EU AI Act: which duties apply to an ordinary product today, which wait until 2027 and 2028, and which belong only to the team that trained the model.",
+	keywords: [
+		"EU AI Act",
+		"Article 50",
+		"High-Risk AI",
+		"GPAI",
+		"AI Transparency",
+		"Machine-Readable Marking",
+		"Regulation 2024/1689",
+		"Developers",
+	],
+	body: articleEuAiActDevelopers,
+	get readTime() {
+		return getReadTimeMinutes(this.body);
+	},
+};
+
 // Newest first (by recency)
-const myArticles = [article_5, article_4, article_3, article_2, article_1];
+const myArticles = [article_6, article_5, article_4, article_3, article_2, article_1];
 
 export { ARTICLE_TAGS };
 export default myArticles;

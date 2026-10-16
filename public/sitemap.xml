@@ -20,7 +20,7 @@
 	</url>
 	<url>
 		<loc>https://mustafaasif1.github.io/articles</loc>
-		<lastmod>2026-02-09</lastmod>
+		<lastmod>2026-10-16</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>
 	</url>
@@ -57,6 +57,12 @@
 	<url>
 		<loc>https://mustafaasif1.github.io/article/5</loc>
 		<lastmod>2026-02-11</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.7</priority>
+	</url>
+	<url>
+		<loc>https://mustafaasif1.github.io/article/6</loc>
+		<lastmod>2026-10-16</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.7</priority>
 	</url>
